@@ -1,1 +1,2 @@
 actualizar sincronizar git
+sincornizacion otra 
