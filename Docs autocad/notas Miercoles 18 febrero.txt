@@ -1,0 +1,16 @@
+propiedades
+DWGUNITS para confirmar unidades 
+
+vista superior o vista de planta
+
+comando para la manita P pan 
+
+control visuales 
+
+Layout  aapariencias de entrega, mejor aca que hay en el model 
+
+snap, muestra intersecciones, para tocar intersecciones de la grilla, casi que no se activa 
+
+snaps son pequeñas referencias 
+
+
