@@ -1,0 +1,17 @@
+Mi, mirror, copias de espejo, la mitad de arbol, seleccionar todo para seleccionar la lineas
+
+SC scalate, camibar de tamaño, especificar factor de escala 
+
+Herramienta opset : o en español desfase 
+O enter, ofset 
+
+recortar partes de lineas y no completas 
+tr trim 
+
+generar esquinas, unir esquinas o generar esquinas 
+
+F , fillet 
+enter y click, especificar radio de 50
+
+
+ 
