@@ -1,0 +1,16 @@
+rect: 
+cambiar esquinas  chanfer 
+
+
+
+PTYPE, tamaño relativo y valor absoluto en cuanto a las unidades 
+divide para dividir los puntos de un triangulo 
+
+Comando Trim para cortar pero primero hay que tener point a todo 
+
+ahora unir pedazos con JOIN
+
+
+
+
+
