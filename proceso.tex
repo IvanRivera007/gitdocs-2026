@@ -1,0 +1,128 @@
+\documentclass[12pt,letterpaper]{article}
+
+% ----------------------------------
+%            PAQUETES
+% ----------------------------------
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{csquotes}
+\usepackage{setspace}           % Interlineado
+\usepackage{geometry}           % Márgenes
+\usepackage{hyperref} 
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	urlcolor=black,
+	citecolor=black
+}
+							          % Hipervínculos
+\usepackage{titlesec}           % Formato de títulos
+\usepackage{tocloft}            % Formato de tabla de contenido
+\usepackage{filecontents}
+\usepackage{graphicx}
+\usepackage{apacite}            % Estilo APA
+\usepackage{indentfirst}        % Sangría en primer párrafo
+
+
+
+
+
+
+% ----------------------------------
+%            FORMATO APA
+% ----------------------------------
+\geometry{left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm}
+\onehalfspacing     % Interlineado 1.5
+
+% Estilo de títulos APA
+\titleformat{\section}{\normalfont\bfseries\large}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalfont\bfseries\normalsize}{\thesubsection.}{0.5em}{}
+
+% ----------------------------------
+%        PORTADA TIPO APA
+% ----------------------------------
+\title{\textbf{Título del Informe}}
+\author{Marlon Iván Carreto Rivera}
+\date{\today}
+
+% ----------------------------------
+\begin{document}
+	
+	\thispagestyle{empty}
+	\textbf{Aca va la carátula }
+	\newpage
+	
+	% ----------------------------------
+	%      TABLA DE CONTENIDO
+	% ----------------------------------
+	\renewcommand{\contentsname}{Contenido}
+	\tableofcontents
+	\newpage
+	
+	% ----------------------------------
+	%        CONTENIDO DEL INFORME
+	% ----------------------------------
+	
+	\section*{Introducción}
+	\addcontentsline{toc}{section}{Introducción}
+	Escriba aquí la introducción del informe según corresponda…
+	
+	\section*{Objetivos}
+	\addcontentsline{toc}{section}{Objetivos}
+	Incluya aquí sus objetivos generales y específicos…
+	
+	% ----------------------------------
+	\section{Información General}
+	
+	\subsection{Cantidad de Niveles}
+	Contenido aquí…
+	
+	\subsection{Área por Nivel}
+	Contenido aquí…
+	
+	\subsection{Materiales y Acabados de la Edificación}
+	Contenido aquí…
+	
+	\subsection{Uso de la Edificación}
+	Contenido aquí…
+	
+	\subsection{Ubicación del Edificio}
+	Contenido aquí…
+	
+	\subsection{Planos del Edificio}
+	Contenido aquí…
+	
+	\subsection{Descripción del Sistema Estructural}
+	Contenido aquí…
+	
+	% ----------------------------------
+	\section{Marco Normativo}
+	
+	\subsection{Normas de Seguridad Estructural (NSE) de la Asociación Guatemalteca de Ingeniería Sísmica y Estructural — AGIES 2018 (Revisión 2020)}
+	Contenido aquí…
+	
+	\subsection{Normas del American Institute of Steel Construction}
+	Contenido aquí…
+	
+	\subsection{Normativas Complementarias}
+	Contenido aquí…
+	
+	% ----------------------------------
+	\section*{Conclusiones}
+	\addcontentsline{toc}{section}{Conclusiones}
+	Contenido aquí…
+	
+	\section*{Recomendaciones}
+	\addcontentsline{toc}{section}{Recomendaciones}
+	Contenido aquí…
+	
+	% ----------------------------------
+	%         BIBLIOGRAFÍA APA
+	% ----------------------------------
+	\newpage
+	\bibliographystyle{apacite}
+	\renewcommand{\refname}{Referencias}
+	\bibliography{bibliografia}
+	
+\end{document}
