@@ -1,25 +1,30 @@
 \babel@toc {spanish}{}\relax 
-\contentsline {section}{Introducción}{3}{Doc-Start}%
-\contentsline {section}{Objetivos}{4}{Doc-Start}%
-\contentsline {section}{\numberline {1}Descripción el Proyecto}{5}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Cantidad de Niveles}{6}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Área por Nivel}{7}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Materiales y Acabados de la Edificación}{7}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Piso}{8}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Cielo Falso}{9}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Uso de la Edificación}{10}{subsection.1.6}%
-\contentsline {subsection}{\numberline {1.7}Ubicación donde se Construirá}{10}{subsection.1.7}%
-\contentsline {section}{\numberline {2}Planos del Proyecto}{11}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Planos de planta de los niveles típicos, con cotas }{11}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Elevaciones con Cotas}{11}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Normativa Aplicada}{11}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Normativa Nacional}{11}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}NSE 1 -- Generalidades}{11}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}NSE 2 -- Demandas estructurales y condiciones del sitio}{12}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}NSE 2.1 -- Estudios geotécnicos}{12}{subsubsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {3.1.4}NSE 3 -- Diseño estructural de edificaciones}{13}{subsubsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.2}Normativa Internacional}{13}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}ACI 318-19}{13}{subsubsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.3}Normas complementarias}{14}{subsection.3.3}%
-\contentsline {section}{Conclusiones}{15}{subsection.3.3}%
-\contentsline {section}{Referencias}{16}{subsection.3.3}%
+\contentsline {section}{Introducción}{4}{Doc-Start}%
+\contentsline {section}{Objetivos}{5}{Doc-Start}%
+\contentsline {section}{\numberline {1}Descripción el Proyecto}{6}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Cantidad de Niveles}{7}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Área por Nivel}{8}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Materiales y Acabados de la Edificación}{9}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Pisos vinílicos hospitalarios}{9}{subsubsection.1.3.1}%
+\contentsline {subsubsection}{\numberline {1.3.2}Cielo Falso}{11}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.3}Muros de Block de Concreto}{13}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {1.3.4}Ventanas y ventilación}{15}{subsubsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {1.3.5}Domo o pozo de iluminación natural}{16}{subsubsection.1.3.5}%
+\contentsline {subsection}{\numberline {1.4}Uso de la Edificación por nivel}{18}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {1.4.1} Nivel 1:}{18}{subsubsection.1.4.1}%
+\contentsline {subsubsection}{\numberline {1.4.2}Nivel 2 y 3:}{18}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {1.4.3} Nivel 4 y 5:}{18}{subsubsection.1.4.3}%
+\contentsline {subsection}{\numberline {1.5}Ubicación donde se Construirá}{19}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Planos del Proyecto}{21}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Planos de planta de los niveles típicos, con cotas }{21}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Normativa Aplicada}{27}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Normativa Nacional}{27}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}NSE 1 -- Generalidades}{27}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}NSE 2 -- Demandas estructurales y condiciones del sitio}{27}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.3}NSE 2.1 -- Estudios geotécnicos}{28}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.4}NSE 3 -- Diseño estructural de edificaciones}{28}{subsubsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.2}Normativa Internacional}{29}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}ACI 318-19}{29}{subsubsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.3}Normas complementarias}{30}{subsection.3.3}%
+\contentsline {section}{Conclusiones}{31}{subsection.3.3}%
+\contentsline {section}{Referencias}{32}{subsection.3.3}%
