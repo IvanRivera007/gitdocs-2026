@@ -1,0 +1,2 @@
+directrices, combinacion de lineas de conexion 
+Set current por defecto
