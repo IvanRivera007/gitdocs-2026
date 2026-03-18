@@ -1,0 +1,6 @@
+set curren para que sea predeterminado
+dim enter 51 22
+
+0.45 cm 1 hora 10 mins aprox 
+
+brack  1 14 para que no se de un traslape 

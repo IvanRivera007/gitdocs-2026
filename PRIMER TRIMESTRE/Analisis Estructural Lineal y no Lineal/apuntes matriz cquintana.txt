@@ -1,0 +1,5 @@
+control shift enter 
+
+matriz de rigidez local 	
+
+matriz de rigidez global de elemento 
