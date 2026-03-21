@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  21 MAR 2026 13:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  21 MAR 2026 15:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -547,6 +547,22 @@ LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 11.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
+
+LaTeX Warning: Label `fig:mi_imagen' multiply defined.
+
 )
 \openout1 = `"segundaparte ANTEPROYECTO.aux"'.
 
@@ -651,13 +667,13 @@ Package hyperref Info: Link coloring ON on input line 68.
 \@outlinefile=\write3
 \openout3 = `"segundaparte ANTEPROYECTO.out"'.
 
-<Caratula/Caratulaanteproyecto.pdf, id=89, 614.295pt x 794.97pt>
+<Caratula/Caratulaanteproyecto.pdf, id=74, 614.295pt x 794.97pt>
 File: Caratula/Caratulaanteproyecto.pdf Graphic file (type pdf)
 <use Caratula/Caratulaanteproyecto.pdf>
 Package pdftex.def Info: Caratula/Caratulaanteproyecto.pdf  used on input line 
 70.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Caratula/Caratulaanteproyecto.pdf, id=91, page=1, 614.295pt x 794.97pt>
+<Caratula/Caratulaanteproyecto.pdf, id=76, page=1, 614.295pt x 794.97pt>
 File: Caratula/Caratulaanteproyecto.pdf Graphic file (type pdf)
 <use Caratula/Caratulaanteproyecto.pdf, page 1>
 Package pdftex.def Info: Caratula/Caratulaanteproyecto.pdf , page1 used on inpu
@@ -738,29 +754,80 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [5]
 
 [6]
+<./Imagenes/img1.png, id=217, 416.05438pt x 502.87875pt>
+File: ./Imagenes/img1.png Graphic file (type png)
+<use ./Imagenes/img1.png>
+Package pdftex.def Info: ./Imagenes/img1.png  used on input line 174.
+(pdftex.def)             Requested size: 281.8561pt x 340.68692pt.
 
-[7]
+
+[7 <./Imagenes/img1.png>]
+<./Imagenes/img5.png, id=225, 230.8625pt x 256.45813pt>
+File: ./Imagenes/img5.png Graphic file (type png)
+<use ./Imagenes/img5.png>
+Package pdftex.def Info: ./Imagenes/img5.png  used on input line 199.
+(pdftex.def)             Requested size: 375.80574pt x 417.50258pt.
+
 
 [8{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/M
 iKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
 
-[9{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[9 <./Imagenes/img5.png>]
+<./Imagenes/img3.png, id=242, 284.06125pt x 120.45pt>
+File: ./Imagenes/img3.png Graphic file (type png)
+<use ./Imagenes/img3.png>
+Package pdftex.def Info: ./Imagenes/img3.png  used on input line 237.
+(pdftex.def)             Requested size: 375.80574pt x 159.36757pt.
 
-[10]
 
-[11]
+[10 <./Imagenes/img3.png>]
+<./Imagenes/img4.png, id=248, 1027.84pt x 334.24875pt>
+File: ./Imagenes/img4.png Graphic file (type png)
+<use ./Imagenes/img4.png>
+Package pdftex.def Info: ./Imagenes/img4.png  used on input line 269.
+(pdftex.def)             Requested size: 516.73378pt x 168.04199pt.
 
-[12]
+Overfull \hbox (46.9784pt too wide) in paragraph at lines 269--270
+ [][] 
+ []
+
+
+
+[11{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc} <./Imagenes/img4.
+png (PNG copy)>]
+<./Imagenes/niveles.png, id=256, 481.8pt x 231.86626pt>
+File: ./Imagenes/niveles.png Graphic file (type png)
+<use ./Imagenes/niveles.png>
+Package pdftex.def Info: ./Imagenes/niveles.png  used on input line 304.
+(pdftex.def)             Requested size: 422.77698pt x 203.46623pt.
+
+
+[12 <./Imagenes/niveles.png>]
 
 [13]
+<./Imagenes/tabla.png, id=267, 731.73375pt x 208.52907pt>
+File: ./Imagenes/tabla.png Graphic file (type png)
+<use ./Imagenes/tabla.png>
+Package pdftex.def Info: ./Imagenes/tabla.png  used on input line 355.
+(pdftex.def)             Requested size: 563.70502pt x 160.65378pt.
 
-[14] (segundaparte ANTEPROYECTO.bbl
+Overfull \hbox (93.94963pt too wide) in paragraph at lines 355--356
+ [][] 
+ []
+
+
+
+[14 <./Imagenes/tabla.png>]
+
+[15]
+
+[16] (segundaparte ANTEPROYECTO.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-[15] (segundaparte ANTEPROYECTO.aux
+[17] (segundaparte ANTEPROYECTO.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -768,15 +835,19 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `"segundaparte ANTEPROYECTO".out' has not cha
 nged.
-(rerunfilecheck)             Checksum: 484C1815021DF9C34E2656023C699713;5905.
+(rerunfilecheck)             Checksum: BA71FF589A7F5A68B8F6C3036AC473B6;4856.
  ) 
 Here is how much of TeX's memory you used:
- 14610 strings out of 468133
- 230971 string characters out of 5440789
- 683425 words of memory out of 5000000
- 42956 multiletter control sequences out of 15000+600000
+ 14664 strings out of 468133
+ 232271 string characters out of 5440789
+ 682425 words of memory out of 5000000
+ 43013 multiletter control sequences out of 15000+600000
  664181 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,17n,79p,672b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -786,9 +857,9 @@ lic/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/f
 onts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/
 lmsy10.pfb>
-Output written on "segundaparte ANTEPROYECTO.pdf" (15 pages, 297265 bytes).
+Output written on "segundaparte ANTEPROYECTO.pdf" (17 pages, 933486 bytes).
 PDF statistics:
- 340 PDF objects out of 1000 (max. 8388607)
- 47 named destinations out of 1000 (max. 500000)
- 192 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 337 PDF objects out of 1000 (max. 8388607)
+ 44 named destinations out of 1000 (max. 500000)
+ 190 words of extra memory for PDF output out of 10000 (max. 10000000)
 

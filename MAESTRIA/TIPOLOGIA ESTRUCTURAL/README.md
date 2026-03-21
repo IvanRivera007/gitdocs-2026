@@ -1,0 +1,1 @@
+https://www.inesa-tech.com/blog/periodo-fundamental-de-una-edificacion/

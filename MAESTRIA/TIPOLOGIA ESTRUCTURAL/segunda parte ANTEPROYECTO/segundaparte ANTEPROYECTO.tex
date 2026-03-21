@@ -163,9 +163,19 @@
 	\section{Periodo fundamental de vibración (formula empírica)}
 	
 	
+	
+
+	
 	\subsection{Concepto general del período fundamental de vibración}
 	
 	El \textbf{período fundamental de vibración} de una estructura corresponde al \textbf{tiempo que tarda el sistema estructural en completar un ciclo de oscilación libre} asociado a su \textbf{modo fundamental} de vibración. Este modo representa la forma deformada dominante mediante la cual la edificación responde ante acciones dinámicas, particularmente ante solicitaciones sísmicas.
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{img1.png}
+		
+		\label{fig:mi_imagen}
+	\end{figure}
+	
 	
 	Desde el punto de vista de la \textbf{dinámica estructural}, el período fundamental depende principalmente de la relación entre la \textbf{masa} y la \textbf{rigidez global} de la estructura. Estructuras más rígidas tienden a presentar períodos cortos, mientras que estructuras más flexibles presentan períodos mayores. En edificaciones convencionales de varios niveles, el primer modo de vibración suele concentrar una proporción significativa de la masa total participante, por lo que el período fundamental constituye un parámetro clave para la evaluación del comportamiento sísmico global.
 	
@@ -182,6 +192,18 @@
 	\end{itemize}
 	
 	El período fundamental influye de manera directa en la \textbf{demanda sísmica} a la que se ve sometida la estructura: edificaciones con períodos cortos suelen atraer mayores aceleraciones, mientras que edificaciones con períodos más largos pueden experimentar mayores desplazamientos laterales.
+	
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{img5.png}
+		
+		\label{fig:mi_imagen}
+	\end{figure}
+	
+	
+	
+	
 	
 	% -------------------------------------------------
 	\subsection{Métodos para la determinación del período de vibración}
@@ -206,7 +228,19 @@
 		\item El \textbf{sistema estructural resistente}
 		\item El \textbf{material predominante}
 		\item La \textbf{configuración general de la edificación}
+		
 	\end{itemize}
+	
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{img3.png}
+		
+		\label{fig:mi_imagen}
+	\end{figure}
+	
+	
+	
 	
 	Este enfoque ha sido adoptado por normativas internacionales como \textbf{ASCE 7} y por la \textbf{NSE-2}.
 	
@@ -227,20 +261,23 @@
 		\item $C_t$, $x$ = coeficientes según el sistema estructural
 	\end{itemize}
 	
+	
+	
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.1\textwidth]{img4.png}
+		
+		\label{fig:mi_imagen}
+	\end{figure}
+	
+	
 	% -------------------------------------------------
 	\subsection{Alcance y limitaciones de la fórmula empírica}
 	
 	La fórmula empírica constituye una \textbf{aproximación preliminar} y no considera irregularidades ni efectos locales de rigidez. En proyectos de mayor complejidad, la \textbf{NSE-3} exige análisis dinámicos más detallados.
 	
-	% -------------------------------------------------
-	\subsection{Relevancia del período empírico en edificaciones esenciales}
-	
-	Para edificaciones esenciales, como hospitales, el período empírico es un parámetro inicial clave para la correcta selección del espectro sísmico y la verificación del análisis dinámico.
-	
-	% -------------------------------------------------
-	\subsection{Síntesis conceptual}
-	
-	El \textbf{período fundamental de vibración} es un parámetro central del diseño sismorresistente. La \textbf{NSE-2:2024} permite su estimación empírica como una herramienta eficaz en etapas iniciales del diseño estructural.
+
 	
 	
 	
@@ -259,6 +296,15 @@
 		\textbf{Hospital Luz Vida – Anteproyecto} \\[0.2cm]
 		(Desarrollado conforme a la NSE-2:2024)
 	\end{center}
+	
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.9\textwidth]{niveles.png}
+	
+		\label{fig:mi_imagen}
+	\end{figure}
 	
 	\vspace{0.5cm}
 	
@@ -301,8 +347,19 @@
 	
 	El Hospital Luz Vida se proyecta como una edificación de \textbf{concreto reforzado}, organizada mediante \textbf{pórticos resistentes a momento}, sistema compatible con edificaciones hospitalarias y con los criterios de ductilidad exigidos por la normativa sísmica vigente.
 	
-	Para este sistema estructural, de acuerdo con la \textbf{NSE-2:2024} (alineada con ASCE 7-22), se adoptan:
+	De acuerdo con la Tabla~12.8-2 de la normativa ASCE/SEI~7 (Values of Approximate Period Parameters $C_t$ and $x$), los coeficientes empíricos para estructuras de \textbf{PORTICOS RESISTENTES A MOMENTO DE CONCRETO REFORZADO} son:
 	
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=1.2\textwidth]{tabla.png}
+		
+		\label{fig:mi_imagen}
+	\end{figure}
+	
+	
+	
+		
 	\begin{itemize}
 		\item $C_t = 0.0466$
 		\item $x = 0.9$
@@ -351,31 +408,10 @@
 	\end{equation}
 	
 	% ===============================
-	\subsection{Interpretación del resultado conforme a la NSE-2:2024}
-	
-	El período obtenido,
-	
-	\begin{equation}
-		T_a \approx 0.55 \ \text{s}
-	\end{equation}
-	
-	resulta coherente con:
-	
-	\begin{itemize}
-		\item Edificaciones de \textbf{cinco niveles}.
-		\item Sistemas de \textbf{concreto reforzado tipo pórtico}.
-		\item Alturas totales del orden de \textbf{15 a 16 m}.
-	\end{itemize}
-	
-	Según la \textbf{NSE-2:2024}, este valor puede emplearse para:
-	
-	\begin{itemize}
-		\item Definir la ubicación preliminar en el \textbf{espectro sísmico de diseño}.
-		\item Servir como referencia inicial, a refinarse mediante \textbf{análisis dinámico modal} conforme a la \textbf{NSE-3}.
-	\end{itemize}
+
 	
 	% ===============================
-	\subsection{Comentario normativo}
+	
 	
 	\begin{quote}
 		De conformidad con la Norma de Seguridad Estructural NSE-2:2024, el período fundamental empírico constituye una aproximación válida del comportamiento dinámico global de la edificación en etapas iniciales del diseño estructural. Para fases posteriores, la normativa establece que dicho período deberá obtenerse a partir de un modelo estructural analítico que represente adecuadamente la masa, rigidez y condiciones de apoyo de la estructura.
