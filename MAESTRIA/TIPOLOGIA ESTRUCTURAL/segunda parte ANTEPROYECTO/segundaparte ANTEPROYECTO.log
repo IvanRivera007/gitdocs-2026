@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  21 MAR 2026 12:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  21 MAR 2026 13:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./proceso.tex
-(proceso.tex
+**"./segundaparte ANTEPROYECTO.tex"
+(segundaparte ANTEPROYECTO.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/extsizes\extarticle.cls
@@ -280,6 +280,74 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \@float@every@figure=\toks26
 
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/06/16 v2.17y AMS math features
+\@mathmargin=\skip89
+
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks27
+\ex@=\dimen166
+))
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen167
+)
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count300
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count301
+\leftroot@=\count302
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count303
+\DOTSCASE@=\count304
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box56
+\strutbox@=\box57
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen168
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count305
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count306
+\dotsspace@=\muskip17
+\c@parentequation=\count307
+\dspbrk@lvl=\count308
+\tag@help=\toks28
+\row@=\count309
+\column@=\count310
+\maxfields@=\count311
+\andhelp@=\toks29
+\eqnshift@=\dimen169
+\alignsep@=\dimen170
+\tagshift@=\dimen171
+\tagwidth@=\dimen172
+\totwidth@=\dimen173
+\lineht@=\dimen174
+\@envbody=\toks30
+\multlinegap=\skip90
+\multlinetaggap=\skip91
+\mathdisplay@stack=\toks31
+LaTeX Info: Redefining \[ on input line 2949.
+LaTeX Info: Redefining \] on input line 2950.
+)
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2025/07/23 v0.6g Insert pages of external PDF documents (AM)
 
@@ -288,21 +356,21 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count300
-\calc@Bcount=\count301
-\calc@Adimen=\dimen166
-\calc@Bdimen=\dimen167
-\calc@Askip=\skip89
-\calc@Bskip=\skip90
+\calc@Acount=\count312
+\calc@Bcount=\count313
+\calc@Adimen=\dimen175
+\calc@Bdimen=\dimen176
+\calc@Askip=\skip92
+\calc@Bskip=\skip93
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count302
-\calc@Cskip=\skip91
+\calc@Ccount=\count314
+\calc@Cskip=\skip94
 )
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen168
-\ESO@tempdimb=\dimen169
+\ESO@tempdima=\dimen177
+\ESO@tempdimb=\dimen178
 
 (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -323,21 +391,21 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 ))
-\AM@pagewidth=\dimen170
-\AM@pageheight=\dimen171
-\AM@fboxrule=\dimen172
+\AM@pagewidth=\dimen179
+\AM@pageheight=\dimen180
+\AM@fboxrule=\dimen181
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2025/07/23 v0.6g Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count303
-\AM@pagebox=\box56
-\AM@global@opts=\toks27
-\AM@pagecnt=\count304
-\AM@toc@title=\toks28
-\AM@lof@heading=\toks29
-\c@AM@survey=\count305
-\AM@templatesizebox=\box57
+\pdfpages@includegraphics@status=\count315
+\AM@pagebox=\box58
+\AM@global@opts=\toks32
+\AM@pagecnt=\count316
+\AM@toc@title=\toks33
+\AM@lof@heading=\toks34
+\c@AM@survey=\count317
+\AM@templatesizebox=\box59
 )
 (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
@@ -379,14 +447,14 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
  (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count306
+\c@section@level=\count318
 ) (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen173
-\Hy@linkcounter=\count307
-\Hy@pagecounter=\count308
+\@linkdim=\dimen182
+\Hy@linkcounter=\count319
+\Hy@pagecounter=\count320
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
@@ -396,7 +464,7 @@ Now handling font encoding PD1 ...
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count309
+\Hy@SavedSpaceFactor=\count321
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
@@ -410,14 +478,14 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count310
+\c@Hy@tempcnt=\count322
 
 (C:\Program Files\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
+\Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen174
+\XeTeXLinkMargin=\dimen183
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -426,9 +494,9 @@ Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count311
-\Field@Width=\dimen175
-\Fld@charsize=\dimen176
+\Fld@menulength=\count323
+\Field@Width=\dimen184
+\Fld@charsize=\dimen185
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -436,16 +504,16 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring OFF on input line 6098.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count312
-\c@Item=\count313
-\c@Hfootnote=\count314
+\Hy@abspage=\count324
+\c@Item=\count325
+\c@Hfootnote=\count326
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count315
-\c@bookmark@seq@number=\count316
+\Fld@listcount=\count327
+\c@bookmark@seq@number=\count328
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.s
 ty
@@ -458,7 +526,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 84.
 )
-\Hy@SectionHShift=\skip92
+\Hy@SectionHShift=\skip95
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 57.
 Package csquotes Info: Checking for multilingual support...
@@ -472,14 +540,15 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count317
-) (proceso.aux
+\l__color_backend_stack_int=\count329
+)
+(segundaparte ANTEPROYECTO.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 11.
 )
-\openout1 = `proceso.aux'.
+\openout1 = `"segundaparte ANTEPROYECTO.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
@@ -538,17 +607,17 @@ LaTeX Info: Redefining \% on input line 68.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count318
-\scratchdimen=\dimen177
-\scratchbox=\box58
-\nofMPsegments=\count319
-\nofMParguments=\count320
-\everyMPshowfont=\toks30
-\MPscratchCnt=\count321
-\MPscratchDim=\dimen178
-\MPnumerator=\count322
-\makeMPintoPDFobject=\count323
-\everyMPtoPDFconversion=\toks31
+\scratchcounter=\count330
+\scratchdimen=\dimen186
+\scratchbox=\box60
+\nofMPsegments=\count331
+\nofMParguments=\count332
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count333
+\MPscratchDim=\dimen187
+\MPnumerator=\count334
+\makeMPintoPDFobject=\count335
+\everyMPtoPDFconversion=\toks36
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -557,7 +626,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@maskedRefs=\count324
+\c@maskedRefs=\count336
 
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/apacite\spanish.apc
 File: spanish.apc 2013/07/21 v6.03 apacite language file
@@ -577,18 +646,18 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package hyperref Info: Link coloring ON on input line 68.
- (proceso.out)
-(proceso.out)
-\@outlinefile=\write3
-\openout3 = `proceso.out'.
 
-<Caratula/Caratulaanteproyecto.pdf, id=116, 614.295pt x 794.97pt>
+(segundaparte ANTEPROYECTO.out) (segundaparte ANTEPROYECTO.out)
+\@outlinefile=\write3
+\openout3 = `"segundaparte ANTEPROYECTO.out"'.
+
+<Caratula/Caratulaanteproyecto.pdf, id=89, 614.295pt x 794.97pt>
 File: Caratula/Caratulaanteproyecto.pdf Graphic file (type pdf)
 <use Caratula/Caratulaanteproyecto.pdf>
 Package pdftex.def Info: Caratula/Caratulaanteproyecto.pdf  used on input line 
 70.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Caratula/Caratulaanteproyecto.pdf, id=118, page=1, 614.295pt x 794.97pt>
+<Caratula/Caratulaanteproyecto.pdf, id=91, page=1, 614.295pt x 794.97pt>
 File: Caratula/Caratulaanteproyecto.pdf Graphic file (type pdf)
 <use Caratula/Caratulaanteproyecto.pdf, page 1>
 Package pdftex.def Info: Caratula/Caratulaanteproyecto.pdf , page1 used on inpu
@@ -621,12 +690,13 @@ t line 70.
 
 {C:/Users/Ivan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Fil
 es/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./Caratula/Caratulaanteproyecto.pdf>] 
-(proceso.toc
+(segundaparte ANTEPROYECTO.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
 .
- (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
+
+(C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
@@ -653,13 +723,13 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 2.
-
-
-[2])
+)
 \tf@toc=\write4
-\openout4 = `proceso.toc'.
+\openout4 = `"segundaparte ANTEPROYECTO.toc"'.
 
 
+
+[2]
 
 [3]
 
@@ -668,352 +738,29 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [5]
 
 [6]
-<./Imagenes/niveles.png, id=272, 481.8pt x 231.86626pt>
-File: ./Imagenes/niveles.png Graphic file (type png)
-<use ./Imagenes/niveles.png>
-Package pdftex.def Info: ./Imagenes/niveles.png  used on input line 143.
-(pdftex.def)             Requested size: 469.75539pt x 226.07751pt.
 
+[7]
 
-[7 <./Imagenes/niveles.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-53.
- (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
+[8{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/M
+iKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
 
-[8{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
-<./Imagenes/vinilo3.png, id=283, 582.978pt x 640.794pt>
-File: ./Imagenes/vinilo3.png Graphic file (type png)
-<use ./Imagenes/vinilo3.png>
-Package pdftex.def Info: ./Imagenes/vinilo3.png  used on input line 169.
-(pdftex.def)             Requested size: 375.80574pt x 413.07918pt.
+[9{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
 
+[10]
 
-[9]
-<./Imagenes/vinilo1.png, id=288, 925.056pt x 616.704pt>
-File: ./Imagenes/vinilo1.png Graphic file (type png)
-<use ./Imagenes/vinilo1.png>
-Package pdftex.def Info: ./Imagenes/vinilo1.png  used on input line 181.
-(pdftex.def)             Requested size: 375.80574pt x 250.53537pt.
+[11]
 
+[12]
 
-[10 <./Imagenes/vinilo3.png>]
-<./Imagenes/falso4.png, id=293, 582.978pt x 640.794pt>
-File: ./Imagenes/falso4.png Graphic file (type png)
-<use ./Imagenes/falso4.png>
-Package pdftex.def Info: ./Imagenes/falso4.png  used on input line 194.
-(pdftex.def)             Requested size: 328.82733pt x 361.44307pt.
+[13]
 
-
-[11 <./Imagenes/vinilo1.png>]
-<./Imagenes/falso2.png, id=298, 618.51076pt x 443.256pt>
-File: ./Imagenes/falso2.png Graphic file (type png)
-<use ./Imagenes/falso2.png>
-Package pdftex.def Info: ./Imagenes/falso2.png  used on input line 202.
-(pdftex.def)             Requested size: 328.82733pt x 235.65501pt.
-
-
-[12 <./Imagenes/falso4.png>]
-
-[13 <./Imagenes/falso2.png>]
-<./Imagenes/bloc3.png, id=308, 319.79475pt x 444.4605pt>
-File: ./Imagenes/bloc3.png Graphic file (type png)
-<use ./Imagenes/bloc3.png>
-Package pdftex.def Info: ./Imagenes/bloc3.png  used on input line 215.
-(pdftex.def)             Requested size: 375.80574pt x 522.32254pt.
-
-
-[14 <./Imagenes/bloc3.png>]
-<./Imagenes/ventana3.png, id=313, 582.978pt x 640.794pt>
-File: ./Imagenes/ventana3.png Graphic file (type png)
-<use ./Imagenes/ventana3.png>
-Package pdftex.def Info: ./Imagenes/ventana3.png  used on input line 226.
-(pdftex.def)             Requested size: 375.80574pt x 413.07918pt.
-<./Imagenes/ventana.png, id=314, 371.58826pt x 279.444pt>
-File: ./Imagenes/ventana.png Graphic file (type png)
-<use ./Imagenes/ventana.png>
-Package pdftex.def Info: ./Imagenes/ventana.png  used on input line 234.
-(pdftex.def)             Requested size: 375.80574pt x 282.63275pt.
-
-
-[15 <./Imagenes/ventana3.png>]
-<./Imagenes/domo.png, id=319, 371.58826pt x 279.444pt>
-File: ./Imagenes/domo.png Graphic file (type png)
-<use ./Imagenes/domo.png>
-Package pdftex.def Info: ./Imagenes/domo.png  used on input line 244.
-(pdftex.def)             Requested size: 375.80574pt x 282.63275pt.
-
-
-[16 <./Imagenes/ventana.png>]
-
-[17 <./Imagenes/domo.png>]
-
-[18]
-<./Imagenes/san1.png, id=332, 1406.856pt x 643.203pt>
-File: ./Imagenes/san1.png Graphic file (type png)
-<use ./Imagenes/san1.png>
-Package pdftex.def Info: ./Imagenes/san1.png  used on input line 271.
-(pdftex.def)             Requested size: 469.75539pt x 214.76033pt.
-
-Overfull \hbox (26.93909pt too wide) in paragraph at lines 277--278
-[]\T1/lmr/m/n/14.4 Las coor-de-na-das geo-grá-fi-cas del si-tio son apro-xi-ma-
-da-men-te 14\TS1/lmr/m/n/14.4 °\T1/lmr/m/n/14.4 52'13.31"latitud
- []
-
-<./Imagenes/ubi1.png, id=333, 374.5995pt x 198.7425pt>
-File: ./Imagenes/ubi1.png Graphic file (type png)
-<use ./Imagenes/ubi1.png>
-Package pdftex.def Info: ./Imagenes/ubi1.png  used on input line 281.
-(pdftex.def)             Requested size: 469.75539pt x 249.22809pt.
-
-
-[19 <./Imagenes/san1.png>]
-<./Imagenes/ubi2.png, id=340, 374.5995pt x 198.7425pt>
-File: ./Imagenes/ubi2.png Graphic file (type png)
-<use ./Imagenes/ubi2.png>
-Package pdftex.def Info: ./Imagenes/ubi2.png  used on input line 293.
-(pdftex.def)             Requested size: 469.75539pt x 249.22809pt.
-
-
-[20 <./Imagenes/ubi1.png> <./Imagenes/ubi2.png>]
-
-pdfTeX warning: pdflatex.exe (file ./plantanivel1.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-<plantanivel1.pdf, id=345, 597.23125pt x 845.1575pt>
-File: plantanivel1.pdf Graphic file (type pdf)
-<use plantanivel1.pdf>
-Package pdftex.def Info: plantanivel1.pdf  used on input line 312.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./plantanivel1.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex.exe (file ./plantanivel1.pdf): PDF inclusion: found PD
-F version <1.7>, but at most version <1.5> allowed
-<plantanivel1.pdf, id=347, page=1, 597.23125pt x 845.1575pt>
-File: plantanivel1.pdf Graphic file (type pdf)
-<use plantanivel1.pdf, page 1>
-Package pdftex.def Info: plantanivel1.pdf , page1 used on input line 312.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: plantanivel1.pdf Graphic file (type pdf)
-<use plantanivel1.pdf, page 1>
-Package pdftex.def Info: plantanivel1.pdf , page1 used on input line 312.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-
-
-[21]
-File: plantanivel1.pdf Graphic file (type pdf)
-<use plantanivel1.pdf, page 1>
-Package pdftex.def Info: plantanivel1.pdf , page1 used on input line 312.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-File: plantanivel1.pdf Graphic file (type pdf)
-<use plantanivel1.pdf, page 1>
-Package pdftex.def Info: plantanivel1.pdf , page1 used on input line 312.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-
-
-File: plantanivel1.pdf Graphic file (type pdf)
-<use plantanivel1.pdf, page 1>
-Package pdftex.def Info: plantanivel1.pdf , page1 used on input line 312.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-[22
-
- <./plantanivel1.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./planta2-3.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-<planta2-3.pdf, id=376, 597.23125pt x 845.1575pt>
-File: planta2-3.pdf Graphic file (type pdf)
-<use planta2-3.pdf>
-Package pdftex.def Info: planta2-3.pdf  used on input line 313.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./planta2-3.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex.exe (file ./planta2-3.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-<planta2-3.pdf, id=378, page=1, 597.23125pt x 845.1575pt>
-File: planta2-3.pdf Graphic file (type pdf)
-<use planta2-3.pdf, page 1>
-Package pdftex.def Info: planta2-3.pdf , page1 used on input line 313.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: planta2-3.pdf Graphic file (type pdf)
-<use planta2-3.pdf, page 1>
-Package pdftex.def Info: planta2-3.pdf , page1 used on input line 313.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-File: planta2-3.pdf Graphic file (type pdf)
-<use planta2-3.pdf, page 1>
-Package pdftex.def Info: planta2-3.pdf , page1 used on input line 313.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-File: planta2-3.pdf Graphic file (type pdf)
-<use planta2-3.pdf, page 1>
-Package pdftex.def Info: planta2-3.pdf , page1 used on input line 313.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-
-
-File: planta2-3.pdf Graphic file (type pdf)
-<use planta2-3.pdf, page 1>
-Package pdftex.def Info: planta2-3.pdf , page1 used on input line 313.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-[23
-
- <./planta2-3.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./planta4-5.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-<planta4-5.pdf, id=403, 597.23125pt x 845.1575pt>
-File: planta4-5.pdf Graphic file (type pdf)
-<use planta4-5.pdf>
-Package pdftex.def Info: planta4-5.pdf  used on input line 314.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./planta4-5.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex.exe (file ./planta4-5.pdf): PDF inclusion: found PDF v
-ersion <1.7>, but at most version <1.5> allowed
-<planta4-5.pdf, id=405, page=1, 597.23125pt x 845.1575pt>
-File: planta4-5.pdf Graphic file (type pdf)
-<use planta4-5.pdf, page 1>
-Package pdftex.def Info: planta4-5.pdf , page1 used on input line 314.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: planta4-5.pdf Graphic file (type pdf)
-<use planta4-5.pdf, page 1>
-Package pdftex.def Info: planta4-5.pdf , page1 used on input line 314.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-File: planta4-5.pdf Graphic file (type pdf)
-<use planta4-5.pdf, page 1>
-Package pdftex.def Info: planta4-5.pdf , page1 used on input line 314.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-File: planta4-5.pdf Graphic file (type pdf)
-<use planta4-5.pdf, page 1>
-Package pdftex.def Info: planta4-5.pdf , page1 used on input line 314.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-
-
-File: planta4-5.pdf Graphic file (type pdf)
-<use planta4-5.pdf, page 1>
-Package pdftex.def Info: planta4-5.pdf , page1 used on input line 314.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-[24
-
- <./planta4-5.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./terraza.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<terraza.pdf, id=436, 597.23125pt x 845.1575pt>
-File: terraza.pdf Graphic file (type pdf)
-<use terraza.pdf>
-Package pdftex.def Info: terraza.pdf  used on input line 315.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./terraza.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex.exe (file ./terraza.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<terraza.pdf, id=438, page=1, 597.23125pt x 845.1575pt>
-File: terraza.pdf Graphic file (type pdf)
-<use terraza.pdf, page 1>
-Package pdftex.def Info: terraza.pdf , page1 used on input line 315.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: terraza.pdf Graphic file (type pdf)
-<use terraza.pdf, page 1>
-Package pdftex.def Info: terraza.pdf , page1 used on input line 315.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-File: terraza.pdf Graphic file (type pdf)
-<use terraza.pdf, page 1>
-Package pdftex.def Info: terraza.pdf , page1 used on input line 315.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-File: terraza.pdf Graphic file (type pdf)
-<use terraza.pdf, page 1>
-Package pdftex.def Info: terraza.pdf , page1 used on input line 315.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-
-
-File: terraza.pdf Graphic file (type pdf)
-<use terraza.pdf, page 1>
-Package pdftex.def Info: terraza.pdf , page1 used on input line 315.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-[25
-
- <./terraza.pdf>]
-
-pdfTeX warning: pdflatex.exe (file ./fachada.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<fachada.pdf, id=458, 597.23125pt x 845.1575pt>
-File: fachada.pdf Graphic file (type pdf)
-<use fachada.pdf>
-Package pdftex.def Info: fachada.pdf  used on input line 316.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-
-
-pdfTeX warning: pdflatex.exe (file ./fachada.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-
-
-pdfTeX warning: pdflatex.exe (file ./fachada.pdf): PDF inclusion: found PDF ver
-sion <1.7>, but at most version <1.5> allowed
-<fachada.pdf, id=460, page=1, 597.23125pt x 845.1575pt>
-File: fachada.pdf Graphic file (type pdf)
-<use fachada.pdf, page 1>
-Package pdftex.def Info: fachada.pdf , page1 used on input line 316.
-(pdftex.def)             Requested size: 597.22978pt x 845.15544pt.
-File: fachada.pdf Graphic file (type pdf)
-<use fachada.pdf, page 1>
-Package pdftex.def Info: fachada.pdf , page1 used on input line 316.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-File: fachada.pdf Graphic file (type pdf)
-<use fachada.pdf, page 1>
-Package pdftex.def Info: fachada.pdf , page1 used on input line 316.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-File: fachada.pdf Graphic file (type pdf)
-<use fachada.pdf, page 1>
-Package pdftex.def Info: fachada.pdf , page1 used on input line 316.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-
-
-File: fachada.pdf Graphic file (type pdf)
-<use fachada.pdf, page 1>
-Package pdftex.def Info: fachada.pdf , page1 used on input line 316.
-(pdftex.def)             Requested size: 561.86221pt x 795.10587pt.
-[26
-
- <./fachada.pdf>]
-
-[27{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Program Files/MiKT
-eX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm
-/lm-mathsy.enc}]
-
-[28]
-
-[29]
-
-[30]
-
-[31] (proceso.bbl
+[14] (segundaparte ANTEPROYECTO.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
-Overfull \hbox (7.48982pt too wide) in paragraph at lines 478--479
-\T1/lmr/m/it/14.4 Nor-ma de se-gu-ri-dad es-truc-tu-ral NSE 1: Car-gas pa-ra di
--se-ño es-truc-tu-ral\T1/lmr/m/n/14.4 . AGIES. 
- []
 
-
-
-[32] (proceso.aux
+[15] (segundaparte ANTEPROYECTO.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -1021,32 +768,27 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
-
-
-Package rerunfilecheck Warning: File `proceso.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `proceso.out':
-(rerunfilecheck)             Before: C878E1EB3AA9A7BA48CEBBBA8CDC4675;5352
-(rerunfilecheck)             After:  639482DFA4126574CB60EDFC97B72554;5323.
+Package rerunfilecheck Info: File `"segundaparte ANTEPROYECTO".out' has not cha
+nged.
+(rerunfilecheck)             Checksum: 484C1815021DF9C34E2656023C699713;5905.
  ) 
 Here is how much of TeX's memory you used:
- 14178 strings out of 468133
- 227359 string characters out of 5440789
- 672840 words of memory out of 5000000
- 42521 multiletter control sequences out of 15000+600000
- 658950 words of font info for 60 fonts, out of 8000000 for 9000
+ 14610 strings out of 468133
+ 230971 string characters out of 5440789
+ 683425 words of memory out of 5000000
+ 42956 multiletter control sequences out of 15000+600000
+ 664181 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,17n,79p,766b,845s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,79p,672b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/M
 iKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
-lic/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/
-Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/
-fonts/type1/public/lm/lmsy10.pfb>
-Output written on proceso.pdf (32 pages, 5731848 bytes).
+lic/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/
+Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/f
+onts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/
+lmsy10.pfb>
+Output written on "segundaparte ANTEPROYECTO.pdf" (15 pages, 297265 bytes).
 PDF statistics:
- 568 PDF objects out of 1000 (max. 8388607)
- 62 named destinations out of 1000 (max. 500000)
- 383 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 192 words of extra memory for PDF output out of 10000 (max. 10000000)
 

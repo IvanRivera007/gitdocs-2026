@@ -1,0 +1,432 @@
+%\documentclass[11pt,letterpaper]{article}
+\documentclass[14pt,letterpaper]{extarticle}
+
+% ----------------------------------
+%            PAQUETES
+% ----------------------------------
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}  
+\usepackage{csquotes}
+\usepackage{setspace}           % Interlineado
+\usepackage{geometry}           % Márgenes
+
+							          % Hipervínculos
+\usepackage{titlesec}           % Formato de títulos
+\usepackage{tocloft}            % Formato de tabla de contenido
+\usepackage{filecontents}
+\usepackage{graphicx}
+\usepackage{apacite}            % Estilo APA
+\usepackage{indentfirst}        % Sangría en primer párrafo
+
+
+\onehalfspacing                 % Interlineado 1.5
+\graphicspath{{./Imagenes/}}
+\usepackage{float}
+\restylefloat{figure}
+\usepackage{amsmath}
+
+
+
+% ----------------------------------
+%            FORMATO APA
+% ----------------------------------
+\geometry{left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm}
+\onehalfspacing     % Interlineado 1.5
+
+% Estilo de títulos APA
+\titleformat{\section}{\normalfont\bfseries\large}{\thesection.}{0.5em}{}
+\titleformat{\subsection}{\normalfont\bfseries\normalsize}{\thesubsection.}{0.5em}{}
+
+% ----------------------------------
+%        PORTADA TIPO APA
+% ----------------------------------
+\title{\textbf{Título del Informe}}
+\author{Marlon Iván Carreto Rivera}
+\date{\today}
+
+
+\usepackage{pdfpages}
+\usepackage{hyperref} 
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black,
+	urlcolor=black,
+	citecolor=black
+}
+
+
+
+
+
+
+
+
+
+% ----------------------------------
+\begin{document}
+	
+		\includepdf[pages=-,pagecommand={}]{Caratula/Caratulaanteproyecto.pdf}
+	%%\includepdf{Caratula/Caratulaanteproyecto.pdf}
+	%\maketitle
+	\thispagestyle{empty}
+
+
+	\newpage
+	
+	
+	
+	
+	
+	
+	% ----------------------------------
+	%      TABLA DE CONTENIDO
+	% ----------------------------------
+	\renewcommand{\contentsname}{Contenido}
+	\tableofcontents
+	\newpage
+	
+
+	
+	% ----------------------------------
+	%        CONTENIDO DEL INFORME
+	% ----------------------------------
+	
+	%%%\section*{Introducción }
+	
+	% --- Introducción (sin numerar, con link funcional) ---
+	%\phantomsection
+
+	% ----------------------------------
+	\section{Descripción el Proyecto}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	\newpage
+	 
+	\section{Planos del Proyecto}
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	\newpage
+	% ----------------------------------
+	%%\section{Marco Normativo}
+	
+	\section{Normativa Aplicada}
+	
+
+		
+	\newpage
+	% ----------------------------------
+	%%\section{Marco Normativo}
+	
+	\section{Normativa Aplicada}
+	
+	
+	
+	
+	
+			
+	\newpage
+	% ----------------------------------
+	%%\section{Marco Normativo}
+	
+	\section{Periodo fundamental de vibración (formula empírica)}
+	
+	
+	\subsection{Concepto general del período fundamental de vibración}
+	
+	El \textbf{período fundamental de vibración} de una estructura corresponde al \textbf{tiempo que tarda el sistema estructural en completar un ciclo de oscilación libre} asociado a su \textbf{modo fundamental} de vibración. Este modo representa la forma deformada dominante mediante la cual la edificación responde ante acciones dinámicas, particularmente ante solicitaciones sísmicas.
+	
+	Desde el punto de vista de la \textbf{dinámica estructural}, el período fundamental depende principalmente de la relación entre la \textbf{masa} y la \textbf{rigidez global} de la estructura. Estructuras más rígidas tienden a presentar períodos cortos, mientras que estructuras más flexibles presentan períodos mayores. En edificaciones convencionales de varios niveles, el primer modo de vibración suele concentrar una proporción significativa de la masa total participante, por lo que el período fundamental constituye un parámetro clave para la evaluación del comportamiento sísmico global.
+	
+	% -------------------------------------------------
+	\subsection{Importancia del período fundamental en el diseño sísmico}
+	
+	La \textbf{Norma de Seguridad Estructural de Guatemala NSE-2:2024}, en el Capítulo 4 — \textit{Aspectos Sísmicos} — reconoce implícitamente la importancia del período de vibración al utilizarlo como una variable fundamental para:
+	
+	\begin{itemize}
+		\item La \textbf{ubicación de la estructura dentro del espectro sísmico de diseño}
+		\item La \textbf{determinación de las ordenadas espectrales de aceleración}
+		\item La \textbf{evaluación de las fuerzas sísmicas equivalentes}
+		\item La definición de transiciones entre \textbf{períodos cortos y largos} del espectro (parámetros $T_0$ y $T_s$)
+	\end{itemize}
+	
+	El período fundamental influye de manera directa en la \textbf{demanda sísmica} a la que se ve sometida la estructura: edificaciones con períodos cortos suelen atraer mayores aceleraciones, mientras que edificaciones con períodos más largos pueden experimentar mayores desplazamientos laterales.
+	
+	% -------------------------------------------------
+	\subsection{Métodos para la determinación del período de vibración}
+	
+	La determinación del período fundamental de una estructura puede realizarse mediante distintos enfoques:
+	
+	\begin{enumerate}
+		\item \textbf{Análisis dinámico teórico}
+		\item \textbf{Análisis dinámico modal}
+		\item \textbf{Fórmulas empíricas}
+	\end{enumerate}
+	
+	La \textbf{NSE-2:2024} permite el uso de \textbf{expresiones empíricas} para estimar el período fundamental, particularmente en etapas iniciales del diseño o cuando no se dispone de un modelo estructural detallado.
+	
+	% -------------------------------------------------
+	\subsection{Fundamento de las fórmulas empíricas del período}
+	
+	Las fórmulas empíricas se basan en la relación del comportamiento dinámico global con:
+	
+	\begin{itemize}
+		\item La \textbf{altura total de la estructura}
+		\item El \textbf{sistema estructural resistente}
+		\item El \textbf{material predominante}
+		\item La \textbf{configuración general de la edificación}
+	\end{itemize}
+	
+	Este enfoque ha sido adoptado por normativas internacionales como \textbf{ASCE 7} y por la \textbf{NSE-2}.
+	
+	% -------------------------------------------------
+	\subsection{Expresión empírica del período fundamental según la NSE-2:2024}
+	
+	La \textbf{NSE-2:2024} establece que el período fundamental aproximado puede estimarse mediante:
+	
+	\begin{equation}
+		T_a = C_t \cdot h_n^{\,x}
+	\end{equation}
+	
+	donde:
+	
+	\begin{itemize}
+		\item $T_a$ = período fundamental empírico (s)
+		\item $h_n$ = altura total de la edificación (m)
+		\item $C_t$, $x$ = coeficientes según el sistema estructural
+	\end{itemize}
+	
+	% -------------------------------------------------
+	\subsection{Alcance y limitaciones de la fórmula empírica}
+	
+	La fórmula empírica constituye una \textbf{aproximación preliminar} y no considera irregularidades ni efectos locales de rigidez. En proyectos de mayor complejidad, la \textbf{NSE-3} exige análisis dinámicos más detallados.
+	
+	% -------------------------------------------------
+	\subsection{Relevancia del período empírico en edificaciones esenciales}
+	
+	Para edificaciones esenciales, como hospitales, el período empírico es un parámetro inicial clave para la correcta selección del espectro sísmico y la verificación del análisis dinámico.
+	
+	% -------------------------------------------------
+	\subsection{Síntesis conceptual}
+	
+	El \textbf{período fundamental de vibración} es un parámetro central del diseño sismorresistente. La \textbf{NSE-2:2024} permite su estimación empírica como una herramienta eficaz en etapas iniciales del diseño estructural.
+	
+	
+	
+	
+	
+	
+	
+			
+	\newpage
+	% ----------------------------------
+	%%\section{Marco Normativo}
+	
+	\section{Ejemplo de periodo (calcular el periodo de la estructura del Anteproyecto)}
+	
+	\begin{center}
+		\textbf{Hospital Luz Vida – Anteproyecto} \\[0.2cm]
+		(Desarrollado conforme a la NSE-2:2024)
+	\end{center}
+	
+	\vspace{0.5cm}
+	
+	% ===============================
+	\subsection{Marco normativo aplicable}
+	
+	De acuerdo con la \textbf{Norma de Seguridad Estructural de Guatemala NSE-2:2024 – Demandas estructurales y condiciones de sitio}, el período fundamental de vibración de una estructura es un parámetro esencial para:
+	
+	\begin{itemize}
+		\item La selección del espectro sísmico de diseño.
+		\item La determinación de las fuerzas sísmicas equivalentes.
+		\item La evaluación del comportamiento dinámico global de la edificación.
+	\end{itemize}
+	
+	La norma permite que, en etapas preliminares de diseño, el período fundamental pueda estimarse mediante \textbf{expresiones empíricas}, las cuales proporcionan una aproximación razonable del comportamiento dinámico esperado.
+	
+	% ===============================
+	\subsection{Expresión empírica para el período fundamental}
+	
+	La \textbf{NSE-2:2024}, manteniendo compatibilidad con la normativa internacional \textbf{ASCE 7-22}, establece que el período fundamental aproximado puede estimarse mediante la expresión:
+	
+	\begin{equation}
+		T_a = C_t \cdot h_n^{\,x}
+	\end{equation}
+	
+	\textbf{Donde:}
+	
+	\begin{itemize}
+		\item $T_a$ = período fundamental empírico de la estructura (s).
+		\item $h_n$ = altura total de la edificación medida desde la base hasta el nivel superior (m).
+		\item $C_t, x$ = coeficientes empíricos dependientes del sistema estructural.
+	\end{itemize}
+	
+	Esta expresión es válida para \textbf{estructuras regulares} y resulta particularmente útil en la fase de \textbf{anteproyecto}.
+	
+	% ===============================
+	\subsection{Características del Hospital Luz Vida consideradas en el cálculo}
+	
+	\subsubsection*{Sistema estructural}
+	
+	El Hospital Luz Vida se proyecta como una edificación de \textbf{concreto reforzado}, organizada mediante \textbf{pórticos resistentes a momento}, sistema compatible con edificaciones hospitalarias y con los criterios de ductilidad exigidos por la normativa sísmica vigente.
+	
+	Para este sistema estructural, de acuerdo con la \textbf{NSE-2:2024} (alineada con ASCE 7-22), se adoptan:
+	
+	\begin{itemize}
+		\item $C_t = 0.0466$
+		\item $x = 0.9$
+	\end{itemize}
+	
+	\subsubsection*{Altura total de la edificación}
+	
+	De acuerdo con el anteproyecto:
+	
+	\begin{itemize}
+		\item Nivel 1: 3.50 m
+		\item Niveles 2, 3, 4 y 5: $4 \times 3.00 = 12.00$ m
+	\end{itemize}
+	
+	Por lo tanto:
+	
+	\begin{equation}
+		h_n = 3.50 + 12.00 = 15.50 \ \text{m}
+	\end{equation}
+	
+	% ===============================
+	\subsection{Cálculo del período fundamental empírico}
+	
+	Sustituyendo los valores en la expresión empírica:
+	
+	\begin{equation}
+		T_a = 0.0466 \cdot (15.50)^{0.9}
+	\end{equation}
+	
+	Evaluando la potencia:
+	
+	\begin{equation}
+		(15.50)^{0.9} \approx 11.74
+	\end{equation}
+	
+	Multiplicando:
+	
+	\begin{equation}
+		T_a = 0.0466 \cdot 11.74
+	\end{equation}
+	
+	Por lo tanto:
+	
+	\begin{equation}
+		\boxed{T_a \approx 0.55 \ \text{segundos}}
+	\end{equation}
+	
+	% ===============================
+	\subsection{Interpretación del resultado conforme a la NSE-2:2024}
+	
+	El período obtenido,
+	
+	\begin{equation}
+		T_a \approx 0.55 \ \text{s}
+	\end{equation}
+	
+	resulta coherente con:
+	
+	\begin{itemize}
+		\item Edificaciones de \textbf{cinco niveles}.
+		\item Sistemas de \textbf{concreto reforzado tipo pórtico}.
+		\item Alturas totales del orden de \textbf{15 a 16 m}.
+	\end{itemize}
+	
+	Según la \textbf{NSE-2:2024}, este valor puede emplearse para:
+	
+	\begin{itemize}
+		\item Definir la ubicación preliminar en el \textbf{espectro sísmico de diseño}.
+		\item Servir como referencia inicial, a refinarse mediante \textbf{análisis dinámico modal} conforme a la \textbf{NSE-3}.
+	\end{itemize}
+	
+	% ===============================
+	\subsection{Comentario normativo}
+	
+	\begin{quote}
+		De conformidad con la Norma de Seguridad Estructural NSE-2:2024, el período fundamental empírico constituye una aproximación válida del comportamiento dinámico global de la edificación en etapas iniciales del diseño estructural. Para fases posteriores, la normativa establece que dicho período deberá obtenerse a partir de un modelo estructural analítico que represente adecuadamente la masa, rigidez y condiciones de apoyo de la estructura.
+	\end{quote}
+	
+	% ===============================
+
+	
+	
+
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%555
+	
+		\newpage
+	
+	% ----------------------------------
+	\section*{Conclusiones}
+	\addcontentsline{toc}{section}{Conclusiones}
+	
+	
+
+	
+	% ----------------------------------
+	%         BIBLIOGRAFÍA APA
+	% ----------------------------------
+	\newpage
+	\bibliographystyle{apacite}
+	\renewcommand{\refname}{Referencias}
+	
+	\bibliography{bibliografia}
+	
+	
+	\renewcommand{\refname}{Referencias}
+	
+	
+		
+	
+	
+	
+\end{document}
