@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  21 MAR 2026 15:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  21 MAR 2026 16:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -739,6 +739,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 2.
+
+Overfull \hbox (14.3695pt too wide) in paragraph at lines 5--5
+ [][] [][][]\T1/lmr/bx/n/14.4 Coeficientes y fac-to-res pa-ra di-se-ño de sis-t
+e-mas sismo-resistentes[][] []  
+ []
+
 )
 \tf@toc=\write4
 \openout4 = `"segundaparte ANTEPROYECTO.toc"'.
@@ -826,6 +832,12 @@ Overfull \hbox (93.94963pt too wide) in paragraph at lines 355--356
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
+Overfull \hbox (7.5035pt too wide) in paragraph at lines 476--477
+\T1/lmr/m/it/14.4 Nor-ma de se-gu-ri-dad es-truc-tu-ral NSE 1: Car-gas pa-ra di
+-se-ño es-truc-tu-ral\T1/lmr/m/n/14.4 . AGIES. 
+ []
+
+
 
 [17] (segundaparte ANTEPROYECTO.aux
 LaTeX Info: Redefining \. on input line 11.
@@ -841,7 +853,7 @@ LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `"segundaparte ANTEPROYECTO".out' has not cha
 nged.
-(rerunfilecheck)             Checksum: BA71FF589A7F5A68B8F6C3036AC473B6;4856.
+(rerunfilecheck)             Checksum: 22907C54FFAFC5FA66DBD3EF34B617F9;5441.
  ) 
 Here is how much of TeX's memory you used:
  14664 strings out of 468133
@@ -857,7 +869,7 @@ lic/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/f
 onts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/
 lmsy10.pfb>
-Output written on "segundaparte ANTEPROYECTO.pdf" (17 pages, 933486 bytes).
+Output written on "segundaparte ANTEPROYECTO.pdf" (17 pages, 943685 bytes).
 PDF statistics:
  337 PDF objects out of 1000 (max. 8388607)
  44 named destinations out of 1000 (max. 500000)
