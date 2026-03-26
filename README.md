@@ -1,4 +1,7 @@
   Enlace autocad:  https://help.autodesk.com/view/ACD/2017/ESP/?guid=GUID-F64F8008-E1C0-49CC-A268-A6B8C6E9B566
 
   Grabación clase 3:  https://teams.microsoft.com/l/meetingrecap?driveId=b%21K-20w69f-0m7-4FjOLIR6ECITUshAoFEvFhGxmoIj8Ix_Yiu7vs4QbO3fSRgk2oO&driveItemId=01CQ3Q3MLGSETUMONP5BFIPG5RJC2XBVSP&sitePath=https%3A%2F%2Fintecapedu.sharepoint.com%2Fsites%2F2026.CVN.1303-Cert.AutoCADlunmiepm%2FDocumentos+compartidos%2FMODULO+I%2FRecordings%2FClase+3-20260223_183902-Grabaci%C3%B3n+de+la+reuni%C3%B3n.mp4%3Fweb%3D1&fileUrl=https%3A%2F%2Fintecapedu.sharepoint.com%2Fsites%2F2026.CVN.1303-Cert.AutoCADlunmiepm%2FDocumentos+compartidos%2FMODULO+I%2FRecordings%2FClase+3-20260223_183902-Grabaci%C3%B3n+de+la+reuni%C3%B3n.mp4%3Fweb%3D1&iCalUid=040000008200e00074c5b7101a82e00800000000b41a5a6b20a5dc010000000000000000100000009f9b100d9431dc419d4fbbbf5ca885d4&threadId=19%3A53e80b89379f4fdd8bcdd9f5a174ca96%40thread.tacv2&organizerId=0f07974f-25b2-4de1-80e3-02bf488e0464&tenantId=9095890d-5421-4305-8de7-9346ffcf0a9d&callId=2eda70ca-c23b-4850-b77b-0b24e37d8bc7&threadType=topic&meetingType=Scheduled&organizerGroupId=43d8a0a1-bef9-4e82-92b3-6ebdde5e5d0d&channelType=Standard&replyChainId=1771891156657&subType=RecapSharingLink_RecapCore
+
+
+  https://teams.microsoft.com/meet/25597684187894?p=zTvYyZHAy5P1dUG0zl
   
