@@ -1,0 +1,140 @@
+$ SAP2000 TEXT FILE
+
+UNITS  KGF  m
+
+$--------------------------
+$ MATERIAL
+$--------------------------
+TABLE: "MATERIAL PROPERTIES 01 - GENERAL"
+Material   Type
+CONC       CONC
+
+TABLE: "MATERIAL PROPERTIES 02 - BASIC MECHANICAL"
+Material   E       U
+CONC       2.3E7   0.2
+
+
+$--------------------------
+$ NODOS
+$--------------------------
+TABLE: "JOINT COORDINATES"
+Joint   X   Y   Z
+1       0   0   0
+2       6   0   0
+3       10  0   0
+4       16  0   0
+
+5       0   0   4
+6       6   0   4
+7       10  0   4
+8       16  0   4
+
+9       0   0   8
+10      6   0   8
+11      10  0   8
+12      16  0   8
+
+13      0   0   12
+14      6   0   12
+15      10  0   12
+16      16  0   12
+
+17      0   0   16
+18      6   0   16
+19      10  0   16
+20      16  0   16
+
+
+$--------------------------
+$ ELEMENTOS
+$--------------------------
+TABLE: "CONNECTIVITY - FRAME"
+Frame   JointI  JointJ
+1       1       5
+2       5       9
+3       9       13
+4       13      17
+
+5       2       6
+6       6       10
+7       10      14
+8       14      18
+
+9       3       7
+10      7       11
+11      11      15
+12      15      19
+
+13      4       8
+14      8       12
+15      12      16
+16      16      20
+
+17      5       6
+18      6       7
+19      7       8
+
+20      9       10
+21      10      11
+22      11      12
+
+23      13      14
+24      14      15
+25      15      16
+
+26      17      18
+27      18      19
+28      19      20
+
+
+$--------------------------
+$ SECCIONES (CORREGIDO)
+$--------------------------
+TABLE: "FRAME SECTION PROPERTIES"
+SectionName  Shape        Material   t2   t3
+COL          Rectangular  CONC       0.6  0.6
+BEAM         Rectangular  CONC       0.45 0.35
+
+
+TABLE: "FRAME SECTION ASSIGNMENTS"
+Frame   Section
+1       COL
+2       COL
+3       COL
+4       COL
+5       COL
+6       COL
+7       COL
+8       COL
+9       COL
+10      COL
+11      COL
+12      COL
+13      COL
+14      COL
+15      COL
+16      COL
+
+17      BEAM
+18      BEAM
+19      BEAM
+20      BEAM
+21      BEAM
+22      BEAM
+23      BEAM
+24      BEAM
+25      BEAM
+26      BEAM
+27      BEAM
+28      BEAM
+
+
+$--------------------------
+$ APOYOS
+$--------------------------
+TABLE: "JOINT RESTRAINT ASSIGNMENTS"
+Joint   U1   U2   U3   R1   R2   R3
+1       YES  YES  YES  YES  YES  YES
+2       YES  YES  YES  YES  YES  YES
+3       YES  YES  YES  YES  YES  YES
+4       YES  YES  YES  YES  YES  YES
