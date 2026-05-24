@@ -1,0 +1,111 @@
+macros para imagnees 2por 4
+
+Sub InsertarImagenesSinPaginasExtra()
+
+    Dim ruta As String
+    Dim archivos As Object
+    Dim archivo As Object
+    Dim doc As Document
+    Dim tabla As Table
+    Dim fila As Integer, col As Integer
+    Dim contador As Integer
+    Dim fso As Object
+    Dim rango As Range
+    
+    Set doc = ActiveDocument
+    Set fso = CreateObject("Scripting.FileSystemObject")
+    
+    ' 🔥 LIMPIAR DOCUMENTO COMPLETO
+    doc.Content.Delete
+    
+    ' Empezar desde el inicio real
+    Set rango = doc.Range(0, 0)
+    
+    ' Configurar hoja oficio
+    With doc.PageSetup
+        .PageWidth = CentimetersToPoints(21.5)
+        .PageHeight = CentimetersToPoints(33)
+        .TopMargin = CentimetersToPoints(1)
+        .BottomMargin = CentimetersToPoints(1)
+        .LeftMargin = CentimetersToPoints(1)
+        .RightMargin = CentimetersToPoints(1)
+    End With
+    
+    ruta = doc.Path & "\"
+    Set archivos = fso.GetFolder(ruta).Files
+    
+    contador = 0
+    
+    For Each archivo In archivos
+        
+        If LCase(fso.GetExtensionName(archivo.Name)) = "jpg" _
+        Or LCase(fso.GetExtensionName(archivo.Name)) = "jpeg" _
+        Or LCase(fso.GetExtensionName(archivo.Name)) = "png" _
+        Or LCase(fso.GetExtensionName(archivo.Name)) = "bmp" Then
+        
+            ' Nueva tabla cada 8 imágenes
+            If contador Mod 8 = 0 Then
+                
+                ' Salto de página excepto la primera
+                If contador > 0 Then
+                    rango.InsertBreak Type:=wdPageBreak
+                    rango.Collapse wdCollapseEnd
+                End If
+                
+                Set tabla = doc.Tables.Add(rango, 4, 2)
+                tabla.Borders.Enable = False
+                
+                tabla.PreferredWidthType = wdPreferredWidthPercent
+                tabla.PreferredWidth = 100
+                
+                ' 🔧 Ajuste de filas (más compacto)
+                For fila = 1 To 4
+                    tabla.Rows(fila).HeightRule = wdRowHeightExactly
+                    tabla.Rows(fila).Height = CentimetersToPoints(7.1)
+                Next fila
+                
+                tabla.Rows.AllowBreakAcrossPages = False
+                
+                tabla.Range.ParagraphFormat.SpaceAfter = 0
+                tabla.Range.ParagraphFormat.SpaceBefore = 0
+                
+                ' Mover rango al final de la tabla
+                Set rango = doc.Range(doc.Content.End - 1)
+                
+            End If
+            
+            fila = (contador Mod 8) \ 2 + 1
+            col = (contador Mod 8) Mod 2 + 1
+            
+            ' Insertar imagen
+            tabla.Cell(fila, col).Range.InlineShapes.AddPicture _
+                FileName:=archivo.Path, _
+                LinkToFile:=False, _
+                SaveWithDocument:=True
+            
+            ' 🔥 Ajuste 5% más pequeño (CLAVE)
+            With tabla.Cell(fila, col).Range.InlineShapes(1)
+                .LockAspectRatio = True
+                
+                If .Width > CentimetersToPoints(9.5) Then
+                    .Width = CentimetersToPoints(9.025)
+                End If
+                
+                If .Height > CentimetersToPoints(7) Then
+                    .Height = CentimetersToPoints(6.65)
+                End If
+            End With
+            
+            ' Centrar imagen
+            tabla.Cell(fila, col).VerticalAlignment = wdCellAlignVerticalCenter
+            tabla.Cell(fila, col).Range.ParagraphFormat.Alignment = wdAlignParagraphCenter
+            
+            contador = contador + 1
+            
+        End If
+        
+    Next archivo
+    
+    MsgBox "✅ Perfecto: sin hojas en blanco y ajuste optimizado", vbInformation
+
+End Sub
