@@ -106,562 +106,567 @@
 
 
 	
-	Los sistemas estructurales de pórticos de concretos resistentes a momentos se clasifican en tres categorías principales según su desempeño sísmico:
+	La clasificación tipológica de las estructuras es clave en la ingeniería sísmica en Guatemala, ya que define la forma en que los edificios resisten y transmiten tanto las cargas gravitacionales como las fuerzas laterales (sismos y viento) hacia la cimentación. Para lograr una adecuada comprensión de estos sistemas, las normas de diseño estructural AGIES los agrupan oficialmente en las siguientes categorías principales:
 	
-	\subsection{Pórticos Especiales a Momento (SMF):}
+	\subsection{Sistema E1, Estructua de Marcos Simples }
 	
-	Capaces de incursionar y disipar energía en el rango inelástico de manera estable ante un evento sísmico. Proporcionan resistencia y ductilidad para condiciones sismorresistentes exigentes.
 	
-\subsection{	Diseño estructural en acero – smf.}
 	
-	\subsubsection{Alcance}
-	1. Alcance se aplica a sistemas que requieren de incursiones inelásticas significativas.
+	Es un sistema estructural tridimensional constituido únicamente por un conjunto de columnas y vigas. Su rasgo principal es que estos marcos, conectados de forma rígida, soportan la totalidad de las cargas verticales y también resisten completamente las acciones horizontales (como sismos y viento) mediante esfuerzos de flexión y corte. Además, todos los marcos deben estar interconectados mediante diafragmas de piso rígidos.
 	
-	\subsubsection{Conceptos Básicos}
-	2. Conceptos Básicos Los pórticos Especiales a Momentos (SMF) se diseñan de acuerdo con las disposiciones contenidas en la norma ANSI/AISC 341. En estos sistemas se esperan incursiones inelásticas significativas a través de la cedencia por flexión de las vigas (Rótulas Plásticas) y una cedencia controlada de la zona del panel en columnas. En general se debe aplicar el criterio Columna Fuerte-Viga Débil a fin de prevenir un entrepiso débil. Es de destacar que se permite la cedencia en la base de las columnas. Para estos sistemas se utilizan secciones de gran ductilidad en vigas controlando el pandeo local y pandeo lateral torsional. Las conexiones viga-columna deben ser precalificadas conforme a la norma ANSI/AISC 358 las cuales definen las zonas del panel y planchas de continuidad.
+
+	Aquí lo tienes comenzando desde una **subsubsection** y con la redacción modificada:
+	
+	```latex
+	\subsubsection{Materiales, Ductilidad y Parámetros de Diseño}
+	
+	Las estructuras pueden ejecutarse empleando concreto reforzado (conforme a NSE 7.1), perfiles de acero estructural (NSE 7.5) o sistemas mixtos de acero–concreto. De acuerdo con la rigidez de las conexiones en los nudos y el nivel de confinamiento que presentan, se clasifican en tres categorías: Alta Ductilidad (DA), Ductilidad Intermedia (DI) y Baja Ductilidad (DB).
+	
+	Con base en lo establecido en la normativa (Ref.: NSE 3, Tabla 6.1.4-1 y Tabla 4.3.3), se definen los siguientes parámetros de diseño:
+	
+	\begin{itemize}
+		\item \textbf{Alta Ductilidad (DA):} Posee un factor de reducción $R = 8$, un factor de sobrerresistencia $\Omega = 3$ y un factor de amplificación de desplazamientos $C_d = 5.5$. No presenta restricciones de altura en ninguna zona sísmica.
+		
+		\item \textbf{Ductilidad Intermedia (DI) en concreto:} Considera $R = 5$, $\Omega = 3$ y $C_d = 4.5$. No se permite (NP) su uso en zonas de alta amenaza sísmica, correspondientes a las zonas D y E.
+		
+		\item \textbf{Baja Ductilidad (DB) en concreto:} Presenta valores de $R = 3$, $\Omega = 3$ y $C_d = 2.5$. Se limita a una altura máxima de 20 metros y no se permite en las zonas sísmicas C, D y E.
+	\end{itemize}
 	
 	
 		\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\textwidth]{vin1.png}
+		\includegraphics[width=0.8\textwidth]{E1}
+		
+		\label{fig:mi_imagen}
+	\end{figure}
+
+
+
+	
+	\subsection{Sistema E2, Estructura de muros o Estructura tipo cajón}
+	
+	El sistema estructural de muros, también conocido como sistema tipo cajón, se caracteriza por estar conformado por elementos verticales continuos que trabajan de manera conjunta, interconectados mediante losas que actúan como diafragmas rígidos. Estas losas permiten la adecuada distribución de las cargas hacia los muros estructurales, garantizando un comportamiento integral del sistema tridimensional.
+	
+	En este tipo de estructuras, los muros son los principales responsables de resistir la totalidad de las acciones laterales, tales como las fuerzas sísmicas y de viento, así como una proporción significativa o la totalidad de las cargas gravitacionales. Cuando se incorporan columnas aisladas, estas cumplen principalmente la función de soportar cargas verticales, pero no participan de manera significativa en la resistencia ante solicitaciones sísmicas.
+	
+
+	
+	\subsubsection{Materiales y ductilidad}
+	
+	Los sistemas de muros estructurales se construyen principalmente utilizando concreto reforzado o mampostería reforzada, ya sea tradicional o confinada. En el caso del concreto, el nivel de ductilidad puede clasificarse como Alta Ductilidad (DA) o Ductilidad Baja (DB), dependiendo de los requisitos de detallado y confinamiento establecidos en la normativa correspondiente. 
+	
+
+	
+	La ductilidad del sistema es un aspecto fundamental en zonas sísmicas, ya que permite disipar energía mediante deformaciones inelásticas controladas, reduciendo el riesgo de fallas frágiles.
+	
+	\subsubsection{Parámetros de diseño (ref.: nse 3, tabla 6.1.4-1 y nse 7.9, tabla 4.4-1)}
+	
+	De acuerdo con las disposiciones normativas, los parámetros de diseño para los sistemas de muros se definen en función de su capacidad resistente y ductilidad, considerando factores que modifican las fuerzas sísmicas de diseño:
+	
+	\begin{itemize}
+		\item \textbf{Concreto de Alta Ductilidad (DA):} Se adoptan valores de $R = 6$, $\Omega = 2.5$ y $C_d = 5$. La deriva máxima permisible es de 2\% (0.020$h$), lo que indica una buena capacidad de deformación bajo cargas sísmicas.
+		
+		\item \textbf{Concreto de Baja Ductilidad (DB):} Se consideran $R = 4$, $\Omega = 2.5$ y $C_d = 4$. La deriva máxima permitida se restringe a 1\% (0.010$h$), reflejando una menor capacidad de disipación de energía.
+		
+		\item \textbf{Mampostería Reforzada (DA):} Presenta valores típicos de $R = 4$, $\Omega = 2.5$ y $C_d = 3.5$, siendo un sistema con comportamiento intermedio en términos de rigidez y ductilidad.
+		
+		\item \textbf{Mampostería de pequeña vivienda (DB):} Utiliza $R = 3$, $\Omega = 2.5$ y $C_d = 2$, adecuado para edificaciones de baja altura con limitadas demandas sísmicas.
+	\end{itemize}
+	
+	Los sistemas clasificados como de baja ductilidad presentan penalizaciones en el diseño debido a su limitada capacidad de disipar energía, lo que implica mayores fuerzas de diseño y menores deformaciones permisibles. Esto se debe a que estos sistemas son más susceptibles a fallas frágiles, especialmente por aplastamiento o agrietamiento en compresión.
+	
+
+
+
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=1\textwidth]{E2}
 		
 		\label{fig:mi_imagen}
 	\end{figure}
 	
 
+
+	\subsection{Sistema E3, Estructura Combinada}
 	
-	\paragraph{Ventajas:}
+	El sistema estructural combinado corresponde a una configuración en la que se integran muros estructurales con marcos resistentes, los cuales pueden incluir marcos simples o marcos arriostrados mediante diagonales. En este tipo de sistema, las cargas laterales, como las provenientes de sismos o viento, se distribuyen entre los muros y los marcos en función de su rigidez relativa, lo que permite un comportamiento estructural más eficiente y equilibrado.
+	
+
+	
+	Adicionalmente, estudios técnicos y tesis en ingeniería estructural señalan que este tipo de sistema mejora la redundancia estructural y proporciona rutas alternas para la disipación de energía, lo cual resulta favorable ante eventos sísmicos severos.
+	
+	\subsubsection{Materiales y ductilidad}
+	
+	Los sistemas combinados pueden construirse utilizando muros de concreto reforzado clasificados como de Alta Ductilidad (DA) o Baja Ductilidad (DB), así como mampostería reforzada en categoría de Alta Ductilidad (DA). Estos muros se integran con marcos de concreto o acero estructural.
+	
+
+	
+	
+	\subsubsection{Parámetros de diseño (ref.: nse 3, tabla 6.1.4-1)}
+	
+	De acuerdo con la normativa aplicable, los parámetros de diseño para este tipo de sistema dependen del grado de ductilidad y del tipo de elementos estructurales que lo conforman:
+	
 	\begin{itemize}
-		\item Capacidad para disipar energía en el rango inelástico, lo que mejora la resistencia y ductilidad ante eventos sísmicos.
-		\item Diseño que cumple con normativas específicas para estructuras resistentes a cargas sísmicas.
-	\end{itemize}
-	
-	\paragraph{Desventajas:}
-	\begin{itemize}
-		\item Puede ser costoso y requerir un diseño detallado para cumplir con los requisitos normativos.
-		\item En áreas de alta sismicidad, puede ser necesario un diseño más complejo para asegurar la seguridad.
-	\end{itemize}
-	
-	Estos puntos destacan tanto las características positivas como las negativas de los pórticos SMF en el contexto de la construcción sismorresistente.
-	
-	\subsection{Pórticos Intermedios a Momento (IMF):}
-	
-	Capaces de incursionar y disipar energía en el rango inelástico de manera limitada ante un evento sísmico. Proporcionan resistencia y ductilidad para condiciones sismorresistentes intermedias.
-	
-	Los Pórticos Intermedios a Momento (IMF) son sistemas estructurales diseñados para disipar energía en el rango inelástico de manera limitada durante un evento sísmico. Se caracterizan por su capacidad de incursión y disipación de energía moderada, lo que los hace adecuados para zonas de moderada sismicidad. A diferencia de los pórticos especiales (SMF), que tienen una mayor capacidad de disipación de energía, los IMF se diseñan para limitar la generación de fallas frágiles y son utilizados en aplicaciones donde se requiere un nivel de resistencia y ductilidad intermedio.
-	
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.6\textwidth]{vin2.png}
+		\item \textbf{Concreto de Alta Ductilidad (DA) (muros y marcos):} Se consideran valores de $R = 6$, $\Omega = 2.5$ y $C_d = 5$. Este sistema no presenta limitaciones de altura, debido a su adecuado comportamiento sísmico.
 		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	
-	\paragraph{Ventajas:}
-	\begin{itemize}
-		\item Resistencia y ductilidad: Proporcionan una buena resistencia y ductilidad, lo que es crucial para condiciones sísmicas.
-		\item Costo competitivo: Son una opción viable para la construcción de edificaciones residenciales en áreas suburbanas debido a su costo moderado y ejecución rápida.
-		\item Eficiencia estructural: Ofrecen un diseño que permite el uso de grandes espacios sin necesidad de muchos apoyos intermedios, lo que mejora la eficiencia.
+		\item \textbf{Acero con riostras excéntricas (DA):} Se adoptan valores de $R = 8$, $\Omega = 2.5$ y $C_d = 4$. Este sistema tampoco presenta restricción en altura, ya que ofrece una alta capacidad de disipación de energía mediante deformaciones inelásticas controladas.
+		
+		\item \textbf{Acero con riostras concéntricas (DB):} Presenta valores de $R = 3.25$, $\Omega = 2$ y $C_d = 3.25$. En este caso, la altura de la edificación se limita generalmente en un rango de 12 a 20 metros, debido a su menor capacidad de disipación de energía.
 	\end{itemize}
 	
-	\paragraph{Desventajas:}
-	\begin{itemize}
-		\item Capacidad inelástica limitada: Aunque son capaces de disipar energía, su capacidad inelástica es limitada, lo que puede ser un desafío en condiciones sísmicas severas.
-		\item Requisitos de diseño: La construcción de estructuras de acero tipo pórtico requiere un diseño cuidadoso y cumplimiento de normativas específicas.
-	\end{itemize}
+	\subsubsection{Comportamiento estructural}
 	
-	Estos puntos ofrecen una visión general de las características y consideraciones asociadas con los pórticos intermedios a momento.
+	En este tipo de sistema, la distribución de fuerzas laterales depende directamente de la rigidez relativa entre los muros y los marcos. En general, los muros estructurales tienden a absorber la mayor parte del cortante basal debido a su mayor rigidez, mientras que los marcos contribuyen principalmente en el control de deformaciones y en la redistribución de esfuerzos.
 	
-	\subsection{Pórticos Ordinarios a Momento (OMF)}
-	
-	Con muy poca capacidad inelástica, proporcionan resistencia para un desempeño en el rango elástico. Estos sistemas estructurales son esenciales para garantizar la seguridad y estabilidad de edificaciones en zonas sísmicas, permitiendo una mayor libertad en la propuesta arquitectónica y asegurando que los acabados no sufran daños mayores bajo el efecto de un sismo.
-	
-	Pórticos Ordinarios (OMF): Se diseñan para que tengan principalmente un comportamiento elástico, con una capacidad limitada de incursionar en el rango inelástico y disipar energía. El detallado se presenta de forma convencional sin mayores exigencias sísmicas. Se utilizan en zonas de baja sismicidad.
-	
-	\subsection{Diseño de pórticos resistentes a momento}
-	Aplicación de la Norma ANSI/AISC 341-16
-	
-	
-		\begin{figure}[H]
+	\begin{figure}[H]
 		\centering
-		\includegraphics[width=0.6\textwidth]{vin3.png}
+		\includegraphics[width=1\textwidth]{E3}
 		
 		\label{fig:mi_imagen}
 	\end{figure}
 	
 
+	\subsection{Sistema E4, Estructura Dual}
+	
+	Este sistema es visualmente similar al Sistema E3; sin embargo, cuenta con un refuerzo normativo basado en una “doble línea de defensa”. Para que una estructura sea considerada dual, debe cumplir dos condiciones estrictas: 
+	
+	\begin{itemize}
+	\item Los muros estructurales deben resistir al menos el 40\% de las fuerzas sísmicas de cada nivel.
+	\item Los marcos de vigas y columnas, los cuales deben ser obligatoriamente de Alta Ductilidad, se diseñan para resistir de manera independiente al menos el 25\% del sismo total, considerando la posible falla de los muros.
+	\end{itemize}
+
+	
+	\subsubsection{materiales y ductilidad}
+	
+	Se emplean marcos de concreto de Alta Ductilidad (DA) combinados con muros de concreto también de Alta Ductilidad. Asimismo, pueden utilizarse marcos de acero de Alta Ductilidad con riostras, ya sean excéntricas o concéntricas, igualmente diseñadas bajo criterios de ductilidad elevada.
+	
+	\subsubsection{parámetros de diseño (ref.: nse 3, tabla 1.6.14-1)}
+	
+	\begin{itemize}
+		\item \textbf{Concreto DA (marcos y muros):} $R = 7$, $\Omega = 2.5$, $C_d = 5.5$. No presenta límite de altura.
+		
+		\item \textbf{Acero DA con riostras excéntricas:} $R = 8$, $\Omega = 2.5$, $C_d = 4$. Sin límite de altura.
+	\end{itemize}
+	
+	\subsubsection{desempeño del sistema}
+	
+	Este sistema es uno de los más favorecidos para edificaciones de gran altura, ya que la condición de que los marcos dúctiles resistan al menos el 25\% del sismo de manera independiente permite evitar el colapso gravitacional, incluso ante una posible falla severa de los muros estructurales.
+
+
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{E4}
+		
+		\label{fig:mi_imagen}
+	\end{figure}
+
+
+
+
+	\subsection{Sistema E5, Soportes en Voladizo y Naves}
+	
+	Son estructuras generalmente de un solo nivel, como naves industriales, bodegas, pabellones o remates superiores, en las cuales las columnas o muros trabajan como elementos en voladizo empotrados en su base, soportando la totalidad de la carga horizontal sin la participación de un marco superior en esa dirección.
+	
+	\subsubsection{Materiales y ductilidad}
+	
+	Se emplean columnas de concreto reforzado con confinamiento, perfiles de acero con detallado sísmico, así como naves construidas en mampostería o columnas de madera.
+	
+	\subsubsection{Parámetros de diseño (ref.: nse 3, tabla 1.6.14-1)}
+	
+	\begin{itemize}
+		\item \textbf{Concreto confinado / acero sísmico:} $R = 2.5$, $\Omega = 1.25$, $C_d = 2.5$. Límite de altura de 12 metros.
+		
+		\item \textbf{Naves de mampostería:} $R = 2$, $\Omega = 1.25$, $C_d = 2$. Límite de altura de 6 metros.
+	\end{itemize}
+	
+	\subsubsection{Consideraciones estructurales}
+	
+	Debido a la ausencia de múltiples ejes y redundancia, la demanda axial en la columna bajo carga sísmica no debe superar el 25\% de su capacidad. Además, el diseño del momento flector en la cimentación y en la base de la columna se incrementa obligatoriamente mediante el factor de sobrerresistencia $\Omega$.
+
+
+		\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.8\textwidth]{E5}
+		
+		\label{fig:mi_imagen}
+	\end{figure}
 	
 	
 	
+	\subsection{Sistema E6, Péndulo Invertido}
+	
+	Se trata de un soporte central o de un conjunto de soportes aislados que funciona como un voladizo vertical, en donde más del 50\% de la masa se concentra en la parte superior, como ocurre en los tanques elevados de agua. La estabilidad lateral depende completamente de la restricción a momento en la base.
+	
+	\subsubsection{Materiales y Ductilidad}
+	
+	Se utilizan materiales como concreto confinado o acero con detallado sísmico rígido.
+	
+	\subsubsection{Parámetros de diseño (ref.: nse 3, tabla 1.6.14-1)}
+	
+	En sistemas de concreto y acero, se aplica el mayor nivel de exigencia normativa debido a su condición de inestabilidad. Se consideran los siguientes valores: $R = 2$, $\Omega = 1.5$, $C_d = 1.5$. Se establece un límite de altura de 15 metros en zonas de alta sismicidad (Nivel E).
+	
+	\subsubsection{Consideraciones estructurales}
+	
+	La demanda de carga axial en la columna principal se limita de forma estricta, ya que no debe sobrepasar el 15\% de la resistencia axial concéntrica del elemento. Esto asegura que el concreto no falle por compresión durante la acción de flexión inducida por el sismo.
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+	\subsection{comportamiento de los sistemas estructurales}
+	
+	El comportamiento de los sistemas estructurales, bajo la normativa técnica guatemalteca, se fundamenta en la capacidad de la edificación para gestionar la energía sísmica y mantener la estabilidad bajo distintas intensidades de carga. Este comportamiento se analiza a través de los siguientes niveles y principios mecánicos:
+	
+	\subsubsection{1. Rangos de Desempeño Mecánico}
+	
+	El comportamiento de cualquier sistema estructural se divide estrictamente según la magnitud de la fuerza aplicada:
+	
+	\begin{itemize}
+		\item \textbf{Rango Elástico (Solicitaciones Frecuentes):} Ante cargas gravitacionales permanentes, viento o sismos de baja intensidad, la estructura debe comportarse de forma elástica, absorbiendo la carga sin experimentar deterioro estructural ni deformaciones permanentes.
+		
+		\item \textbf{Rango Post-Elástico (Sismos Severos):} Para eventos sísmicos máximos de diseño, se permite intencionalmente que los componentes incursionen en el rango post-elástico. En este estado, se admite la posibilidad de daño (incluso no reparable) con el objetivo primario de disipar energía mediante una \textbf{cedencia controlada} para salvar vidas.
+	\end{itemize}
+	
+	\subsubsection{2. Principios de Integridad y Continuidad}
+	
+	Para que el comportamiento sea global y no falle de forma aislada, se deben cumplir dos principios:
+	
+	\begin{itemize}
+		\item \textbf{Trayectoria de Cargas:} Debe existir una o varias rutas continuas que transmitan las fuerzas inerciales desde el punto de origen hasta la cimentación. Si esta ruta se interrumpe (como en muros discontinuos), es obligatorio aplicar factores de sobre-resistencia ($\Omega_r$) para evaluar la transferencia local.
+		
+		\item \textbf{Integridad Estructural:} Todos los elementos deben estar interconectados mediante conexiones diseñadas formalmente, incluyendo el anclaje de losas a muros y de la estructura a sus apoyos.
+	\end{itemize}
+	
+	\subsubsection{3. Acción Dinámica del Diafragma}
+	
+	Las losas de entrepiso y techo (diafragmas) actúan como colectores y distribuidores de fuerzas:
+	
+	\begin{itemize}
+		\item \textbf{Distribución por Rigidez:} En diafragmas rígidos, la fuerza sísmica se reparte entre los miembros verticales (columnas o muros) según su rigidez relativa.
+		
+		\item \textbf{Efectos de Torsión:} Se debe considerar el momento de giro provocado por la excentricidad entre el centro de masa y el centro de rigidez, sumando una \textbf{excentricidad accidental adicional del 5\%}.
+		
+		\item \textbf{Diafragmas Flexibles:} En techos ligeros (como lámina) sin rigidez cortante, las fuerzas se aplican independientemente a cada elemento según su área tributaria.
+	\end{itemize}
+	
+	\subsubsection{4. Inestabilidad y Efectos de Segundo Orden (P-Delta)}
+	
+	El comportamiento lateral se ve agravado por los efectos \textbf{P-Delta}. Cuando el edificio sufre desplazamientos laterales ($\Delta$), las masivas cargas gravitacionales ($P$) se desalinean de sus ejes de soporte, generando un momento de volteo adicional que empuja a la estructura a inclinarse más, pudiendo causar colapso gravitacional post-sismo si no se corrige en el diseño.
+	
+	\subsubsection{5. Niveles de Desempeño y Daño Esperado}
+	
+	La normativa parametriza el comportamiento físico esperado en tres niveles:
+	
+	\begin{itemize}
+		\item \textbf{Operacional (OP):} Los componentes estructurales y no estructurales mantienen sus funciones; obligatorio para hospitales y obras esenciales.
+		
+		\item \textbf{Seguridad de la Vida (SV):} Se admite daño estructural significativo y agrietamientos, pero se mantiene un margen de seguridad claro contra el derrumbe para permitir la evacuación.
+		
+		\item \textbf{Prevención del Colapso (PC):} Límite extremo donde hay distorsiones excesivas y ruina irrecuperable, pero la estructura sigue sosteniendo las cargas verticales para evitar fatalidades.
+	\end{itemize}
+	
+	\subsubsection{6. Comportamiento según el Sistema Tipológico (E1 a E7)}
+	
+	Cada sistema tiene un mecanismo de resistencia único que dicta su respuesta:
+	
+	\begin{itemize}
+		\item \textbf{Marcos (E1):} Resisten mediante flexión y corte de vigas y columnas; su ductilidad depende del confinamiento en los nudos.
+		
+		\item \textbf{Muros (E2):} Sistemas muy rígidos donde los muros absorben el 100\% de la fuerza lateral; los de baja ductilidad (DB) son propensos a fallas explosivas si se deforman excesivamente.
+		
+		\item \textbf{Duales (E4):} Ofrecen una "doble línea de defensa" donde los marcos deben resistir al menos el 25\% del sismo de forma independiente si los muros fallan.
+		
+		\item \textbf{Péndulos Invertidos (E6):} Poseen una masa concentrada en la parte superior (como tanques elevados) y son altamente inestables, por lo que reciben los mayores castigos normativos en su diseño.
+	\end{itemize}
 	
 	
 	
+
+
+
 	
+
+
+ 
 	
+	\subsubsection{3. Clasificación del Sitio y Perfil del Suelo}
 	
+	Se basa en cómo el terreno amplifica o amortigua las ondas sísmicas, utilizando la velocidad de la onda de corte ($V_s$):
 	
+	\begin{itemize}
+		\item \textbf{Clases A y B:} Roca dura y media que no amplifica el sismo.
+		
+		\item \textbf{Clase C:} Suelos muy densos o roca suave.
+		
+		\item \textbf{Clases D y E:} Suelos rígidos a blandos que presentan \textbf{amplificaciones dinámicas severas}.
+		
+		\item \textbf{Clase F:} Suelos especiales e inestables (licuables o turbas) que requieren análisis dinámicos de sitio específicos.
+	\end{itemize}
 	
+	\subsubsection{4. Sistema Resistente y Tipología (E1 a E7)}
 	
+	Las estructuras se clasifican según el mecanismo que utilizan para resistir y transmitir cargas:
 	
+	\begin{itemize}
+		\item \textbf{Sistemas E1 a E4:} Incluyen marcos simples, muros de carga (cajón), sistemas combinados y \textbf{sistemas duales} (estos últimos con "doble línea de defensa").
+		
+		\item \textbf{Sistemas E5 a E7:} Abarcan soportes en voladizo, \textbf{péndulos invertidos} (como tanques elevados) y estructuras que no son edificios (torres, estanterías).
+	\end{itemize}
 	
+	\subsubsection{5. Clasificación por Ductilidad}
 	
+	Dentro de cada sistema, las estructuras se clasifican según su capacidad de deformarse sin colapsar:
 	
+	\begin{itemize}
+		\item \textbf{Alta Ductilidad (DA):} Permite mayor disipación de energía y no tiene límites de altura.
+		
+		\item \textbf{Ductilidad Intermedia (DI):} Con restricciones en zonas de alta amenaza.
+		
+		\item \textbf{Baja Ductilidad (DB):} Penaliza severamente el diseño, limitando la altura y la deriva máxima tolerada (hasta un 1\%), debido a su propensión a \textbf{fallas explosivas}.
+	\end{itemize}
+
+	
+%%%____________________________________________________-
 	
 	\newpage
-	 
-	\section{Comportamiento de los sistemas estructurales}
-		
-		Los pórticos resistentes a momentos están diseñados para incursionar en el rango inelástico de manera estable, controlando daños y disipando energía durante eventos sísmicos severos. La ductilidad es la propiedad más importante, ya que permite que la estructura experimente deformaciones significativas sin pérdida excesiva de resistencia bajo ciclos repetidos de carga y descarga.
-		
-		Para lograrlo, se establece un esquema de eslabones débiles y fuertes: las vigas se diseñan como elementos dúctiles que desarrollan rótulas plásticas por flexión, mientras que las columnas y nudos se mantienen fuertes para evitar fallas frágiles.
-		
-		\subsubsection{Distribución de momentos y refuerzo}
-		En las vigas, la resistencia a momento positivo en la cara del nudo no debe ser menor que la mitad de la resistencia a momento negativo en la misma cara, y cualquier sección debe tener al menos un cuarto de la resistencia máxima a momento de los nudos.
-		
-		El refuerzo en tracción y compresión, junto con el confinamiento mediante acero transversal, permite que las vigas desarrollen mayor deformación antes de que el concreto alcance su agotamiento, mejorando la ductilidad y la adherencia en los solapes.
-		
-		Academia.edu
-		
-		\subsubsection{Control de desplazamientos y rigidez}
-		El desempeño sísmico depende de la conformación de los nudos y dimensiones de vigas y columnas, que controlan los desplazamientos horizontales y la deriva de la estructura. La normativa sísmica exige que los pórticos se dispongan en todas las direcciones ortogonales del edificio para garantizar resistencia y rigidez uniforme, evitando concentraciones de deformación y daños en acabados.
-		
-		Comunidad 360 EN CONCRETO
-		
-		\subsubsection{Análisis inelástico y capacidad de disipación}
-		El análisis por pushover permite modelar el comportamiento inelástico de los pórticos, evaluando la formación de rótulas plásticas y la ductilidad global. Estudios muestran que la ductilidad disminuye en estructuras muy altas, y que la relación entre el momento de diseño y el momento de fluencia global es clave para evitar fallas frágiles.
-		
-		El coeficiente de capacidad de disipación de energía (R) depende de la cuantía de refuerzo y dimensiones de los elementos, siendo menor en secciones sobre-reforzadas y mayor en secciones adecuadamente diseñadas.
-		
-			\begin{figure}[H]
-			\centering
-			\includegraphics[width=0.6\textwidth]{vin5.png}
-			
-			\label{fig:mi_imagen}
-		\end{figure}
-		
-		\subsection{Porticos especiales a momento:}
-		
-		Se diseñan para que sean capaces de incursionar en el rango inelástico con una ductilidad y disipación de energía elevada, para lo cual requiere un estricto control de fallas frágiles, presentando el detallado sismorresistente más exigente conforme a la Norma. SE UTILIZAN EN ZONAS DE ALTA SISMICIDAD.
-		
-		\subsection{Porticos intermedios a momento:}
-		
-		Se diseñan para que sean capaces de incursionar en el rango inelástico con una ductilidad y 
-		disipación de energía modera, para lo cual se requiere limitar la generación de fallas frágiles, 
-		presentando un detallado sismorresistente considerable conforme a la Norma. SE UTILIZAN EN ZONAS DE MODERADA SISMICIDAD.
-		
-			\begin{figure}[H]
-			\centering
-			\includegraphics[width=0.6\textwidth]{vin6.png}
-			
-			\label{fig:mi_imagen}
-		\end{figure}
-		
-		\subsection{Diseño por capacidad}
-		
-		Esta estrategia ha estado dirigida a prevenir el colapso de edificaciones ante sismos severos a través de controlar las posibles fallas frágiles que pudieran presentarse y propiciar mecanismos dúctiles, en un rango de desplazamientos que supere la condición elástica. Las estructuras deben ser capaces de incursionar en el rango inelástico de forma 
-		
-		
-
+	\section{Criterios de clasificación de las estructuras}
 	
+	De acuerdo con las fuentes, la clasificación de las estructuras en Guatemala no es un proceso genérico, sino un análisis riguroso que cruza \textbf{variables de índole social} (uso y riesgo humano) con \textbf{variables de amenaza natural} (sismicidad y geología) para determinar los niveles de exigencia matemática y factores de seguridad.
 	
+	Los criterios fundamentales de clasificación son:
 	
+	\textbf{1. Categoría Ocupacional (Factor Humano y Función)}
 	
+	Se asigna según las consecuencias legales, sociales y económicas que implicaría la falla o el cese de funciones de la obra.
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	\newpage
-	% ----------------------------------
-	%%\section{Marco Normativo}
-	
-	\section{ Criterios de Clasificación de las Estructuras}
-	\subsection{Estructura de pórticos}
-	
-	La «estructura de pórticos» es un sistema estructural compuesto por una estructura de vigas y pilares que forman un conjunto de marcos. El marco, definido como el elemento estructural compuesto por dos pilares verticales y una viga horizontal rígidamente conectados, se repite tanto en el plano horizontal como vertical. Esta disposición permite una continuidad estática y el uso eficiente del espacio con limitados obstáculos planimétricos.
-	
-	\subsubsection{Los pilares}
-	
-	Son elementos verticales de entrepiso – pueden estar alineados (formando una pilastrada) o posicionados a distancia uno del otro según la luz óptima para los forjados, siguiendo una malla regular de forma cuadrada, rectangular o triangular.
-	
-	\subsubsection{Las vigas}
-	
-	Son elementos horizontales dispuestos en sucesión y constituyen la estructura de las estructuras de pórticos.
-	
-	\subsection{Solicitaciones de las estructuras de pórticos}
-	
-	Las estructuras de pórticos trabajan principalmente en régimen de flexión y corte, compresión y flexo compresión. Pilares y vigas son los elementos clave de esta estructura. El pilar, elemento vertical portante, transmite cargas desde la estructura superior a la cimentación, sometiéndose a cargas verticales y horizontales, solicitaciones de esfuerzo normal, momento flector, o flexo compresión.
-	
-	La viga, similar al pilar, pero con dimensiones predominantemente superiores, se define geométricamente como un sólido generado por una figura plana en movimiento en el espacio, manteniéndose ortogonal a las trayectorias descritas por su eje. Las vigas pueden ser principales o secundarias, con diferentes secciones como rectangulares o perfiladas a I, T, L, C, H, etc., con el fin de reducir el peso y optimizar el uso del material según las solicitaciones.
-	
-	Por otro lado, las vigas también pueden presentar secciones aligeradas, como perfiles de cajón, o reticulares. En el caso de las vigas de cajón, adecuadas para grandes luces, están constituidas por secciones cerradas huecas con elementos de reagudización internos. En cambio, las vigas reticulares, compuestas por barras verticales y diagonales, son ideales para esfuerzos axiales y pueden estar articuladas en los nudos, proporcionando un sistema de barras solicitadas a compresión o tracción, según la posición en la malla reticular.
-	
-	\subsection{Tipos de estructuras de pórticos}
-	
-	\subsubsection{Pórticos de hormigón armado}
-	
-	Las estructuras de pórticos de hormigón armado para edificios, sujetas a acciones horizontales, pueden garantizar la estabilidad mediante la implementación de nudos estructurales en las luces. Estos nudos actúan como disipadores de energía, insertando armaduras adicionales para prevenir la expulsión del hormigón durante eventos sísmicos. Alternativamente, se pueden utilizar muros de hormigón armado o núcleos de rigidización, como superficies verticales.
-	
-	Los pilares y las vigas en las estructuras de pórticos de hormigón armado pueden adoptar diferentes formas. Además, las vigas pueden variar en altura, espesor y pueden ser extradosadas.
-	
-	\subsubsection{Pórticos de acero}
-	
-	Las estructuras de pórticos de acero se utilizan para edificios civiles e industriales. En los pórticos longitudinales, los edificios civiles presentan estructuras verticales, mientras que los industriales tienen estructuras horizontales con arriostramientos longitudinales. Los edificios con pórticos longitudinales pueden incorporar arriostramientos verticales, internos o en fachada, para aumentar la rigidez flexional. Además, para edificios de gran altura en zonas sísmicas, se pueden diseñar soluciones donde los soportes verticales resisten solo a las cargas verticales y estructuras rígidas se ocupan de las fuerzas horizontales.
-	
-	Las estructuras en carpintería metálica involucran el ensamblaje en obra de perfiles y laminados a través de tornillería o soldadura. Estas pueden ser de pared llena, de cajón o reticulares. Las conexiones viga-pilar pueden realizarse mediante diversas técnicas, como tornillería, soldadura o apoyos en ménsulas. Las estructuras con sistemas industrializados hacen la construcción más económica, permitiendo la prefabricación y la organización del transporte y del montaje.
-	
-	\subsubsection{Pórticos de madera}
-	
-	Las estructuras de pórticos de madera pueden realizarse con madera maciza o laminada encolada. Las luces de las vigas y el tamaño de las mallas estructurales varían según las necesidades, con soluciones en madera que ofrecen una flexibilidad de diseño y montaje.
-	
-	Las conexiones entre vigas y pilares pueden realizarse mediante angulares, placas clavadas o soldadas, pernos o placas metálicas internas. La rigidización contra las acciones horizontales puede obtenerse a través de paneles de cerramiento, paneles de forjado o arriostramientos reticulares metálicos. Las estructuras de pórticos de madera pueden ser particularmente adecuadas para construcciones residenciales.
-	
-	\subsection{Comportamiento estático}
-	
-	\subsubsection{Pórticos isostáticos}
-	
-	Los pórticos isostáticos son estructuras estáticamente determinadas, lo que significa que es posible resolver completamente todas las reacciones y las fuerzas internas utilizando las ecuaciones del equilibrio. Estos pórticos se caracterizan por un número suficiente de restricciones para garantizar la estabilidad y la determinación del sistema. Los ejemplos incluyen pórticos rectangulares y triangulares, donde las restricciones en las juntas aseguran una clara resolución de las fuerzas internas.
-	
-	\subsubsection{Pórticos hiperestáticos}
-	
-	Los pórticos hiperestáticos son estructuras estáticamente indeterminadas, lo que significa que el número de restricciones y reacciones restrictivas no es suficiente para resolver completamente todas las reacciones y las fuerzas internas. Estos pórticos requieren el uso de métodos más avanzados, como el método de las fuerzas o el método de las deformaciones, para obtener una solución. Los ejemplos incluyen pórticos con exceso de apoyos o vigas empotradas, que requieren un enfoque más sofisticado en la determinación de las fuerzas internas.
-	
-	\subsubsection{Pórticos con nudos fijos}
-	
-	Los pórticos con nudos fijos se caracterizan por juntas rígidas entre las vigas y los pilares. Esto significa que los nudos no pueden girar y que el marco puede resistir las deformaciones sin permitir desplazamientos significativos en las juntas. Estos pórticos se utilizan a menudo en situaciones donde se necesita una mayor rigidez y resistencia a la deformación.
-	
-	\subsubsection{Pórticos con nudos móviles}
-	
-	Los pórticos con nudos móviles se caracterizan por juntas flexibles entre las vigas y los pilares. Esto significa que los nudos pueden girar, permitiendo una mayor flexibilidad en el comportamiento estructural. Estos pórticos se utilizan a menudo en situaciones donde se requiere una mayor adaptabilidad a las deformaciones o para gestionar cargas variables.
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.6\textwidth]{mar1.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	\subsection{Criterios de Clasificación  (Base Técnica)}
-	
-	La supervivencia de edificios a terremotos fuertes suele atribuirse a su capacidad adicional, alcanzada gracias a la contribución de diversos factores. Estos factores intervienen desde la etapa del proyecto hasta la etapa constructiva, mejorando, en muchos casos, las características resistentes del modelo asumido en el análisis.
-	
-	En el caso de las secciones de concreto armado, el factor de reserva de resistencia depende, entre otras cosas, de la resistencia real del acero de refuerzo, que suele ser superior a la nominal; del incremento de la resistencia debido al endurecimiento (Harding) post- plastificación del acero, de la resistencia del concreto, superior a la resistencia nominal debida a la edad del concreto o al efecto beneficioso que tiene el confinamiento sobre la resistencia a compresión, una vez que se han alcanzado ciertas deformaciones en el concreto.
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.6\textwidth]{mar2.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	Las normas recientemente han incorporado los efectos beneficiosos de la redundancia (ASCE7-02, UBC-97, IBC- 2006, EC-08) pero los criterios empleados que consisten esencialmente en la modificación del factor de reducción
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.6\textwidth]{mar3.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	\subsection{Ventajas de los pórticos resistentes a momento}
-	
-	Los pórticos resistentes a momento (MRF, por sus siglas en inglés) se utilizan en la construcción de edificios por varias razones:
 	\begin{itemize}
-		\item Resistencia sísmica: Los pórticos resistentes a momento (MRF) son particularmente eficaces para resistir las fuerzas laterales generadas por los terremotos. Las vigas y columnas interconectadas permiten que la estructura absorba y disipe la energía sísmica, reduciendo el riesgo de colapso durante un sismo.
-		\item Resistencia al viento: Los pórticos resistentes a momento (MRF) también son valiosos en zonas propensas a vientos fuertes. Proporcionan estabilidad y evitan oscilaciones excesivas, garantizando que el edificio pueda soportar las fuerzas generadas por el viento.
-		\item Espacios abiertos: Los edificios modulares permiten planos de planta más flexibles y abiertos, ya que no dependen en gran medida de columnas interiores. Esto los convierte en la opción preferida en diseños arquitectónicos que requieren espacios amplios y sin interrupciones.
-		\item Deriva reducida: En comparación con otros sistemas estructurales, los pórticos resistentes a momento (MRF) suelen presentar una menor deriva lateral, lo cual resulta beneficioso tanto para la comodidad de los ocupantes como para el rendimiento estructural.
-		\item Resistencia a la carga lateral: Los pórticos resistentes a momento (MRF) están diseñados para resistir cargas laterales, como las generadas por el viento o las fuerzas sísmicas. La capacidad de soportar estas fuerzas es esencial para la estabilidad y la seguridad de la estructura.
-		\item Disipación de energía: Durante los sismos, los pórticos resistentes a momento (MRF) son eficaces para disipar y absorber la energía generada por el movimiento del terreno. Esto ayuda a minimizar los daños estructurales y garantiza la seguridad de los ocupantes.
-		\item Flexibilidad en el diseño: Los pórticos resistentes a momentos ofrecen flexibilidad arquitectónica, permitiendo el diseño de espacios abiertos y adaptables. La ausencia de columnas interiores facilita la creación de plantas diáfanas.
-		\item Espacios sin columnas: Gracias a su capacidad para transferir y distribuir fuerzas de manera eficiente, los pórticos resistentes a momento (MRF) permiten crear espacios sin columnas dentro de los edificios. Esto resulta especialmente ventajoso para diseños que requieren áreas amplias y despejadas.
-		\item Facilidad de construcción: Los pórticos resistentes a momento suelen ser más fáciles de construir, lo que los convierte en una opción práctica para diversos tipos de edificios. La sencillez de su construcción puede traducirse en plazos de ejecución más cortos.
-		\item Adaptabilidad a la altura del edificio: Los pórticos resistentes a momento (MRF) son adecuados para edificios de diversas alturas, desde estructuras de altura media hasta rascacielos. Su capacidad para proporcionar estabilidad es especialmente valiosa en edificios altos.
+		\item \textbf{Categoría IV (Obras Esenciales):} Instalaciones cuya operación es crítica tras un siniestro, como \textbf{hospitales, estaciones de bomberos, policía y plantas de energía}.
+		
+		\item \textbf{Categoría III (Obras Importantes):} Edificaciones con alto riesgo de pérdida masiva de vidas o gran impacto social, típicamente con ocupación \textbf{igual o superior a 300 personas} (escuelas, universidades, centros comerciales grandes).
+		
+		\item \textbf{Categoría II (Obras Ordinarias):} La mayoría de proyectos de vivienda y oficinas con menos de 300 personas, cuyo objetivo es la \textbf{seguridad de la vida}.
+		
+		\item \textbf{Categoría I (Obras Utilitarias):} Instalaciones aisladas con muy baja probabilidad de pérdida de vidas, como \textbf{bodegas agrícolas o establos}.
 	\end{itemize}
 	
-
-
-
-
+	\textbf{2. Sismicidad y Nivel de Protección Sísmica (NPS)}
 	
-
-
-
-
-
-
-
-
-		
-	\newpage
-	% ----------------------------------
-	%%\section{Marco Normativo}
+	Este criterio vincula la importancia de la obra con el peligro geográfico del sitio:
 	
-	\section{Coeficientes y factores para diseño de sistemas sismo-resistentes}
-	
-	
-	
-	\subsubsection{Coeficientes Sísmico}
-	
-	El coeficiente sísmico c es el cociente entre la fuerza cortante horizontal Vo que actúa en la base de un edificio debido a un sismo y el peso Wo del edificio. Para estructuras del grupo B, c se toma como 0.16-0.45 dependiendo de la zona sísmica, pero puede modificarse usando otros métodos de análisis. Cuando se usa el método estático o dinámico, las fuerzas sísmicas pueden reducirse basado en las características estructurales y del terreno.
-	
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.6\textwidth]{mar4.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.6\textwidth]{mar5.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	\subsubsection{El Factor de Sobre resistencia}
-	
-	es un coeficiente sísmico que amplifica las fuerzas de diseño para elementos críticos, garantizando que permanezcan elásticos mientras el resto de la estructura disipa energía a través de deformaciones inelásticas. Representa la capacidad de resistencia real superior a la requerida por diseño, generalmente oscilando entre 2.0 y 3.0 según la norma.
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.6\textwidth]{mar6.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	\subsubsection{El Factor de Amplificación de Deflexión/Deriva}
-	
-	es un coeficiente sísmico utilizado para estimar los desplazamientos inelásticos reales (derivas) de una estructura, multiplicando las deformaciones obtenidas de un análisis elástico lineal. Este factor ajusta la respuesta reducida por ductilidad para predecir el comportamiento real de la estructura ante el sismo de diseño
-	
-	
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.6\textwidth]{mar7.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	\subsection{Coeficiente sismico.}
-	
-	Se entenderá por coeficiente sísmico, c, el cociente de la fuerza cortante horizontal sin reducir, que actúa en la base de la construcción por efecto del sismo (V0), y el peso de la edificación, W0, de la misma sobre dicho nivel. Con este fin se tomará como base o desplante de la estructura el nivel a partir del cual sus desplazamientos con respecto al terreno circundante comienzan a ser significativos. Para calcular el peso total se tendrán en cuenta las cargas muertas y vivas que correspondan, según las especificaciones en las Normas de Disposiciones y Criterios de Seguridad Estructural. Para el análisis estático de las construcciones clasificadas según su destino, en el Grupo A, se empleará los valores de c que se consignan en la Tabla 3.1, a menos que se emplee el método simplificado de análisis, en cuyo caso se aplicarán los coeficientes.
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.6\textwidth]{mar8.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	\subsection{Factor de Importancia}
-	
-	La importancia se cuantifica mediante los factores de importancia, que ajustan las cargas de eventos según el uso previsto de la estructura, garantizando un nivel aceptable de riesgo para la vida humana en caso de condiciones extremas. Estos factores se seleccionan para garantizar un nivel aceptable de riesgo para la seguridad humana, representando una tolerancia probabilística al posible colapso bajo condiciones extremas, teniendo en cuenta la amenaza potencial para la vida humana.
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.6\textwidth]{mar9.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	\subsection{Cargas Sísmicas}
-	
-	El método más utilizado para determinar las fuerzas sísmicas es el método pseudoespectral, que relaciona el período natural de vibración de la estructura con un valor correspondiente de aceleración sísmica. Este valor se utiliza para obtener las cargas sísmicas, las cuales se ajustan según varios factores, como la importancia de la estructura, las características de la estructura (materiales, sistema estructural, secciones de los elementos) y las irregularidades (en planta y elevación).
-	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.6\textwidth]{mar10.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	\subsection{Parámetros de Estructuración}
-	
-	\paragraph{Regularidad Estructural:}
-	
-	Se refiere a la uniformidad de la edificación tanto en planta (vista desde arriba) como en elevación (vista de frente). Una estructura regular se mueve de forma predecible; una irregular tiende a concentrar esfuerzos peligrosos.
 	\begin{itemize}
-		\item Regularidad en Planta: Evitar formas en "L", "T" o "H" muy pronunciadas que generen torsión.
-		\item Regularidad en Elevación: Evitar cambios bruscos de masa o rigidez (como un piso con columnas mucho más delgadas que el inferior, conocido como "piso blando).
+		\item \textbf{Índice de Sismicidad ($I_o$):} Determinado por el municipio, varía desde $I_o=2$ (moderada, como en Petén) hasta \textbf{$I_o=4$ o superior} (severa, como en la costa sur y meseta central).
 		
-		
+		\item \textbf{Nivel de Protección Sísmica (NPS):} Es la medida legal del grado de protección requerido, obtenida al interceptar la Categoría Ocupacional con el Índice de Sismicidad. Los niveles van desde la \textbf{clase A (menor rigor)} hasta la \textbf{clase E (máxima protección)}.
 	\end{itemize}
 	
-	\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.6\textwidth]{mar11.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
+	\textbf{3. Clasificación del Sitio y Perfil del Suelo}
 	
-	\paragraph{Ductilidad:}
+	Se basa en cómo el terreno amplifica o amortigua las ondas sísmicas, utilizando la velocidad de la onda de corte ($V_s$):
 	
-	Es la capacidad de la estructura (y sus materiales) de deformarse plásticamente sin romperse ni perder su capacidad de carga.
 	\begin{itemize}
-		\item ¿Por qué es vital? En un sismo fuerte, permitimos que el acero de las vigas se estire y el concreto se agriete controladamente. Esto consume la energía del sismo.
-		\item En concreto: Se logra mediante el "confinamiento" (muchos estribos juntos) que evita que el concreto estalle y mantiene el acero en su sitio mientras se dobla.
+		\item \textbf{Clases A y B:} Roca dura y media que no amplifica el sismo.
+		
+		\item \textbf{Clase C:} Suelos muy densos o roca suave.
+		
+		\item \textbf{Clases D y E:} Suelos rígidos a blandos que presentan \textbf{amplificaciones dinámicas severas}.
+		
+		\item \textbf{Clase F:} Suelos especiales e inestables (licuables o turbas) que requieren análisis dinámicos de sitio específicos.
 	\end{itemize}
 	
-	\paragraph{Redundancia:}
+	\textbf{4. Sistema Resistente y Tipología (E1 a E7)}
 	
-	Es la característica de tener múltiples rutas de carga. Si un elemento falla (por ejemplo, una columna se daña seriamente), la estructura debe ser capaz de redistribuir esas fuerzas a otros elementos cercanos.
+	Las estructuras se clasifican según el mecanismo que utilizan para resistir y transmitir cargas:
+	
 	\begin{itemize}
-		\item Poco redundante: Una estructura con solo dos columnas. Si una falla, todo cae.
-		\item Muy redundante: Un sistema de pórticos con muchas crujías (espacios entre columnas). Si una falla, las demás "ayudan" a sostener el edificio.
+		\item \textbf{Sistemas E1 a E4:} Incluyen marcos simples, muros de carga (cajón), sistemas combinados y \textbf{sistemas duales} (estos últimos con "doble línea de defensa").
+		
+		\item \textbf{Sistemas E5 a E7:} Abarcan soportes en voladizo, \textbf{péndulos invertidos} (como tanques elevados) y estructuras que no son edificios (torres, estanterías).
+	\end{itemize}
+	
+	\textbf{5. Clasificación por Ductilidad}
+	
+	Dentro de cada sistema, las estructuras se clasifican según su capacidad de deformarse sin colapsar:
+	
+	\begin{itemize}
+		\item \textbf{Alta Ductilidad (DA):} Permite mayor disipación de energía y no tiene límites de altura.
+		
+		\item \textbf{Ductilidad Intermedia (DI):} Con restricciones en zonas de alta amenaza.
+		
+		\item \textbf{Baja Ductilidad (DB):} Penaliza severamente el diseño, limitando la altura y la deriva máxima tolerada (hasta un 1\%), debido a su propensión a \textbf{fallas explosivas}.
 	\end{itemize}
 	
 	
 	
 	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-			
-	\newpage
-	% ----------------------------------
-	%%\section{Marco Normativo}
-	
-	\section{Periodo fundamental de vibración (formula empírica)}
-	
-	
+%%%____________________________________________________
+
+
+
+\newpage
+
+\section{Coeficientes y factores para diseño Sismorresistente}
+
+Para conciliar el análisis matemático elástico que realizan las computadoras con el comportamiento inelástico (daño controlado) real de una estructura durante un sismo, las normas guatemaltecas (NSE) utilizan diversos \textbf{coeficientes y factores de "traducción"}. Estos parámetros reducen las fuerzas teóricas a niveles de diseño manejables y amplifican los desplazamientos para predecir la deformación real.
+
+Los principales factores y coeficientes son:
+
+\textbf{1. Factor Probabilístico del Sismo de Diseño ($K_d$)}
+
+A diferencia de otras normas, Guatemala usa una perspectiva probabilística para calibrar la demanda sísmica del terreno.
+
+\begin{itemize}
+	\item \textbf{$K_d = 1.00$ (Sismo Extremo):} Probabilidad de excedencia del 2\% en 50 años. Obligatorio para \textbf{Obras Esenciales e Importantes}.
+	\item \textbf{$K_d = 0.80$ (Sismo Severo):} Probabilidad del 5\% en 50 años.
+	\item \textbf{$K_d = 0.66$ (Sismo Ordinario):} Probabilidad del 10\% en 50 años. Aplicable a la mayoría de la \textbf{construcción privada}.
+\end{itemize}
+
+\textbf{2. Factor de Modificación de Respuesta Sísmica ($R$)}
+
+Es el parámetro fundamental que \textbf{reduce los espectros elásticos} para obtener el cortante basal de diseño. El valor de $R$ depende de la reserva de capacidad del sistema, compuesta por:
+
+\begin{enumerate}
+	\item \textbf{Ductilidad ($R_d$):} Capacidad de la estructura para deformarse sin colapsar.
+	\item \textbf{Sobre-resistencia inherente ($R_{sr}$):} Reserva no intencional por materiales de mayor calidad, redondeo de acero comercial y factores de reducción $\phi$.
+\end{enumerate}
+
+\begin{itemize}
+	\item \textit{Ejemplos:} $R=8$ para marcos de concreto de alta ductilidad; $R=3$ para sistemas de baja ductilidad.
+\end{itemize}
+
+\textbf{3. Factor de Incremento del Desplazamiento ($C_d$)}
+
+Como los desplazamientos que arroja la computadora son "ficticios" (basados en fuerzas ya reducidas por $R$), se deben amplificar para hallar el \textbf{desplazamiento real post-elástico ($\delta_u$)}.
+
+\begin{itemize}
+	\item \textbf{Fórmula:} $\delta_u = C_d \times \delta_c$.
+	\item Este valor resultante es el que se compara legalmente con la \textbf{Deriva Máxima Tolerable} (usualmente 2\% para edificios ordinarios) para evitar el colapso.
+\end{itemize}
+
+\textbf{4. Factor de Incremento de Resistencia o "Sobre-resistencia" ($\Omega_R$)}
+
+Se aplica a componentes críticos cuya falla sería catastrófica y frágil (como columnas que sostienen muros que no llegan al suelo).
+
+\begin{itemize}
+	\item \textbf{Función:} Fuerza a estos elementos a \textbf{mantenerse en el rango elástico} incluso durante sismos extremos, multiplicando su demanda sísmica por valores entre 2.0 y 3.0.
+\end{itemize}
+
+\textbf{5. Factor de Falta de Redundancia ($\rho$)}
+
+Evalúa cuántas "líneas de defensa" tiene el edificio.
+
+\begin{itemize}
+	\item \textbf{$\rho = 1.0$ (Estructura Óptima):} Para edificios regulares con múltiples ejes de marcos o muros.
+	\item \textbf{$\rho = 1.30$ (Castigo):} Para edificios en zonas de alta sismicidad que dependen de muy pocos elementos resistentes, incrementando las fuerzas de diseño en un \textbf{30\%}.
+\end{itemize}
+
+\textbf{6. Otros Factores Relevantes}
+
+\begin{itemize}
+	\item \textbf{$k_z$ (Factor para Cimientos):} Garantiza que la cimentación sea más fuerte que la superestructura ($k_z=1.20$ a $1.40$ en concreto y acero) para evitar fallas bajo tierra imposibles de reparar.
+	\item \textbf{$\beta_d$ (Factor de Amortiguamiento):} Ajusta la respuesta según el amortiguamiento efectivo. Para estructuras convencionales (5\% de amortiguamiento), $\beta_d = 1.0$.
+	\item \textbf{$S_R$ (Sobre-resistencia Inherente):} Estimación técnica de la reserva de capacidad no intencional de los materiales y el sistema.
+\end{itemize}
+
+Para cada proyecto, el diseñador debe consignar obligatoriamente estos factores en los planos y en el \textbf{Informe de Diseño Estructural}.
+
+
+
+
+
+
+
+
+
+
+
+
+
+%%%____________________________________________________-
+
+
+
+
+
+\newpage
+\section{Periodo fundamental de vibración(Fórmula Empírica )}
+
+El \textbf{período fundamental de vibración ($T$)} se define como el tiempo que tarda una estructura en completar un ciclo de oscilación en su modo principal de vibración. Este parámetro es esencial para determinar la \textbf{demanda sísmica}, ya que permite ubicar a la edificación dentro del espectro de respuesta de diseño.
+
+De acuerdo con las fuentes, específicamente la norma \textbf{NSE 3}, el período se estima de forma empírica y genérica mediante la siguiente formulación:
+
+\textbf{1. Fórmula Empírica General}
+
+La expresión fundamental para el cálculo del período aproximado ($T_a$) es:
+
+\[
+T_a = K_T (h_n)^x
+\]
+
+Donde:
+
+\begin{itemize}
+	\item \textbf{$h_n$:} Es la \textbf{altura total del edificio} en metros, medida desde la base sísmica definida en la normativa.
+	\item \textbf{$K_T$ y $x$:} Son parámetros que dependen del \textbf{sistema estructural} y sus cerramientos.
+\end{itemize}
+
+\textbf{2. Parámetros según el Sistema Estructural}
+
+La normativa establece cinco casos específicos para asignar los valores de $K_T$ y $x$:
+
+\begin{enumerate}
+	\item \textbf{Sistemas E2, E3, E4 o E5:} $K_T = 0.049$ y $x = 0.75$.
+	\item \textbf{Sistema E1 (Marcos de concreto reforzado) - Fachadas livianas:} $K_T = 0.047$ y $x = 0.90$. Aplica para estructuras abiertas o con fachadas de vidrio/paneles livianos y pocas particiones rígidas.
+	\item \textbf{Sistema E1 (Marcos de concreto reforzado) - Fachadas rígidas:} $K_T = 0.047$ y $x = 0.85$. Se utiliza cuando existen fachadas de mampostería reforzada o paneles prefabricados de concreto.
+	\item \textbf{Sistema E1 (Marcos de acero) - Fachadas livianas:} $K_T = 0.072$ y $x = 0.80$.
+	\item \textbf{Sistemas E3 o E4 (Acero rigidizado):} $K_T = 0.072$ y $x = 0.75$. Incluye estructuras con riostras o que no cumplen con los límites de particiones livianas.
+\end{enumerate}
+
+\textbf{3. Fórmula Alterna Opcional}
+
+Para sistemas de muros (\textbf{E2, E3 o E4}) de concreto o mampostería con una altura no mayor a \textbf{36.6 metros}, se permite opcionalmente calcular el período aproximado considerando las áreas de los muros:
+
+\[
+T_a = \frac{C_q}{\sqrt{C_w}} \, h_n^{0.85}
+\]
+
+Donde \textbf{$C_w$} es un factor que se calcula en función del área de la planta, el número de muros y las dimensiones de sus almas en la dirección de análisis.
+
+\textbf{4. Importancia y Aplicación}
+
+El período empírico tiene dos funciones críticas en el diseño:
+
+\begin{itemize}
+	\item \textbf{Carga Sísmica Estática:} Se usa directamente en el método estático para obtener el coeficiente sísmico ($C_s$).
+	\item \textbf{Calibración Dinámica:} Sirve como referente de comparación para los análisis modales. El período calculado analíticamente ($T_F$) generalmente \textbf{no puede exceder $1.4$ veces el valor de $T_a$} obtenido empíricamente para efectos de diseño.
+\end{itemize}
+
+\textbf{Ejemplo práctico:} Para un edificio de marcos de concreto (\textbf{E1}) con fachadas rígidas y una altura de \textbf{15 metros}, el período estimado sería de \textbf{0.4696 segundos}, lo que indica una estructura relativamente rígida con alta demanda de fuerza pero bajos desplazamientos.
+
+
+
+
+
+
+
+
+
+
+%%%____________________________________________________-
 	
 
-	
-	\subsection{Concepto general del período fundamental de vibración}
-	
-	El \textbf{período fundamental de vibración} de una estructura corresponde al \textbf{tiempo que tarda el sistema estructural en completar un ciclo de oscilación libre} asociado a su \textbf{modo fundamental} de vibración. Este modo representa la forma deformada dominante mediante la cual la edificación responde ante acciones dinámicas, particularmente ante solicitaciones sísmicas.
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.6\textwidth]{img1.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	
-	Desde el punto de vista de la \textbf{dinámica estructural}, el período fundamental depende principalmente de la relación entre la \textbf{masa} y la \textbf{rigidez global} de la estructura. Estructuras más rígidas tienden a presentar períodos cortos, mientras que estructuras más flexibles presentan períodos mayores. En edificaciones convencionales de varios niveles, el primer modo de vibración suele concentrar una proporción significativa de la masa total participante, por lo que el período fundamental constituye un parámetro clave para la evaluación del comportamiento sísmico global.
-	
-	% -------------------------------------------------
-	\subsection{Importancia del período fundamental en el diseño sísmico}
-	
-	La \textbf{Norma de Seguridad Estructural de Guatemala NSE-2:2024}, en el Capítulo 4 — \textit{Aspectos Sísmicos} — reconoce implícitamente la importancia del período de vibración al utilizarlo como una variable fundamental para:
-	
-	\begin{itemize}
-		\item La \textbf{ubicación de la estructura dentro del espectro sísmico de diseño}
-		\item La \textbf{determinación de las ordenadas espectrales de aceleración}
-		\item La \textbf{evaluación de las fuerzas sísmicas equivalentes}
-		\item La definición de transiciones entre \textbf{períodos cortos y largos} del espectro (parámetros $T_0$ y $T_s$)
-	\end{itemize}
-	
-	El período fundamental influye de manera directa en la \textbf{demanda sísmica} a la que se ve sometida la estructura: edificaciones con períodos cortos suelen atraer mayores aceleraciones, mientras que edificaciones con períodos más largos pueden experimentar mayores desplazamientos laterales.
-	
-	
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.8\textwidth]{img5.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	
-	
-	
-	
-	% -------------------------------------------------
-	\subsection{Métodos para la determinación del período de vibración}
-	
-	La determinación del período fundamental de una estructura puede realizarse mediante distintos enfoques:
-	
-	\begin{enumerate}
-		\item \textbf{Análisis dinámico teórico}
-		\item \textbf{Análisis dinámico modal}
-		\item \textbf{Fórmulas empíricas}
-	\end{enumerate}
-	
-	La \textbf{NSE-2:2024} permite el uso de \textbf{expresiones empíricas} para estimar el período fundamental, particularmente en etapas iniciales del diseño o cuando no se dispone de un modelo estructural detallado.
-	
-	% -------------------------------------------------
-	\subsection{Fundamento de las fórmulas empíricas del período}
-	
-	Las fórmulas empíricas se basan en la relación del comportamiento dinámico global con:
-	
-	\begin{itemize}
-		\item La \textbf{altura total de la estructura}
-		\item El \textbf{sistema estructural resistente}
-		\item El \textbf{material predominante}
-		\item La \textbf{configuración general de la edificación}
-		
-	\end{itemize}
-	
-	
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=0.8\textwidth]{img3.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	
-	
-	
-	Este enfoque ha sido adoptado por normativas internacionales como \textbf{ASCE 7} y por la \textbf{NSE-2}.
-	
-	% -------------------------------------------------
-	\subsection{Expresión empírica del período fundamental según la NSE-2:2024}
-	
-	La \textbf{NSE-2:2024} establece que el período fundamental aproximado puede estimarse mediante:
-	
-	\begin{equation}
-		T_a = C_t \cdot h_n^{\,x}
-	\end{equation}
-	
-	donde:
-	
-	\begin{itemize}
-		\item $T_a$ = período fundamental empírico (s)
-		\item $h_n$ = altura total de la edificación (m)
-		\item $C_t$, $x$ = coeficientes según el sistema estructural
-	\end{itemize}
-	
-	
-	
-	
-		\begin{figure}[H]
-		\centering
-		\includegraphics[width=1.1\textwidth]{img4.png}
-		
-		\label{fig:mi_imagen}
-	\end{figure}
-	
-	
-	% -------------------------------------------------
-	\subsection{Alcance y limitaciones de la fórmula empírica}
-	
-	La fórmula empírica constituye una \textbf{aproximación preliminar} y no considera irregularidades ni efectos locales de rigidez. En proyectos de mayor complejidad, la \textbf{NSE-3} exige análisis dinámicos más detallados.
-	
 
-	
-	
-	
-	
-	
-	
-	
 			
 	\newpage
 	% ----------------------------------

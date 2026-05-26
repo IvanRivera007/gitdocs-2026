@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  24 MAY 2026 17:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.26)  25 MAY 2026 05:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"./segundaparte ANTEPROYECTO.tex"
-(segundaparte ANTEPROYECTO.tex
+**"./Segunda Tarea Grupo 6.tex"
+(Segunda Tarea Grupo 6.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
 (C:\Users\Ivan\AppData\Roaming\MiKTeX\tex/latex/extsizes\extarticle.cls
@@ -542,32 +542,13 @@ File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count329
 )
-(segundaparte ANTEPROYECTO.aux
+(Segunda Tarea Grupo 6.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 11.
-
-
-LaTeX Warning: Label `fig:mi_imagen' multiply defined.
-
-
-LaTeX Warning: Label `fig:mi_imagen' multiply defined.
-
-
-LaTeX Warning: Label `fig:mi_imagen' multiply defined.
-
-
-LaTeX Warning: Label `fig:mi_imagen' multiply defined.
-
-
-LaTeX Warning: Label `fig:mi_imagen' multiply defined.
-
-
-LaTeX Warning: Label `fig:mi_imagen' multiply defined.
-
 )
-\openout1 = `"segundaparte ANTEPROYECTO.aux"'.
+\openout1 = `"Segunda Tarea Grupo 6.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
 LaTeX Font Info:    ... okay on input line 68.
@@ -666,17 +647,17 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
 Package hyperref Info: Link coloring ON on input line 68.
 
-(segundaparte ANTEPROYECTO.out) (segundaparte ANTEPROYECTO.out)
+(Segunda Tarea Grupo 6.out) (Segunda Tarea Grupo 6.out)
 \@outlinefile=\write3
-\openout3 = `"segundaparte ANTEPROYECTO.out"'.
+\openout3 = `"Segunda Tarea Grupo 6.out"'.
 
-<Caratula/Caratulaanteproyecto.pdf, id=170, 614.295pt x 794.97pt>
+<Caratula/Caratulaanteproyecto.pdf, id=106, 614.295pt x 794.97pt>
 File: Caratula/Caratulaanteproyecto.pdf Graphic file (type pdf)
 <use Caratula/Caratulaanteproyecto.pdf>
 Package pdftex.def Info: Caratula/Caratulaanteproyecto.pdf  used on input line 
 70.
 (pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
-<Caratula/Caratulaanteproyecto.pdf, id=172, page=1, 614.295pt x 794.97pt>
+<Caratula/Caratulaanteproyecto.pdf, id=108, page=1, 614.295pt x 794.97pt>
 File: Caratula/Caratulaanteproyecto.pdf Graphic file (type pdf)
 <use Caratula/Caratulaanteproyecto.pdf, page 1>
 Package pdftex.def Info: Caratula/Caratulaanteproyecto.pdf , page1 used on inpu
@@ -709,13 +690,12 @@ t line 70.
 
 {C:/Users/Ivan/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Fil
 es/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <./Caratula/Caratulaanteproyecto.pdf>] 
-(segundaparte ANTEPROYECTO.toc
+(Segunda Tarea Grupo 6.toc
 LaTeX Info: Redefining \. on input line 1.
 LaTeX Info: Redefining \% on input line 1.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
 .
-
-(C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
+ (C:\Program Files\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
@@ -742,148 +722,171 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <10> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 2.
-
-
-[2])
+)
 \tf@toc=\write4
-\openout4 = `"segundaparte ANTEPROYECTO.toc"'.
+\openout4 = `"Segunda Tarea Grupo 6.toc"'.
 
 
+
+[2{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}]
 
 [3]
 
 [4]
-
-[5{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/M
-iKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-<./Imagenes/E1.png, id=326, 317.68687pt x 137.01187pt>
-File: ./Imagenes/E1.png Graphic file (type png)
-<use ./Imagenes/E1.png>
-Package pdftex.def Info: ./Imagenes/E1.png  used on input line 138.
-(pdftex.def)             Requested size: 375.80574pt x 162.09073pt.
+<im1.png, id=238, 386.94562pt x 263.48438pt>
+File: im1.png Graphic file (type png)
+<use im1.png>
+Package pdftex.def Info: im1.png  used on input line 131.
+(pdftex.def)             Requested size: 328.82733pt x 223.91049pt.
 
 
-[6 <./Imagenes/E1.png>]
-
-[7]
-<./Imagenes/E2.png, id=337, 605.26125pt x 230.36063pt>
-File: ./Imagenes/E2.png Graphic file (type png)
-<use ./Imagenes/E2.png>
-Package pdftex.def Info: ./Imagenes/E2.png  used on input line 183.
-(pdftex.def)             Requested size: 469.75539pt x 178.78773pt.
+[5]
+<im2.png, id=244, 550.30594pt x 358.33875pt>
+File: im2.png Graphic file (type png)
+<use im2.png>
+Package pdftex.def Info: im2.png  used on input line 150.
+(pdftex.def)             Requested size: 328.82733pt x 214.12459pt.
 
 
-[8 <./Imagenes/E2.png>]
-<./Imagenes/E3.png, id=342, 572.1375pt x 246.9225pt>
-File: ./Imagenes/E3.png Graphic file (type png)
-<use ./Imagenes/E3.png>
-Package pdftex.def Info: ./Imagenes/E3.png  used on input line 223.
-(pdftex.def)             Requested size: 469.75539pt x 202.73772pt.
+[6 <./im1.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+63.
+ (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+[7{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc} <./im2.png>]
+<im3.png, id=257, 642.90187pt x 457.71pt>
+File: im3.png Graphic file (type png)
+<use im3.png>
+Package pdftex.def Info: im3.png  used on input line 173.
+(pdftex.def)             Requested size: 328.82733pt x 234.11345pt.
 
 
-[9]
-
-[10 <./Imagenes/E3.png>]
-<./Imagenes/E4.png, id=351, 457.71pt x 307.1475pt>
-File: ./Imagenes/E4.png Graphic file (type png)
-<use ./Imagenes/E4.png>
-Package pdftex.def Info: ./Imagenes/E4.png  used on input line 258.
-(pdftex.def)             Requested size: 281.8561pt x 189.14532pt.
+[8 <./im3.png>]
+<im4.png, id=263, 602.25pt x 296.60812pt>
+File: im4.png Graphic file (type png)
+<use im4.png>
+Package pdftex.def Info: im4.png  used on input line 196.
+(pdftex.def)             Requested size: 328.82733pt x 161.9537pt.
 
 
-[11 <./Imagenes/E4.png>]
-<./Imagenes/E5.png, id=356, 386.94562pt x 170.13562pt>
-File: ./Imagenes/E5.png Graphic file (type png)
-<use ./Imagenes/E5.png>
-Package pdftex.def Info: ./Imagenes/E5.png  used on input line 289.
-(pdftex.def)             Requested size: 375.80574pt x 165.23903pt.
+[9{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./im4.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 221.
 
 
-[12 <./Imagenes/E5.png>]
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 221.
+
+
+
+[10]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 229.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 229.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 229.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 229.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 229.
+
+
+
+[11]
+<im5.png, id=281, 621.07031pt x 277.035pt>
+File: im5.png Graphic file (type png)
+<use im5.png>
+Package pdftex.def Info: im5.png  used on input line 248.
+(pdftex.def)             Requested size: 328.82733pt x 146.67566pt.
+
+
+[12 <./im5.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 279.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 279.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 279.
+
+
 
 [13]
+<im6.png, id=302, 408.77719pt x 155.07938pt>
+File: im6.png Graphic file (type png)
+<use im6.png>
+Package pdftex.def Info: im6.png  used on input line 308.
+(pdftex.def)             Requested size: 304.15273pt x 115.39346pt.
+<im7.png, id=303, 397.485pt x 144.54pt>
+File: im7.png Graphic file (type png)
+<use im7.png>
+Package pdftex.def Info: im7.png  used on input line 317.
+(pdftex.def)             Requested size: 304.15273pt x 110.60359pt.
 
-[14]
 
-[15]
+[14 <./im6.png>]
+
+[15 <./im7.png>]
 
 [16]
 
 [17]
+<im8.png, id=327, 478.78876pt x 495.35063pt>
+File: im8.png Graphic file (type png)
+<use im8.png>
+Package pdftex.def Info: im8.png  used on input line 364.
+(pdftex.def)             Requested size: 217.2529pt x 224.76509pt.
 
-[18]
 
-[19]
+[18{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+
+[19 <./im8.png>]
 
 [20]
 
 [21]
-Overfull \hbox (8.7538pt too wide) in paragraph at lines 550--551
-[]\T1/lmr/m/n/14.4 Como los des-pla-za-mien-tos que arro-ja la compu-tado-ra so
-n "fic-ti-cios"(basados
- []
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 407.
 
 
-Overfull \hbox (6.21455pt too wide) in paragraph at lines 578--579
-\T1/lmr/m/n/14.4 amor-ti-gua-mien-to efec-ti-vo. Pa-ra es-truc-tu-ras con-ven-c
-io-na-les (5$ $% de amor-
- []
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\rho' on input line 407.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 407.
 
 
 
-[22{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+[22]
 
 [23]
 
-[24]
-
-[25]
-
-[26]
-<./Imagenes/niveles.png, id=430, 481.8pt x 231.86626pt>
-File: ./Imagenes/niveles.png Graphic file (type png)
-<use ./Imagenes/niveles.png>
-Package pdftex.def Info: ./Imagenes/niveles.png  used on input line 686.
-(pdftex.def)             Requested size: 422.77698pt x 203.46623pt.
-
-
-[27 <./Imagenes/niveles.png>]
-
-[28]
-<./Imagenes/tabla.png, id=440, 731.73375pt x 208.52907pt>
-File: ./Imagenes/tabla.png Graphic file (type png)
-<use ./Imagenes/tabla.png>
-Package pdftex.def Info: ./Imagenes/tabla.png  used on input line 737.
-(pdftex.def)             Requested size: 563.70502pt x 160.65378pt.
-
-Overfull \hbox (93.94963pt too wide) in paragraph at lines 737--738
- [][] 
- []
-
-
-
-[29 <./Imagenes/tabla.png>]
-
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 829--830
-
- []
-
-
-
-[31] (segundaparte ANTEPROYECTO.bbl
+[24] (Segunda Tarea Grupo 6.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 )
-Overfull \hbox (7.5035pt too wide) in paragraph at lines 858--859
-\T1/lmr/m/it/14.4 Nor-ma de se-gu-ri-dad es-truc-tu-ral NSE 1: Car-gas pa-ra di
--se-ño es-truc-tu-ral\T1/lmr/m/n/14.4 . AGIES. 
- []
 
-
-
-[32] (segundaparte ANTEPROYECTO.aux
+[25] (Segunda Tarea Grupo 6.aux
 LaTeX Info: Redefining \. on input line 11.
 LaTeX Info: Redefining \% on input line 11.
 )
@@ -891,31 +894,27 @@ LaTeX Info: Redefining \% on input line 11.
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `"segundaparte ANTEPROYECTO".out' has not cha
-nged.
-(rerunfilecheck)             Checksum: CDB65A50D509B33DBFD985DD34C339AB;11432.
+Package rerunfilecheck Info: File `"Segunda Tarea Grupo 6".out' has not changed
+.
+(rerunfilecheck)             Checksum: CF5A4A36CB7A6B6CFB23E0DC67930492;6302.
  ) 
 Here is how much of TeX's memory you used:
- 14774 strings out of 468133
- 233983 string characters out of 5440789
- 686425 words of memory out of 5000000
- 43079 multiletter control sequences out of 15000+600000
- 664181 words of font info for 60 fonts, out of 8000000 for 9000
+ 14769 strings out of 468133
+ 233259 string characters out of 5440789
+ 684417 words of memory out of 5000000
+ 43086 multiletter control sequences out of 15000+600000
+ 664556 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,17n,79p,719b,856s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,17n,79p,742b,665s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/M
 iKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
 lic/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/
 Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/f
 onts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/
 lmsy10.pfb>
-Output written on "segundaparte ANTEPROYECTO.pdf" (32 pages, 1710847 bytes).
+Output written on "Segunda Tarea Grupo 6.pdf" (25 pages, 3682542 bytes).
 PDF statistics:
- 520 PDF objects out of 1000 (max. 8388607)
- 88 named destinations out of 1000 (max. 500000)
- 387 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 424 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 264 words of extra memory for PDF output out of 10000 (max. 10000000)
 
