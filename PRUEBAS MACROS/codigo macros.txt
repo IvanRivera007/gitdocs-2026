@@ -1,0 +1,56 @@
+Sub ColumnasAVariasFilasSinEspacios_Limpio()
+
+    Dim wsOrigen As Worksheet
+    Dim wsDestino As Worksheet
+    Dim filaOrigen As Long
+    Dim colOrigen As Long
+    Dim colDestino As Long
+    Dim ultimaFila As Long
+    Dim texto As String
+    
+    Set wsOrigen = Sheets("Hoja1")
+    Set wsDestino = Sheets("Hoja2")
+    
+    ' Recorrer columnas A hasta Z
+    For colOrigen = 1 To 26
+        
+        colDestino = 1
+        
+        ultimaFila = wsOrigen.Cells(wsOrigen.Rows.Count, colOrigen).End(xlUp).Row
+        
+        For filaOrigen = 1 To ultimaFila
+            
+            If Trim(wsOrigen.Cells(filaOrigen, colOrigen).Value) <> "" Then
+                
+                texto = wsOrigen.Cells(filaOrigen, colOrigen).Value
+                
+                ' LIMPIAR TEXTO
+                texto = Replace(texto, "expediente:", "")
+                texto = Replace(texto, "propietario:", "")
+                texto = Replace(texto, "direccion:", "")
+                texto = Replace(texto, "fecha_ingreso:", "")
+                texto = Replace(texto, "fecha_de_inspeccion:", "")
+                texto = Replace(texto, "expediente_de_referencia:", "")
+                texto = Replace(texto, "INSPECTOR:", "")
+                texto = Replace(texto, "ZONA:", "")
+                
+                texto = Trim(texto)
+                
+                ' ? FORMATEAR FECHA SI ES FECHA
+                If IsDate(texto) Then
+                    texto = Format(CDate(texto), "dd/mm/yyyy")
+                End If
+                
+                ' Pegar desde fila 2 en adelante
+                wsDestino.Cells(colOrigen + 1, colDestino).Value = texto
+                colDestino = colDestino + 1
+                
+            End If
+            
+        Next filaOrigen
+        
+    Next colOrigen
+
+    MsgBox "Datos limpios y copiados"
+
+End Sub
