@@ -1,0 +1,31 @@
+
+Sub CrearBotonEnR2()
+
+    Dim ws As Worksheet
+    Dim boton As Shape
+    
+    Set ws = ThisWorkbook.Sheets("Hoja3")
+    
+    ' Eliminar botón si ya existe
+    On Error Resume Next
+    ws.Shapes("btnCrearFAC").Delete
+    On Error GoTo 0
+    
+    ' Crear botón en R2
+    Set boton = ws.Shapes.AddFormControl( _
+        Type:=xlButtonControl, _
+        Left:=ws.Range("R2").Left, _
+        Top:=ws.Range("R2").Top, _
+        Width:=ws.Range("R2").Width, _
+        Height:=ws.Range("R2").Height)
+    
+    ' Configurar botón
+    With boton
+        .Name = "btnCrearFAC"
+        .OnAction = "CrearCopiaFAC"
+        .TextFrame.Characters.Text = "Crear FAC"
+    End With
+
+    MsgBox "? Botón creado en R2", vbInformation
+
+End Sub

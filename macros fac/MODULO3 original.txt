@@ -1,0 +1,102 @@
+
+Sub CrearCopiaFAC()
+
+    On Error GoTo ErrorHandler
+
+    Dim wsOrigen As Worksheet
+    Dim wsDestino As Worksheet
+    Dim wbDestino As Workbook
+    Dim rutaPlantilla As String
+    Dim rutaGuardar As String
+    Dim nombre As String
+    Dim datoD2 As String
+    Dim archivoAbierto As Boolean
+    Dim wb As Workbook
+    
+    Set wsOrigen = ThisWorkbook.Sheets("Hoja3")
+    
+    ' Validar datos
+    nombre = Trim(wsOrigen.Range("C2").Value)
+    datoD2 = wsOrigen.Range("D2").Value
+    
+    If nombre = "" Then
+        MsgBox "?? El campo C2 (nombre) está vacío", vbExclamation
+        Exit Sub
+    End If
+    
+    ' Rutas (CORREGIDAS)
+    rutaPlantilla = "D:\Ubicacion C a D\Documentos\gitdocs-2026\macros fac\FAC.xlsx"
+    rutaGuardar = "D:\Ubicacion C a D\Documentos\gitdocs-2026\macros fac\FAC_" & nombre & ".xlsx"
+    
+    ' -------------------------------
+    ' ?? VERIFICAR SI ARCHIVO YA ESTÁ ABIERTO
+    ' -------------------------------
+    archivoAbierto = False
+    
+    For Each wb In Workbooks
+        If wb.FullName = rutaGuardar Then
+            Set wbDestino = wb
+            archivoAbierto = True
+            Exit For
+        End If
+    Next wb
+    
+    ' -------------------------------
+    ' ?? SI NO ESTÁ ABIERTO
+    ' -------------------------------
+    If archivoAbierto = False Then
+        
+        ' Si no existe ? crear desde plantilla
+        If Dir(rutaGuardar) = "" Then
+            
+            ' Verificar que exista la plantilla
+            If Dir(rutaPlantilla) = "" Then
+                MsgBox "? No se encontró la plantilla: " & rutaPlantilla, vbCritical
+                Exit Sub
+            End If
+            
+            Set wbDestino = Workbooks.Open(rutaPlantilla)
+            
+            Application.DisplayAlerts = False
+            wbDestino.SaveAs rutaGuardar
+            Application.DisplayAlerts = True
+            
+        Else
+            ' Si existe ? abrirlo
+            Set wbDestino = Workbooks.Open(rutaGuardar)
+        End If
+        
+    End If
+    
+    ' -------------------------------
+    ' ?? ACTUALIZAR DATOS
+    ' -------------------------------
+    
+    ' Verificar hoja
+    On Error Resume Next
+    Set wsDestino = wbDestino.Sheets("FACTIBILIDAD")
+    On Error GoTo ErrorHandler
+    
+    If wsDestino Is Nothing Then
+        MsgBox "? No existe la hoja 'FACTIBILIDAD'", vbCritical
+        Exit Sub
+    End If
+    
+    wsDestino.Range("D9").Value = datoD2
+    
+    ' Guardar cambios
+    wbDestino.Save
+    
+    ' Activar archivo
+    wbDestino.Activate
+    wsDestino.Activate
+    
+    MsgBox "? Archivo actualizado correctamente", vbInformation
+
+    Exit Sub
+
+' ? ERROR MEJORADO (ESTO ES LO IMPORTANTE)
+ErrorHandler:
+    MsgBox "? Error #" & Err.Number & vbCrLf & Err.Description, vbCritical
+
+End Sub
