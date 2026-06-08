@@ -1,0 +1,8 @@
+
+
+
+...............................
+
+=SI.ERROR(INDICE(tabla!I4:I11; COINCIDIR(G22; tabla!G4:G11; 0)); "NO ENCONTRADO")
+
+.................................
