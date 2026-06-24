@@ -1,0 +1,125 @@
+%% Created by Maple 12.0, Windows Vista
+%% Source Worksheet: segundo ejemplo maple.mw
+%% Generated: Sun Jun 21 10:47:43 CST 2026
+\documentclass{article}
+\usepackage{maplestd2e}
+\def\emptyline{\vspace{12pt}}
+\begin{document}
+\pagestyle{empty}
+\DefineParaStyle{Maple Heading 1}
+\DefineParaStyle{Maple Text Output}
+\DefineParaStyle{Maple Dash Item}
+\DefineParaStyle{Maple Bullet Item}
+\DefineParaStyle{Maple Normal}
+\DefineParaStyle{Maple Heading 4}
+\DefineParaStyle{Maple Heading 3}
+\DefineParaStyle{Maple Heading 2}
+\DefineParaStyle{Maple Warning}
+\DefineParaStyle{Maple Title}
+\DefineParaStyle{Maple Error}
+\DefineCharStyle{Maple Hyperlink}
+\DefineCharStyle{Maple 2D Math}
+\DefineCharStyle{Maple Maple Input}
+\DefineCharStyle{Maple 2D Output}
+\DefineCharStyle{Maple 2D Input}
+\begin{maplegroup}
+\begin{mapleinput}
+\mapleinline{active}{2d}{restart}{\[{\it restart}\]}
+\end{mapleinput}
+\end{maplegroup}
+\begin{maplegroup}
+\begin{mapleinput}
+\mapleinline{active}{2d}{edo := diff(y(x), x, x)+.447^2*y(x) = 0; 1}{\[\]}
+\end{mapleinput}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{edo := diff(y(x), x, x)+.199809*y(x) = 0}{\[\displaystyle {\it edo}\, := \,{\frac {d^{2}}{d{x}^{2}}}y \left( x \right) + 0.199809\,y \left( x \right) =0\]}
+\end{maplelatex}
+\end{maplegroup}
+\begin{maplegroup}
+\begin{mapleinput}
+\mapleinline{active}{2d}{cond := y(0) = 1, (D(y))(0) = 2; 1}{\[\]}
+\end{mapleinput}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{cond := y(0) = 1, (D(y))(0) = 2}{\[\displaystyle {\it cond}\, := \,y \left( 0 \right) =1,\,\mbox {D} \left( y \right)  \left( 0 \right) =2\]}
+\end{maplelatex}
+\end{maplegroup}
+\begin{maplegroup}
+\begin{mapleinput}
+\mapleinline{active}{2d}{sol := dsolve({edo, cond}, y(x)); 1}{\[\]}
+\end{mapleinput}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{sol := y(x) = (2000/447)*sin((447/1000)*x)+cos((447/1000)*x)}{\[\displaystyle {\it sol}\, := \,y \left( x \right) ={\frac {2000}{447}}\,\sin \left( {\frac {447}{1000}}\,x \right) \\
+\mbox{}+\cos \left( {\frac {447}{1000}}\,x \right) \]}
+\end{maplelatex}
+\end{maplegroup}
+\begin{maplegroup}
+\begin{mapleinput}
+\mapleinline{active}{2d}{des := rhs(sol); 1}{\[\]}
+\end{mapleinput}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{des := (2000/447)*sin((447/1000)*x)+cos((447/1000)*x)}{\[\displaystyle {\it des}\, := \,{\frac {2000}{447}}\,\sin \left( {\frac {447}{1000}}\,x \right) +\cos \left( {\frac {447}{1000}}\,x \right) \]}
+\end{maplelatex}
+\end{maplegroup}
+\begin{maplegroup}
+\begin{mapleinput}
+\mapleinline{active}{2d}{vel := diff(des, x); 1}{\[\]}
+\end{mapleinput}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{vel := 2*cos((447/1000)*x)-(447/1000)*sin((447/1000)*x)}{\[\displaystyle {\it vel}\, := \,2\,\cos \left( {\frac {447}{1000}}\,x \right) -{\frac {447}{1000}}\,\sin \left( {\frac {447}{1000}}\,x \right) \]}
+\end{maplelatex}
+\end{maplegroup}
+\begin{maplegroup}
+\begin{mapleinput}
+\mapleinline{active}{2d}{acel := diff(des, `$`(x, 2)); 1}{\[\]}
+\end{mapleinput}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{acel := -(447/500)*sin((447/1000)*x)-(199809/1000000)*cos((447/1000)*x)}{\[\displaystyle {\it acel}\, := \,-{\frac {447}{500}}\,\sin \left( {\frac {447}{1000}}\,x \right) -{\frac {199809}{1000000}}\,\cos \left( {\frac {447}{1000}}\\
+\mbox{}\,x \right) \]}
+\end{maplelatex}
+\end{maplegroup}
+\begin{maplegroup}
+\begin{mapleinput}
+\mapleinline{active}{2d}{ur := 2.4504; 1}{\[\]}
+\end{mapleinput}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{ur := 2.4504}{\[\displaystyle {\it ur}\, := \, 2.4504\]}
+\end{maplelatex}
+\end{maplegroup}
+\begin{maplegroup}
+\begin{mapleinput}
+\mapleinline{active}{2d}{vmax := 2.05; 1}{\[\]}
+\end{mapleinput}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{vmax := 2.05}{\[\displaystyle {\it vmax}\, := \, 2.05\]}
+\end{maplelatex}
+\end{maplegroup}
+\begin{maplegroup}
+\begin{mapleinput}
+\mapleinline{active}{2d}{amax := .916; 1}{\[\]}
+\end{mapleinput}
+\mapleresult
+\begin{maplelatex}
+\mapleinline{inert}{2d}{amax := .916}{\[\displaystyle {\it amax}\, := \, 0.916\]}
+\end{maplelatex}
+\end{maplegroup}
+\begin{maplegroup}
+\begin{mapleinput}
+\mapleinline{active}{2d}{plot([des, vel, acel, ur, vmax, amax], x = 0 .. 20, y = -5 .. 5, color = [blue, red, green, orange, orange, orange], legend = ["u(t)", "u'(t)", "u''(t)", "ur", "vmax", "amax"], title = "Vibración libre sin amortiguamiento", gridlines = true); 1}{\[\]}
+\end{mapleinput}
+\mapleresult
+\mapleplot{ejemplo2plot2d1.eps}
+\end{maplegroup}
+\begin{maplegroup}
+\begin{mapleinput}
+\mapleinline{active}{2d}{}{\[\]}
+\end{mapleinput}
+\end{maplegroup}
+\end{document}

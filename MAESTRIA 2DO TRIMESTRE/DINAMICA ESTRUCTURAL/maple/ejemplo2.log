@@ -1,0 +1,148 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=latex 2026.6.21)  21 JUN 2026 11:21
+entering extended mode
+ restricted \write18 enabled.
+ Source specials enabled.
+ %&-line parsing enabled.
+**./ejemplo2.tex
+(ejemplo2.tex
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-20>
+(C:\Program Files\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+) (maplestd2e.sty
+Package: maple2e 2005/03/17 v1.16
+Package: maplestd2e 2005/03/17 maple2eMaple Latex Style Package -- 2005/03/17 m
+aple2e
+Defining Maple Utility Macros
+\@MapleTabSize=\dimen149
+\MapleListCorrection=\toks17
+(mapleenv.def
+\AboveMapleSkip=\skip51
+\BelowMapleSkip=\skip52
+\LeftMapleSkip=\dimen150
+\AboveMaplePlot=\skip53
+\BelowMaplePlot=\skip54
+\MaplePlotHeight=\dimen151
+\MaplePlotWidth=\dimen152
+\MaplePlotHeight@Fudge=\dimen153
+\MaplePlotWidth@Fudge=\dimen154
+\MapleSepLineWidth=\dimen155
+\MapleTab=\count283
+\MaplePromptString=\toks18
+\MaplePromptSecondary=\toks19
+\MapleSepLineHeight=\dimen156
+)
+\newleftskip=\skip55
+\mapleinputbox=\box53
+\maplebox=\box54
+\Tab=\dimen157
+\@inlinebox=\box55
+\cellwidth=\dimen158
+
+Defining Maple Plot Environemnts
+ ...Defaults to "dvips" Driver 
+(C:\Program Files\MiKTeX\tex/latex/graphics\epsfig.sty
+Package: epsfig 2024/01/14 v1.7b (e)psfig emulation (SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvips.def on input line 106.
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\dvips.def
+File: dvips.def 2022/09/22 v3.1e Graphics/color driver for dvips
+))
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
+)
+\epsfxsize=\dimen161
+\epsfysize=\dimen162
+)
+Defining Automatic Style Generation Macros
+\maplettybox=\box56
+Defining Maple Spreadsheet Environments
+Maple Spreadsheet and Table Support
+\multilinesep=\dimen163
+\@linebuffer=\box57
+\@currentline=\box58
+\@linebufferwidth=\dimen164
+\EndMultiLine=\toks21
+) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-dvips.def
+File: l3backend-dvips.def 2025-06-09 L3 backend support: dvips
+\l__pdfannot_backend_content_box=\box59
+\l__pdfannot_backend_model_box=\box60
+\g__pdfannot_backend_int=\count284
+\g__pdfannot_backend_link_int=\count285
+\g__pdfannot_backend_link_sf_int=\count286
+)
+(ejemplo2.aux)
+\openout1 = `ejemplo2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 27.
+
+ ...including Plot ejemplo2plot2d1.eps at size 310.4979pt by 224.59534pt
+File: ejemplo2plot2d1.eps Graphic file (type eps)
+<ejemplo2plot2d1.eps>
+
+[1
+
+] (ejemplo2.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-07-20>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 1155 strings out of 468134
+ 19489 string characters out of 5440815
+ 439298 words of memory out of 5000000
+ 29821 multiletter control sequences out of 15000+600000
+ 628037 words of font info for 44 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 90i,5n,96p,321b,192s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on ejemplo2.dvi (1 page, 2320 bytes).

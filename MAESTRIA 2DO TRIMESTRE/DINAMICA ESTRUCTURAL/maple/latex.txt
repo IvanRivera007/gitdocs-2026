@@ -1,0 +1,184 @@
+Printing and Viewing Maple LaTeX Documents
+==========================================
+
+
+To format and print documents exported (or saved) as LaTeX from Maple
+worksheets you require access to a standard version of LaTeX (LaTeX2e)
+and the LaTeX style package "maple2e". The style package is located in
+the Etc subdirectory or folder where Maple is installed.
+
+Copy the contents of the Etc directory under your Maple V installation
+into the same directory (or folder) as the latex file you wish to
+process.  Processing your file with LaTeX creates a .dvi file.  If
+LaTeX reports that it is unable to locate the file "maple2e.sty", then
+consult your LaTeX installation instructions for the location to place
+new macro definitions.
+
+
+Document Structure
+------------------
+
+An exported "Maple to LaTeX" document is structured as described below.  
+
+The document preamble contains the following command which instructs LaTeX
+to use the "maple2e" package.  The document class can be changed.
+
+	\documentclass[fullpage,11pt]{article}  % a standard latex style
+    	\usepackage{maple2e}
+
+
+The macro definitions for "maple2e" define the various environments used in the
+LaTeX documents produced by Maple.  They include definitions for the following
+special environments
+
+	\begin{mapleinput}  ... \end{mapleinput}
+ 	\begin{maplettyout} ... \end{maplettyout}
+	\begin{maplelatex}  ... \end{maplelatex}
+ 
+and the LaTeX macro
+
+	\mapleplot{...}
+
+which is used to include Maple plots.
+
+The LaTeX macro "\mapleinline" is used to encode Maple's 2-D inline math
+displays.  For example, 
+
+	\mapleinline{inert}{2d}{sin(x^2);}{$\sin(x^2)$}
+
+corresponds to an inert Maple expression that appears in the Maple
+worksheet in 2-D mode. The Maple command sin(x^2) is displayed in 
+LaTeX by "$\sin(x^2)$".
+
+When Maple needs to break lines in the middle of a large math expression
+it makes use of the macro  \maplemultiline{...} to separate and encode the
+lines. It takes the form
+
+        \maplemultiline{a + b\\c + d\\}
+
+where \\ denotes the end of each line. There must be one occurrence of
+\\ for each line and there must be no space after the last \\.
+
+Maple spreadsheets are exported to a special tabular environment:
+        \begin{maplespreadsheet}...\end{maplespreadsheet}
+
+Typical usage is of the form
+
+	\begin{maplespreadsheet}[table01.tab]{|c|c|c|}
+	\hline
+	\mapleinline{active}{2d}{sin(x);}{...}{%
+	...}
+	&
+	\mapleinline{active}{2d}{sin(x);}{...}{%
+	...}
+	\\
+	\hline
+	\mapleinline{active}{2d}{sin(x);}{...}{%
+	...}
+	&
+	\mapleinline{active}{2d}{sin(x);}{...}{%
+	...}
+	\\
+	\end{maplespreadsheet}
+
+where the optional argument table01.tab refers to a file containing a
+specially encoded version of the table used by techexplorer to load
+the table into an active session.  The third argument of each
+mapleinline contains the actual code while the fourth argument is
+actually displayed.  The fourth argument may be a call to
+\maplemultiline.
+
+
+Defined Styles
+--------------
+
+The document preamble also includes macros that define the LaTeX 
+appearance of Maple's worksheet styles.  Maple's default styles are all
+pre-defined in a manner which approximates their appearance in the 
+worksheet.
+
+Some examples of such automatically generated LaTeX definitions are
+
+% Named Maple Paragraph Styles
+\newenvironment{Normal}{\normalsize\rmfamily\mdseries}{}
+\newenvironment{Text Output}{\normalsize\ttfamily\mdseries}{}
+\newenvironment{Title}{\begin{center}\rmfamily\Large\bfseries\upshape}%
+{\end{center}}
+
+% Named Maple Character styles
+ \newenvironment{Warning}{\ttfamily}{}
+ \def\HyperLink#1{{\normalsize\rmfamily\itshape #1}}
+
+Character style names with blanks in them require a special encoding
+in LaTeX, but are handled in much the same manner.
+
+In addition, placeholder LaTeX macro definitions are included for each
+user-defined Maple style.  The placeholder LaTeX macros cause all
+user-defined styles to appear as normal text, but they are easily
+customized (by editing the source document) to achieve special effects 
+in LaTeX.   For example, the user-defined Maple character style 
+"Special Text" might initially appear in the LaTeX document preamble 
+as
+
+	\expandafter\def\csname Special Text\endcsname#1{%
+	{\normalsize\rmfamily\mdseries #1}}
+
+This character style definition can be edited directly to use large 
+italic by changing it to read
+
+	\expandafter\def\csname Special Text\endcsname#1{%
+	{\large\rmfamily\itshape #1}}
+
+
+Changing Overall Layout Parameters 
+----------------------------------
+
+You can change the overall layout either by choosing a different
+document class, for example
+
+	\documentclass[10pt]{book}  % a standard latex style
+	\usepackage{maple2e}
+
+or by making a copy of the "maple2e.sty" file and editing some of the
+parameters that are set in that file. These parameters control properties
+such as page height and width and the amount of spacing above and below 
+Maple objects.
+
+
+Exporting Worksheets Containing Plots 
+--------------------------------------
+
+When you export a Maple worksheet containing Maple generated plots, each 
+plot is regenerated by Maple in postscript and saved to a separate file.
+The plot file names are generated automatically from the name of the 
+worksheet and numbered sequentially.
+
+A reference to the exported postscript file, such as
+
+	\mapleplot{worksheetname01.ps}
+
+is inserted into your LaTeX file at the location where the inline
+plot will appear.
+
+
+Printing LaTeX Files Containing Maple Plots
+-------------------------------------------
+
+To process a LaTeX file that contains macros of the form
+"\mapleplot{...}" LaTeX must know which dvi-to-PostScript
+conversion program is to be used.
+ 
+By default, it is assumed that the PostScript conversion program
+"dvips" is in use, but there are several other such programs to choose
+from, depending on which LaTeX installation you are using.
+
+To make use of a different dvi-to-PostScript converter, (for example, 
+"dvi2ps"), modify the "maple2e" usepackage definition in your document
+preamble to read
+
+	\usepackage[dvi2ps]{maple2e}
+
+If you do not have any dvi-to-PostScript conversion program
+installed, then modify the userpackage macro call to read
+
+	\usepackage[noplots]{maple2e}
