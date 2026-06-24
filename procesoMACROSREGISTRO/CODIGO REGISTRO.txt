@@ -1,0 +1,65 @@
+Private Sub Worksheet_Activate()
+
+    Dim wsOrigen As Worksheet
+    Dim wsDestino As Worksheet
+    Dim ultimaFila As Long
+    Dim i As Long
+    
+    Set wsOrigen = ThisWorkbook.Sheets("Hoja1")
+    Set wsDestino = ThisWorkbook.Sheets("INFORME")
+    
+    Application.ScreenUpdating = False
+    
+    ' Limpiar destino
+    wsDestino.Cells.Clear
+
+    ' Detectar última fila usada en Hoja1 (columna G como referencia)
+    ultimaFila = wsOrigen.Cells(wsOrigen.Rows.Count, "G").End(xlUp).Row
+
+    ' --- COPIAR COLUMNAS + FORMATO + ANCHO
+    
+    wsOrigen.Columns("G").Copy
+    wsDestino.Columns("A").PasteSpecial Paste:=xlPasteAll
+    wsDestino.Columns("A").ColumnWidth = wsOrigen.Columns("G").ColumnWidth
+    
+    wsOrigen.Columns("F").Copy
+    wsDestino.Columns("B").PasteSpecial Paste:=xlPasteAll
+    wsDestino.Columns("B").ColumnWidth = wsOrigen.Columns("F").ColumnWidth
+    
+    wsOrigen.Columns("H").Copy
+    wsDestino.Columns("C").PasteSpecial Paste:=xlPasteAll
+    wsDestino.Columns("C").ColumnWidth = wsOrigen.Columns("H").ColumnWidth
+    
+    wsOrigen.Columns("J").Copy
+    wsDestino.Columns("D").PasteSpecial Paste:=xlPasteAll
+    wsDestino.Columns("D").ColumnWidth = wsOrigen.Columns("J").ColumnWidth
+    
+    wsOrigen.Columns("K").Copy
+    wsDestino.Columns("E").PasteSpecial Paste:=xlPasteAll
+    wsDestino.Columns("E").ColumnWidth = wsOrigen.Columns("K").ColumnWidth
+    
+    wsOrigen.Columns("L").Copy
+    wsDestino.Columns("F").PasteSpecial Paste:=xlPasteAll
+    wsDestino.Columns("F").ColumnWidth = wsOrigen.Columns("L").ColumnWidth
+    
+    wsOrigen.Columns("A").Copy
+    wsDestino.Columns("G").PasteSpecial Paste:=xlPasteAll
+    wsDestino.Columns("G").ColumnWidth = wsOrigen.Columns("A").ColumnWidth
+    
+    wsOrigen.Columns("X").Copy
+    wsDestino.Columns("H").PasteSpecial Paste:=xlPasteAll
+    wsDestino.Columns("H").ColumnWidth = wsOrigen.Columns("T").ColumnWidth
+    
+     wsOrigen.Columns("T").Copy
+    wsDestino.Columns("I").PasteSpecial Paste:=xlPasteAll
+    wsDestino.Columns("I").ColumnWidth = wsOrigen.Columns("T").ColumnWidth
+
+    ' --- COPIAR ALTURA DE FILAS UNA POR UNA
+    For i = 1 To ultimaFila
+        wsDestino.Rows(i).RowHeight = wsOrigen.Rows(i).RowHeight
+    Next i
+
+    Application.CutCopyMode = False
+    Application.ScreenUpdating = True
+
+End Sub
