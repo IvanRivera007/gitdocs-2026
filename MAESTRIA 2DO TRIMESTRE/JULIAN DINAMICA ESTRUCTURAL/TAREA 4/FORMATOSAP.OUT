@@ -1,0 +1,18 @@
+
+
+ SAP2000 v26.3.0 Ultimate 64-bit (Analysis Build 9993/64)                       
+ File: C:\Users\Ivan\Documents...IAN DINAMICA ESTRUCTURAL\TAREA 4\FORMATOSAP.OUT
+                                                                     
+                                                                       
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+       1 TO       2    -   -   -       A    
+       3               A       A       A    
