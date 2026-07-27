@@ -1,0 +1,36 @@
+1 o 2 diapositivas:
+
+TIPOLOGIA ESTRUCTURAL: 
+
+explicar donde esta ubicado,
+tipo de estructura es.
+
+lo basico debido a que es un curso de dinamica de suelos 
+___________________________________
+
+2 estudios geotecnicos 
+explicar que pruebas se hicieron a cada cuanto, ser especifico que estudios se hicieron
+
+_____________________
+
+MODELACIÓN, si es elementos finitos que datos colocaron en elemntos finitis, fotos de como fue el  modelado, tanto de la estructura como para el suelo 
+
+___________________________
+4 diferencias interaccion con la estructura : van a encontrorar el analisis de la estructura 
+antes de incorporar la iteraccin con la etructura y despues de incoprorar la interaccion de la estructura 
+
+ej:
+cambios en modos de vibracion, mas desplazamientos, menos desplazamientos, incremento en la fuerza sismica LO MAS IMPORTANTE ES EL 4TO
+
+se utilizaron uno de los modelos que vimos en la clase
+o algunanormativa visto en clase tambien se menciona 
+
+MATRIZ DE EVALUACIÓN ANTES DE EMPEZAR LA EVALUACIÓN 
+
+
+
+• Para cada caso de studio realizar una presentación:
+• 1 .Tipología Estructural- Contexto 
+• 2. Estudios Geotécnicos-Dinámicos? 
+• 3.Modelación de la estructura (Tipo de analisis) y del suelo
+• 4. Diferencias al incorporar ISE (Modos de vibración, desplazamientos,fuerzas)
