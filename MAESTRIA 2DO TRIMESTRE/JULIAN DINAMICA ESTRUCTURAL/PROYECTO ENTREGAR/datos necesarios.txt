@@ -1,0 +1,14 @@
+acelerometro 
+
+el modelo real vs el modelo computacional (con que diseñamos) el modelo real lo que realmente esta pasando en el puente o modelo 
+
+
+hay diferenes 
+
+modelo simple:
+maquina que vibra 
+modelar cimentación y commparando esa parte 
+maqueta a escala de un edificio
+Resortes
+
+Crear propio modelo 
