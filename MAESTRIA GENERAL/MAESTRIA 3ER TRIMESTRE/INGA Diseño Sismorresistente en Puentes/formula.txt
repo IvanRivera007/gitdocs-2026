@@ -1,0 +1,1 @@
+=SI(A2<Parametros!$C$21; Parametros!$C$17+(Parametros!$C$18-Parametros!$C$17)*(A2/Parametros!$C$21); SI(A2<=Parametros!$C$20; Parametros!$C$18; Parametros!$C$19/A2))
