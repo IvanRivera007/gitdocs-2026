@@ -1,0 +1,111 @@
+Curso Diseño Sismorresistente en Puentes
+19 de septiembre de 2026•Aplicación de SharePoint•HD
+Transcripción. Use las teclas de dirección para desplazarse entre las entradas de transcripción. Seleccione una entrada para navegar por los medios hasta la hora de la entrada.
+
+
+Buscar
+
+El contenido generado por IA puede ser incorrecto
+
+Orador 1 empezó la transcripción
+
+Orador 1
+0 minutos 3 segundos0:03
+@1 0 minutos 3 segundos
+Sí.
+@1 0 minutos 6 segundos
+¿Qué es lo que tenemos?
+@1 0 minutos 11 segundos
+Aquí vimos teoría.
+@1 0 minutos 13 segundos
+3 días.
+@1 0 minutos 19 segundos
+Seguimos en la próxima ya con cálculos.
+
+Orador 2
+0 minutos 24 segundos0:24
+@2 0 minutos 24 segundos
+Pince neta, pens up.
+
+Orador 3
+0 minutos 25 segundos0:25
+@3 0 minutos 25 segundos
+Sí, ingeniera, yo considero que sí, ya sí, ya lo habíamos visto atrás.
+
+Orador 4
+0 minutos 27 segundos0:27
+@4 0 minutos 27 segundos
+Sí, está bien ahí.
+
+Orador 1
+0 minutos 28 segundos0:28
+@1 0 minutos 28 segundos
+Yeah.
+@1 0 minutos 30 segundos
+Muy.
+@1 0 minutos 31 segundos
+Sí, esta primera ya la habíamos visto. Muy bien, gracias, muy amable.
+@1 0 minutos 36 segundos
+Muchas gracias ahí por avisar.
+@1 0 minutos 40 segundos
+Entonces, como que decía.
+@1 0 minutos 44 segundos
+Para nuestro proyecto estábamos usando, vamos a usar un perfil de duelo tipo D.
+@1 0 minutos 50 segundos
+Entonces vamos a partir así paso por paso a ir viendo cada desglose. ¿Está bueno? Entonces la PG a la teníamos. Pueden revisar en el en los en los lineamientos del proyecto de que teníamos una PG a igual a 0.50.
+@1 1 minuto 9 segundos
+Un s subs igual a 1.5 sub uno igual a 0.50. Bueno, aquí les puse la secuencia, digamos, verdad, porque eso lo vimos también la vez pasada que de este nuestro parámetro.
+@1 1 minuto 29 segundos
+PG A.
+@1 1 minuto 31 segundos
+Igual a punto 50 vamos a obtener nuestro F sub PGA, verdad con las tablas. ¿Se recuerdan? Eran 3 tablitas, una tablita para cada dato.
+@1 1 minuto 44 segundos
+Y ahí interceptamos el tipo de suelo con el valor de PGA y obtenemos que F sub PGA es igual a uno, ¿verdad? Según las tablas normativas. En el siguiente es exactamente lo mismo, ¿verdad? Tenemos F sub A igual a uno.
+@1 2 minutos 5 segundos
+obtenido también de la tablita y en el s sub uno la misma situación bueno y vamos a tener un F sub v igual a 1.5 de y unir el tipo del suelo con el valor s sub uno
+@1 2 minutos 24 segundos
+Luego pasamos a las aceleraciones muy control, le vamos a llamar así a estos cálculos.
+@1 2 minutos 34 segundos
+La aceleración pico ajustada, la a su vez que.
+@1 2 minutos 40 segundos
+¿Esto es lo que tienen que ingresar ustedes exactamente así en el Excel, verdad? Vamos a ir sacando casilla. ¿Se recuerdan la tablita que teníamos hace hace una semana?
+@1 2 minutos 53 segundos
+En este orden teníamos los cálculos. Bueno, el orden no específicamente es que nos vaya a cambiar algo, ¿verdad? Si no es porque así nos van saliendo.
+@1 3 minutos 5 segundos
+¿Ingresan ustedes verdad su sus comandos? La aceleración pico ajustada viene siendo el resultado de la multiplicación de del F sub PG A por el valor de PG A. Ambos datos ya los tenemos, tenemos el resultado.
+@1 3 minutos 23 segundos
+Punto 50, lo mismo para lo demás tenemos ese sub de ese.
+@1 3 minutos 31 segundos
+en esta e usamos el factor F sub a por el s sub s para eh estructuras muy cortas obteniendo 1.25 el s sub de uno la misma situación vamos a usar
+@1 3 minutos 50 segundos
+El F sub B por F sub uno.
+@1 3 minutos 54 segundos
+y ambos datos los tenemos tendríamos de resultado punto 75 en el periodo t subs y el periodo de transición tenemos la ecuación ya en las diapositivas igual aquí pues para quienes tal vez se me perdieron un poquito o no
+@1 4 minutos 14 segundos
+Aquí está la secuencia, ¿verdad? Necesito que lo ingresen, hablen su hagan su tablita en Excel y ya luego, pues trabajan lo del espectro, ¿verdad?
+@1 4 minutos 28 segundos
+Ahora, lo creo que lo expliqué la vez pasada sobre el t sub el t, el periodo inicial, digamos, verdad, el t sub cero. En algunas de las diapositivas viene como t sub m.
+@1 4 minutos 44 segundos
+Es lo mismo, es lo mismo al té que tenemos en.
+@1 4 minutos 51 segundos
+En el Excel puede que alguno le haya tomado una capturita, lo van a ver en el video. Viene siendo el periodo inicial el que vamos a tener siempre en la columna izquierda de nuestros datos para la creación del espectro.
+@1 5 minutos 14 segundos
+YouTube.
+@1 5 minutos 19 segundos
+To be.
+@1 5 minutos 25 segundos
+Pienso que no.
+@1 5 minutos 27 segundos
+Pasamos a la siguiente.
+@1 5 minutos 30 segundos
+Aquí es prácticamente la.
+@1 5 minutos 35 segundos
+El trazo, podríamos decir, del de la gráfica del espectro de respuesta de diseño, sí.
+@1 5 minutos 44 segundos
+tenemos las tres las tres fases se recuerdan la rama ascendente que era del punto inicial hacia arriba la meseta constante pues era el tramo donde valga la redundancia está está constante no tenemos ninguna variación ni para arriba ni para abajo en todo ese tramo
+@1 6 minutos 2 segundos
+Y la rama descendente es cuando a partir de ese punto alto ya ahí ya que vimos, sí, hasta donde se forma ya nuestra nuestra curva.
+@1 6 minutos 14 segundos
+Bueno.
+@1 6 minutos 16 segundos
+Para la primera fase.

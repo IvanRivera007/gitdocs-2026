@@ -1,0 +1,110 @@
+Curso Diseño Sismorresistente en Puentes
+26 de septiembre de 2026•Aplicación de SharePoint•HD
+Transcripción. Use las teclas de dirección para desplazarse entre las entradas de transcripción. Seleccione una entrada para navegar por los medios hasta la hora de la entrada.
+
+
+Buscar
+
+El contenido generado por IA puede ser incorrecto
+
+Orador 1 empezó la transcripción
+
+Orador 1
+0 minutos 5 segundos0:05
+@1 0 minutos 5 segundos
+Vamos a compartir.
+@1 0 minutos 14 segundos
+¿Ven mi pantalla?
+
+Orador 2
+0 minutos 19 segundos0:19
+@2 0 minutos 19 segundos
+Internet.
+
+Orador 3
+0 minutos 20 segundos0:20
+@3 0 minutos 20 segundos
+A.C. sering.
+
+Orador 1
+0 minutos 21 segundos0:21
+@1 0 minutos 21 segundos
+Muy bien, gracias, muy amable.
+@1 0 minutos 25 segundos
+Bueno, como siempre vamos a ir recordando un poquito así rapidito de lo que vimos la semana pasada para que no nos perdamos y vayamos recapitulando.
+@1 0 minutos 38 segundos
+Vimos el espectro de respuesta, los factores de sitio y parámetros iniciales, pero ya no solo fue ya no fue la teoría, sino se recuerdan que fue lo de los cálculos de la tarea que se va a entregar mañana.
+@1 0 minutos 52 segundos
+Un detallado así rapidito y luego vimos una introducción del software SAP 2000 con los valores que teníamos ficticios, digamos, verdad, para fines de la clase.
+@1 1 minuto 13 segundos
+Del proyecto que van a ir armando durante el curso, solo que aquí pues asumimos y algunos de los datos, verdad que como que ya los habíamos sacado y esos hemos usado, pero realmente cuando ustedes vayan avanzando, pues ya van a ser sus propios datos los que van a usar.
+@1 1 minuto 33 segundos
+Bueno, y luego vimos.
+@1 1 minuto 38 segundos
+3 si no estoy mal de los conceptos más críticos del código ashto respecto al diseño de puentes, diseño sismorresistente de puentes, en el cual se recuerdan que hablábamos de viga fuerte, columna débil, que era pues algo contrario, ¿verdad? A lo que.
+@1 1 minuto 58 segundos
+Al diseño convencional.
+@1 2 minutos 1 segundo
+Pero en el diseño sismoresistente de puentes, pues se se maneja de esta manera, ¿verdad? Viga fuerte y columna débil, luego el momento de sobre resistencia y recuerdan que este era el.
+@1 2 minutos 17 segundos
+Al que lo multiplicamos por un factor por 1.2 si pues 1.2 para pues tener ese poquito extra que nos permitiera el buen desempeño de nuestra columna.
+@1 2 minutos 34 segundos
+¿Y de ahí vimos el cortante plástico, verdad? Sí, vimos el cortante plástico. Estos 3, pues formaron parte del de los criterios críticos. de.
+@1 2 minutos 47 segundos
+Los conceptos críticos del código.
+@1 2 minutos 49 segundos
+Y por último, vimos el mandato normativo, le llamamos, verdad que era la manera en que la norma nos exigía el procedimiento de los cálculos.
+@1 3 minutos 4 segundos
+Y pues eso fue todo, ¿verdad? Pareciera que fueron pocos puntos, pero se recuerdan que sí estuvieron así bastante amplios, ¿verdad? Más lo que vimos en el SAP, pues lo fuimos viendo despacio. Ahora, el día de hoy vamos a ver, siempre estamos en la misma línea, ¿verdad? Diseño por capacidad.
+@1 3 minutos 24 segundos
+Pero ahorita va a ser como taller analítico de sobre resistencia, le nombré así porque pues va a ser la teoría de cómo vamos trabajando los cálculos manuales.
+@1 3 minutos 38 segundos
+Lo que hicimos, lo que hicimos en la clase 2 y clase 3 y ya luego en la clase cuatro pues lo vimos representado en SAP, ¿verdad? Solo que ahorita ya entramos al diseño por capacidad. Vamos a ver primero un poco de teoría, un poco de del desarrollo de las ecuaciones y pues depende hasta donde avancemos.
+@1 4 minutos 2 segundos
+Puede que la otra clase también ya vayamos a ver un una introducción en SAP verdad del de lo que estamos viendo ahorita.
+@1 4 minutos 9 segundos
+Bye.
+@1 4 minutos 11 segundos
+Vamos a empezar.
+@1 4 minutos 16 segundos
+Con.
+@1 4 minutos 19 segundos
+Con esta diapositiva, si teoría del diseño por capacidad, taller analítico de sobre resistencia.
+@1 4 minutos 27 segundos
+El objetivo de la sesión el día de hoy, verdad que podamos, pues ejecutar este taller analítico.
+@1 4 minutos 35 segundos
+Para establecer el mandato normativo que vimos en la clase pasada del cortante plástico y así mismo, pues que podamos conectar estos resultados, ¿verdad? con el cálculo físico del refuerzo transversal, ¿verdad que serían nuestros estribos?
+@1 4 minutos 55 segundos
+Esto básicamente se va a ser parte de nuestra fase cuatro del proyecto que vamos trabajando, ¿verdad? El del curso.
+@1 5 minutos 8 segundos
+Entonces en este en esta teoría vamos como aterrizar los datos obtenidos en SAP 2000, verdad lo de la clase pasada al cálculo manual.
+@1 5 minutos 21 segundos
+Porque pues algunos de los que se obtuvieron ahí los vamos a los vamos a usar, ¿verdad?
+@1 5 minutos 28 segundos
+Así mismo, pues también se utilizan los valores de control del puente de Caltrans. Se recuerdan que platicamos eso que en el SAP ya viene esa opción de Caltrans en el software.
+@1 5 minutos 48 segundos
+¿Verdad? Entonces ahorita vamos a ir viendo cómo se enlazan, más bien, bueno.
+@1 5 minutos 55 segundos
+Para ello, pues nos guiaremos en la teoría de del de conceptos más críticos del código asto, ¿verdad? Lo los que vimos la vez pasada, los que les nombré hace rato, ¿verdad que hablábamos de viga fuerte, columna débil, momento de sobre resistencia y cortante plástico.
+@1 6 minutos 13 segundos
+Ahí los vimos, y por decirlo así, sin.
+@1 6 minutos 19 segundos
+Sin ahondar mucho en ellos, ¿verdad? Solo solo un poco de teoría.
+@1 6 minutos 23 segundos
+Y ahorita pues vamos a hablar de, tenemos algunos de los pasos que nos van a servir para ir usando ya los cálculos obtenidos del zoclo. Bueno, primero el paso uno, el límite físico a flexión, el M subpo, lo vamos a denominar así según la normativa.
+@1 6 minutos 43 segundos
+Y.
+@1 6 minutos 46 segundos
+Aquí recuérdense que lo que hicimos en la clase pasada en el software fueron los datos ficticios, ¿verdad? Los que les compartí en una guía de procedimientos de software donde asumimos ya cuántas varillas iban a hacer, qué número de varía.
+@1 7 minutos 6 segundos
+¿Cuántos, qué número de varía para estribos acá, cuánto de separación y todo eso? Sí, eso es lo que ustedes van a obtener en su fase 2, ¿verdad? Del de la bajada de cargas gravitacionales.
+@1 7 minutos 22 segundos
+Pero aquí pues yo no les puedo ir haciendo así a detalle, solo estoy asumiendo unos datos porque si no es como que yo estuviera haciendo el proyecto, ¿verdad? Y es lo que yo quiero que ustedes logren hacer, va.
+@1 7 minutos 35 segundos
+¿Recuerdan que obtuvimos el momento plástico?
+@1 7 minutos 41 segundos
+¿Que se recuerdan que una compañera de ustedes se me dijo, hice todo como lo viene haciendo usted, verdad? En la clase y le varió por algunas cosas, unos factores, ¿verdad? Pero eso puede pasar. Aclaramos que era por la.
+@1 7 minutos 58 segundos
+Algo así como que por la capacidad del software de responder y de enlazar. Entonces no habría problema. O sea, ya creo que aclaramos eso de que tal vez los datos van a variar un poco, pero ya va a depender de su software.
+
+

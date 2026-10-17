@@ -1,0 +1,177 @@
+Curso Diseño Sismorresistente en Puentes
+3 de octubre de 2026
+
+747 días
+•4 visualizaciones•Aplicación de SharePoint•HD
+Transcripción. Use las teclas de dirección para desplazarse entre las entradas de transcripción. Seleccione una entrada para navegar por los medios hasta la hora de la entrada.
+
+
+Buscar
+
+El contenido generado por IA puede ser incorrecto
+
+Colomo De León Cindy Carolina empezó la transcripción
+C
+
+Colomo De León Cindy Carolina
+0 minutos 13 segundos0:13
+Colomo De León Cindy Carolina 0 minutos 13 segundos
+¿Ven mi pantalla?
+H
+
+Hernández Argueta Julio Alfonso
+0 minutos 18 segundos0:18
+Hernández Argueta Julio Alfonso 0 minutos 18 segundos
+She said it.
+C
+
+Colomo De León Cindy Carolina
+0 minutos 20 segundos0:20
+Colomo De León Cindy Carolina 0 minutos 20 segundos
+Muy bien, muchas gracias.
+Colomo De León Cindy Carolina 0 minutos 25 segundos
+¿Dónde estás?
+Colomo De León Cindy Carolina 0 minutos 28 segundos
+Bueno.
+Colomo De León Cindy Carolina 0 minutos 31 segundos
+A esta clase le vamos a llamar. Bueno, es la clase 6, le vamos a llamar diseño por capacidad de elementos adyacentes. Si recuerdan hasta la hasta la clase pasada, desde lo inicial.
+Colomo De León Cindy Carolina 0 minutos 50 segundos
+Hemos venido hablando específicamente sobre las columnas, ¿verdad? Para denominarlas, asignarlas como rótulas plásticas.
+Colomo De León Cindy Carolina 1 minuto 2 segundos
+¿Y todo lo relacionado a ello, verdad?
+Colomo De León Cindy Carolina 1 minuto 6 segundos
+Ahora, em.
+Colomo De León Cindy Carolina 1 minuto 9 segundos
+Lo primero que vamos a ver en esta clase va a ser lo último de lo de las rótulas plásticas. Sí, lo que se recuerdan que vimos así algo rapidito la clase pasada, vamos a terminar de verlo ahorita y ya luego pues vamos a entrar al diseño por capacidad de elementos adyacentes.
+Colomo De León Cindy Carolina 22 minutos 20 segundos
+Bueno, luego.
+Colomo De León Cindy Carolina 22 minutos 22 segundos
+El peralte efectivo, voy a regresar, aquí tenemos el peralte de sub B.
+Colomo De León Cindy Carolina 22 minutos 28 segundos
+Ahorita estamos hablando de todos los los factores que involucran esta ecuación Sí bueno en el peralte efectivo un d sub B igual a 64.8
+Colomo De León Cindy Carolina 22 minutos 44 segundos
+Para secciones circulares, calcular el peralte efectivo a corte de forma exacta es bastante complejo. La normativa ASTO, el RFD permite simplificar este cálculo asumiendo un D sub B.
+Colomo De León Cindy Carolina 23 minutos 3 segundos
+Como cero 9.
+Colomo De León Cindy Carolina 23 minutos 6 segundos
+Por D.
+Colomo De León Cindy Carolina 23 minutos 8 segundos
+Aquí tenemos el cálculo 0.9 * 72 se recuerdan que ese 72 lo vimos, lo ingresamos también al SAP. Si se dan cuenta, la mayoría de cálculos aquí son factores que ya hemos ingresado al SAP cuando definimos.
+Colomo De León Cindy Carolina 23 minutos 27 segundos
+Los materiales, el concreto, el acero.
+Colomo De León Cindy Carolina 23 minutos 31 segundos
+¿Valores asumidos, verdad? Les repito eso.
+Colomo De León Cindy Carolina 23 minutos 36 segundos
+Las 72 in de diámetro.
+Colomo De León Cindy Carolina 23 minutos 40 segundos
+¿De la columna, verdad? Este es un valor, pues con fines académicos, sí, pero era el diámetro de la columna. Ahí lo habíamos asumido, ¿verdad? A ustedes les irá a dar de cuánto ya en su predimensionamiento, de cuánto van a usar esas columnas.
+Colomo De León Cindy Carolina 23 minutos 59 segundos
+¿Y pues ya solo van sustituyendo, verdad? Si van en paralelo haciendo todo este procedimiento, así tal en el orden en que yo lo voy presentando, pues ya ustedes ya van sustituyendo los valores que les arroje sus cálculos.
+Colomo De León Cindy Carolina 24 minutos 15 segundos
+Luego el factor de reducción fin, este factor lo mencionamos, está aquí en la ecuación, lo mencionamos aquí en el esfuerzo de fluencia. Ahorita vamos a ver por qué según la normativa Asto LRFD, el factor de reducción de resistencia.
+Colomo De León Cindy Carolina 24 minutos 35 segundos
+Para cortante en concreto de peso normal es 090. Estamos usando un fi igual a 090, sí.
+Colomo De León Cindy Carolina 24 minutos 46 segundos
+Aquí.
+Colomo De León Cindy Carolina 24 minutos 50 segundos
+Vamos a hablar un poquito de esto, sí, porque.
+Colomo De León Cindy Carolina 24 minutos 54 segundos
+Tenemos varios puntos para que podamos explicar o definir por qué vamos a usar este valor, ¿verdad? Sí, porque la normativa nos obliga a hacerlo, aunque en los planos muchas veces detallamos dimensiones perfectas, ¿verdad? Y especificamos así materiales muy como ideales.
+Colomo De León Cindy Carolina 25 minutos 16 segundos
+Se nos da que la realidad en el sitio de construcción de los puentes es muy diferente, ¿verdad? Nos Nos topamos con que tienen variables así un poco incontrolables.
+Colomo De León Cindy Carolina 25 minutos 31 segundos
+Entonces, por ello, el factor fi castiga la capacidad matemática de los estribos en un 10% para protegernos, ¿verdad? ¿Para protegernos de qué?
+Colomo De León Cindy Carolina 25 minutos 44 segundos
+primero verdad son como como incertidumbres en la obra se podríamos podríamos decir verdad primero podría ser e el tema de los encofrados verdad algunos se deforman y resultan así en una en una columna con un diámetro pues
+Colomo De León Cindy Carolina 26 minutos 5 segundos
+¿Ligeramente menor al diseñado, verdad?
+Colomo De León Cindy Carolina 26 minutos 9 segundos
+Que mire que la.
+Colomo De León Cindy Carolina 26 minutos 12 segundos
+Por ejemplo, verdad es una cuadrada y sean tablas que la tabla de aquí que cuando empujaron el lado contrario se vino, se metió, se salió y todo eso. Muchas veces verdad afecta porque ya a la hora de colar el concreto, pues no nos sale la forma que queríamos, verdad. Y por lo mismo, pues nos varía el recubrimiento y todo eso.
+Colomo De León Cindy Carolina 26 minutos 38 segundos
+Eso puede ser una.
+Colomo De León Cindy Carolina 26 minutos 40 segundos
+De ahí, por ejemplo, con el propio acero de refuerzo transversal, ¿verdad? Tales errores así pueden un tanto pequeños, pero en el corte y doblado a la vez, ¿verdad?
+Colomo De León Cindy Carolina 26 minutos 54 segundos
+Pero puede pasar eso verdad que que nuestro estribo no cumpla con la longitud de vida entonces que los ganchos quedaron más cortos y o que los jalaron mucho en el doblez y que en un tramo de así de la varilla longitudinal quedaron quedó más reducido más
+Colomo De León Cindy Carolina 27 minutos 15 segundos
+prensadito porque ese estribo era más pequeño qué sé yo cositas Así que uno pues como ingeniero tiene que estar pendiente verdad porque es cierto que los albañiles saben hacerlo pero a veces Un detallito de haber recortado un poco la varilla y que ya no dio el estribo
+Colomo De León Cindy Carolina 27 minutos 35 segundos
+Igual a todos con la misma longitud, pues puede.
+Colomo De León Cindy Carolina 27 minutos 40 segundos
+puede darnos problemas más adelante verdad Bueno problemas que posiblemente no lo vamos a ver a se va a notar como visualmente pero es como haya fundido no se nota pero no verdad porque se nota en Cómo desarrollan después esos elementos ante ante un evento como un sismo
+Colomo De León Cindy Carolina 28 minutos
+¿Y luego podría ser incluso la mezcla en sí, verdad? La compactación deficiente del concreto que queramos o no, pues va a comprometer la adherencia, ¿verdad? Entre las varillas y el núcleo de la columna, ¿verdad? Son cositas que sí.
+Colomo De León Cindy Carolina 28 minutos 20 segundos
+Parecen pequeñas, pero es prácticamente nuestro trabajo, ¿verdad? El ir a controlar todos estos detalles, sí.
+Colomo De León Cindy Carolina 28 minutos 27 segundos
+Luego tenemos en.
+Colomo De León Cindy Carolina 28 minutos 32 segundos
+En el punto B.
+Colomo De León Cindy Carolina 28 minutos 35 segundos
+¿El choque de códigos, verdad? Porque Ashto trabaja, ahorita estamos viendo con 0.90.
+Colomo De León Cindy Carolina 28 minutos 43 segundos
+¿Pero el a CI trabaja con 0.75, verdad? ¿Entonces ustedes se preguntan, Ah, bueno, cuál, cuál de las 2 o puede tender a que nos estemos preguntando cuál de las 2 y tendamos a confundirnos, verdad?
+Colomo De León Cindy Carolina 28 minutos 58 segundos
+Realmente aquí lo que pasa es que.
+Colomo De León Cindy Carolina 29 minutos 2 segundos
+¿Que en la CI 318 utiliza el factor fi para cortante, verdad? Con un valor de 0.75. ¿Entonces cualquiera diría por qué asto es algo atrevido, diría yo, verdad?
+Colomo De León Cindy Carolina 29 minutos 19 segundos
+¿Y usa un valor de 0.90, verdad?
+Colomo De León Cindy Carolina 29 minutos 23 segundos
+Y la respuesta, la respuesta está en la mecánica de materiales.
+Colomo De León Cindy Carolina 29 minutos 30 segundos
+Porque fíjense que el código a CI utiliza fórmulas empíricas de cortante. ¿Estas son pues derivadas, verdad? Vienen derivadas de ensayos de laboratorio.
+Colomo De León Cindy Carolina 29 minutos 44 segundos
+Desde o Desde los años 60.
+Colomo De León Cindy Carolina 29 minutos 48 segundos
+¿Ya tienen bastante tiempo, verdad? Y las cuales pues tienen un margen de error así bastante grande.
+Colomo De León Cindy Carolina 29 minutos 57 segundos
+¿Por lo mismo que no es algo así como que vengan actualizándolas, verdad? Ya es un factor definido en la normativa y se ha venido trabajando así.
+Colomo De León Cindy Carolina 30 minutos 8 segundos
+En cambio, las especificaciones en la normativa ash to el RFD.
+Colomo De León Cindy Carolina 30 minutos 15 segundos
+Basan su diseño acordante en.
+Colomo De León Cindy Carolina 30 minutos 19 segundos
+La famosa teoría del campo de compresiones modificado denominada MCFT. No les voy a ahondar mucho en eso porque no es tanto así como de nuestro interés, más bien, pero sí tenerlo presente, ¿verdad? Que lo tengamos presente, sí.
+Colomo De León Cindy Carolina 30 minutos 39 segundos
+Pero esto viene siendo, esta teoría viene siendo como un motor analítico, digamos detrás de las especificaciones del diseño acortante, verdad, donde aseguran ellos verdad que se está creando una matemática mucho más refinada.
+Colomo De León Cindy Carolina 31 minutos
+¿Que va a ser capaz de predecir el comportamiento de nuestra columna con mayor exactitud, verdad? Ya no va a dejar muchos vacíos ahí, sino que va a ser más exacto.
+Colomo De León Cindy Carolina 31 minutos 12 segundos
+Por lo que la norma nos premia, digamos, con una penalización estadística bastante menor, verdad que sería este 0.90.
+Colomo De León Cindy Carolina 31 minutos 22 segundos
+Al ser un modelo analítico mucho más exacto y racional.
+Colomo De León Cindy Carolina 31 minutos 30 segundos
+¿Puede predecir cómo fluyen los esfuerzos diagonales?
+Colomo De León Cindy Carolina 31 minutos 34 segundos
+¿Verdad? La incertidumbre matemática de la ecuación es mucho menor.
+Colomo De León Cindy Carolina 31 minutos 41 segundos
+Esto nos recompensa esta precisión, ¿verdad? Permitiéndonos un factor de fi, pues más alto, ¿verdad? De 75 a 90.
+Colomo De León Cindy Carolina 31 minutos 52 segundos
+Por eso, en el diseño sismo resistente, pues nos permitimos márgenes de error con el cortante, verdad? Al aplicar este fee de 0.90.
+Colomo De León Cindy Carolina 32 minutos 3 segundos
+A la ecuación de los estribos, esta que tenemos aquí a esta ecuación de los estribos.
+Colomo De León Cindy Carolina 32 minutos 14 segundos
+Estamos así como obligando a la columna a defenderse del peor sismo posible.
+Colomo De León Cindy Carolina 32 minutos 23 segundos
+¿Entonces, por ello mismo, verdad? Exigimos que el puente sobreviva holgadamente, incluso si su acero transversal, pues fue colocado con ese 10% de eficiencia, verdad? en su capacidad instalada. Es por eso la.
+Colomo De León Cindy Carolina 32 minutos 43 segundos
+La respuesta a que por qué la normativa asto si se se toma la libertad, verdad de no de no castigar tanto el elemento con ese 0.75, si no usa usa el 0.90 estando más confiable de lo que está haciendo, sí.
+Colomo De León Cindy Carolina 33 minutos 6 segundos
+Esa es la diferencia ve aci 0.75 y en el ashto 0.90 aquí como estamos pues usando el ashto el rfd específicamente para el diseño sismoresistente puentes
+Colomo De León Cindy Carolina 33 minutos 19 segundos
+¿Tenemos que estar conscientes de eso, verdad? Nuestro factor FIB va a ser de 0.90.
+Colomo De León Cindy Carolina 33 minutos 27 segundos
+Luego esta cuestión es la misma que les mostré hace 3 diapositivas. Sí, vamos a ver un poquito el procedimiento.
+Colomo De León Cindy Carolina 33 minutos 36 segundos
+La que teníamos ahí, la de arriba, despejamos para la separación.
+Colomo De León Cindy Carolina 33 minutos 43 segundos
+De los estribos.
+Colomo De León Cindy Carolina 33 minutos 46 segundos
+Ya teniendo el despeje, pues ya vamos sustituyendo, ¿verdad? Sí.
+Colomo De León Cindy Carolina 33 minutos 53 segundos
+Calculamos el numerador, así paso a paso con los valores de la ecuación.
+Colomo De León Cindy Carolina 33 minutos 59 segundos
+Tenemos ese 0.90 de fin.
