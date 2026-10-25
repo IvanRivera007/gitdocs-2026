@@ -1,0 +1,118 @@
+Curso Diseño Sismorresistente en Puentes
+24 de octubre de 2026
+
+Caduca dentro de 760 días
+• 0 visualizaciones • Aplicación de SharePoint •
+HD
+Transcripción. Use las teclas de dirección para desplazarse entre las entradas de transcripción. Seleccione una entrada para navegar por los medios hasta la hora de la entrada.
+
+
+Buscar
+
+El contenido generado por IA puede ser incorrecto
+
+Colomo De León Cindy Carolina empezó la transcripción
+C
+
+Colomo De León Cindy Carolina
+0 minutos 3 segundos0:03
+Colomo De León Cindy Carolina 0 minutos 3 segundos
+¿Cómo les fue con la tarea? ¿Pudieron subirla sin ningún problema?
+J
+
+Juan Roberto Gómez Díaz
+0 minutos 13 segundos0:13
+Juan Roberto Gómez Díaz 0 minutos 13 segundos
+Sí, ingeniera, el link está funcionando bien.
+C
+
+Colomo De León Cindy Carolina
+0 minutos 16 segundos0:16
+Colomo De León Cindy Carolina 0 minutos 16 segundos
+Oh, muy bien, muy bien, excelente, está bien.
+Colomo De León Cindy Carolina 0 minutos 21 segundos
+Bye.
+Colomo De León Cindy Carolina 0 minutos 22 segundos
+Entonces les voy a compartir.
+Colomo De León Cindy Carolina 0 minutos 27 segundos
+Vamos a ver, creo que hoy va a ser toda la pantalla.
+Colomo De León Cindy Carolina 0 minutos 34 segundos
+Me.
+Colomo De León Cindy Carolina 0 minutos 42 segundos
+Ahí está.
+Colomo De León Cindy Carolina 0 minutos 46 segundos
+Hoy la clase va a ser un poco, bueno, bastante movida, porque fíjense que.
+Colomo De León Cindy Carolina 0 minutos 55 segundos
+En.
+Colomo De León Cindy Carolina 0 minutos 57 segundos
+Vamos a estar viendo unas diapositivas primero acá y después una parte en el Excel y ya luego regresamos a las diapositivas. Sí, solo que pude actualizar unos datos.
+Colomo De León Cindy Carolina 1 minuto 15 segundos
+De los cálculos que hicimos la semana pasada.
+Colomo De León Cindy Carolina 1 minuto 19 segundos
+Entonces, de una vez los agregué, pero les voy a ir mostrando como.
+Colomo De León Cindy Carolina 1 minuto 26 segundos
+Como lo hice, verdad, para que no se me pierda.
+Colomo De León Cindy Carolina 1 minuto 31 segundos
+Vamos a iniciar la clase 9.
+Colomo De León Cindy Carolina 1 minuto 35 segundos
+¿En los títulos dejé prácticamente lo mismo que la semana pasada, porque aún no hemos terminado el diseño de la cimentación, pues como se van dando cuenta, nos llevó toda la clase pasada y parte de esta, verdad?
+Colomo De León Cindy Carolina 1 minuto 55 segundos
+Es bastante extenso.
+Colomo De León Cindy Carolina 1 minuto 59 segundos
+Y vamos a recordar un poquito de lo que vimos.
+Colomo De León Cindy Carolina 2 minutos 4 segundos
+El sábado anterior.
+Colomo De León Cindy Carolina 2 minutos 7 segundos
+¿Tenemos, vimos a la Zapata como elemento protegido, verdad? ¿Recuerdan que ya habíamos entrado al?
+Colomo De León Cindy Carolina 2 minutos 17 segundos
+¿Al bloque 3, que era diseño por capacidad de elementos adyacentes y entre ellos está la cimentación, verdad? Entonces la clase pasada vimos únicamente cimentación, zapata como elemento protegido, algunas verificaciones, verificación de estabilidad en aquí vimos carga mínima.
+Colomo De León Cindy Carolina 2 minutos 39 segundos
+Distribución de fuerzas en pilotes.
+Colomo De León Cindy Carolina 2 minutos 43 segundos
+Inercias.
+Colomo De León Cindy Carolina 2 minutos 46 segundos
+Y falla por extracción, nos quedamos ahí y ya luego iniciamos armando un pequeño Excel de los cálculos, ¿verdad?
+Colomo De León Cindy Carolina 3 minutos
+¿Entonces esto, verdad? Estamos en el bloque 3.
+Colomo De León Cindy Carolina 3 minutos 9 segundos
+Ay, disculpen, no les pregunté si ven mi pantalla.
+J
+Juan Roberto Gómez Díaz
+3 minutos 16 segundos3:16
+Juan Roberto Gómez Díaz 3 minutos 16 segundos
+Sí, ingeniera se ve.
+C
+Colomo De León Cindy Carolina
+3 minutos 17 segundos3:17
+Colomo De León Cindy Carolina 3 minutos 17 segundos
+Muy bien, gracias, muy amable.
+Colomo De León Cindy Carolina 3 minutos 21 segundos
+Bueno, entonces aquí fíjense que se recuerdan que.
+Colomo De León Cindy Carolina 3 minutos 27 segundos
+Voy a ir cambiando de pantalla para que vayamos viendo de acuerdo.
+Colomo De León Cindy Carolina 3 minutos 34 segundos
+En el En los cálculos, lo último que estábamos haciendo en la clase pasada nos habíamos quedado.
+Colomo De León Cindy Carolina 3 minutos 44 segundos
+Solo les voy a pedir un favorcito, dijo que se enfoquen en los cálculos de la izquierda. Sí, el de la derecha todavía no, ya después vamos viendo los arreglos ahí.
+Colomo De León Cindy Carolina 3 minutos 57 segundos
+En este de la izquierda.
+Colomo De León Cindy Carolina 4 minutos 1 segundo
+Sacamos lo el primer bloque, que eran los datos de entrada del proyecto, el segundo bloque, geometría de la cimentación, el tercero ya eran los cálculos puros, ¿verdad? El diseño de la cimentación.
+Colomo De León Cindy Carolina 4 minutos 17 segundos
+Pero en este cuando iniciamos, si no estoy mal aquí en el punto.
+Colomo De León Cindy Carolina 4 minutos 25 segundos
+En el punto 3.
+Colomo De León Cindy Carolina 4 minutos 28 segundos
+Saber, no perdón, en el punto cuatro.
+Colomo De León Cindy Carolina 4 minutos 32 segundos
+En el punto cuatro.
+Colomo De León Cindy Carolina 4 minutos 34 segundos
+Que era falla por extracción pilote izquierdo en este pun en este paso cuatro.
+Colomo De León Cindy Carolina 4 minutos 42 segundos
+¿Le Cuando iniciamos a calcularlo, les dije, ahí vamos a ver qué pasan con los demás, verdad? ¿Pero qué iba a hacer ya en esta clase? Ahora sí quisiera preguntarles.
+Colomo De León Cindy Carolina 4 minutos 53 segundos
+No contarles, perdón, porque fíjense que aquí en esta ecuación final de extracción, ¿verdad? En el Excel estamos tomando únicamente el pilote izquierdo porque lo estamos asignando como el pilote más crítico de toda la distribución, sí.
+Colomo De León Cindy Carolina 5 minutos 16 segundos
+¿Por qué el pilote, verdad? O sea, ¿por qué el pilote izquierdo es el más crítico? Primero quiero que sepan que no es solo el pilote izquierdo, o sea, lo estamos tomando, digamos, porque va a ser a nuestra conveniencia.
+Colomo De León Cindy Carolina 5 minutos 35 segundos
+¿Para no hacer lo mismo en todos, verdad? Pero no es solo el pilote izquierdo, en realidad, ¿verdad? el.
