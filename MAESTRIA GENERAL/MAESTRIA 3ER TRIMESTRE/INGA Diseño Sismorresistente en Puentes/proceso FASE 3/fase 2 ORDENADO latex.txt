@@ -1,0 +1,263 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\geometry{top=2.5cm,bottom=2.5cm,left=2.5cm,right=2.5cm}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{float}
+
+% Definición de Paleta de Colores Institucional / Ingeniería
+\definecolor{primary}{RGB}{15, 32, 67}
+\definecolor{secondary}{RGB}{220, 53, 69}
+\definecolor{accent}{RGB}{0, 102, 204}
+\definecolor{lightbg}{RGB}{245, 247, 250}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=accent,
+    urlcolor=accent
+}
+
+% Configuración de Encabezados y Pies de Página
+\pagestyle{empty}
+
+\begin{document}
+
+
+% -----------------------------------------------------------------
+% 1. IDENTIFICACIÓN DE LA PILA CRÍTICA
+% -----------------------------------------------------------------
+\section{PASO 1: Identificación de la Pila Crítica y Longitud Tributaria}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\linewidth]{IMAGEN3.png}
+\end{figure}
+
+
+% -----------------------------------------------------------------
+% 2. PREDIMENSIONAMIENTO Y GEOMETRÍA
+% -----------------------------------------------------------------
+\section{PASO 2: Esquema Geométrico y Pesos Volumétricos}
+
+\subsection*{Datos:}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Dimensión total de luces:} (Luz total = $75.00\text{ m}$). \\ Tres tramos continuos de $22.50\text{ m}$, $30.00\text{ m}$ y $22.50\text{ m}$.
+    \item \textbf{Ancho total de la superestructura:} $9.60\text{ m}$ \\ ($7.20\text{ m}$ de calzada de dos carriles + $2$ aceras/barandas de $1.20\text{ m}$ a cada lado).
+    \item \textbf{Espesor de losa de rodadura:} $0.20\text{ m}$.
+    \item \textbf{Carpeta asfáltica:} Espesor de $0.05\text{ m}$ ($5\text{ cm}$) sobre los $7.20\text{ m}$ de calzada.
+    \item \textbf{Vigas principales:} Configuración de $4$ vigas de concreto presforzado AASHTO Tipo IV ($A_{\text{viga}} = 0.51\text{ m}^2$ por viga).
+    \item \textbf{Viga cabezal:} Sección transversal rectangular de $1.50\text{ m} \times 1.50\text{ m}$ y longitud de $9.60\text{ m}$.
+    \item \textbf{Columnas:} $2$ columnas circulares con diámetro $D = 1.20\text{ m}$ y altura libre $H = 7.00\text{ m}$.
+    \item \textbf{Pesos específicos ($\gamma$):}
+    \begin{itemize}
+        \item Concreto reforzado ($\gamma_{\text{conc}}$): $24.0\text{ kN/m}^3$
+        \item Carpeta de asfalto ($\gamma_{\text{asf}}$): $22.5\text{ kN/m}^3$
+    \end{itemize}
+\end{itemize}
+
+
+% -----------------------------------------------------------------
+% 3. BAJADA DE CARGAS SUPERESTRUCTURA
+% -----------------------------------------------------------------
+\section{PASO 3: Bajada de Cargas de la Superestructura}
+
+\subsection{Cargas Muertas Estructurales (\texorpdfstring{$DC$}{DC})}
+
+\begin{enumerate}
+    \item \textbf{Losa de concreto ($DC_{\text{losa}}$):}
+
+    \begin{equation*}
+        w_{\text{losa}} = \text{Espesor} \times \text{Ancho total de la superestructura} \times \text{Peso específico}
+    \end{equation*}
+
+    \begin{equation*}
+        w_{\text{losa}} = 0.20\text{ m} \times 9.60\text{ m} \times 24.0\text{ kN/m}^3
+    \end{equation*}
+
+    \begin{equation*}
+        w_{\text{losa}} = 46.08\text{ kN/m}
+    \end{equation*}
+
+    \item \textbf{Vigas AASHTO Tipo IV ($4$ vigas):}
+
+    \begin{equation*}
+        w_{\text{vigas}} = 4 \times \text{Área aproximada por viga} \times \text{Peso específico}
+    \end{equation*}
+
+    \begin{equation*}
+        w_{\text{vigas}} = 4 \times 0.51\text{ m}^2 \times 24.0\text{ kN/m}^3
+    \end{equation*}
+
+    \begin{equation*}
+        w_{\text{vigas}} = 48.96\text{ kN/m}
+    \end{equation*}
+
+    \item \textbf{Barreras de concreto ($DC_{\text{barreras}}$):} \\
+    Área transversal combinada aproximada de $1.00\text{ m}^2$:
+
+    \begin{equation*}
+        w_{\text{barreras}} = \text{Área transversal} \times \text{Peso específico}
+    \end{equation*}
+
+    \begin{equation*}
+        w_{\text{barreras}} = 1.00\text{ m}^2 \times 24.0\text{ kN/m}^3
+    \end{equation*}
+
+    \begin{equation*}
+        w_{\text{barreras}} = 24.00\text{ kN/m}
+    \end{equation*}
+
+    \item \textbf{Total superestructura $DC$ ($w_{DC}$):}
+
+    \begin{equation*}
+        w_{DC} = w_{\text{losa}} + w_{\text{vigas}} + w_{\text{barreras}}
+    \end{equation*}
+
+    \begin{equation*}
+        w_{DC} = 46.08 + 48.96 + 24.00
+    \end{equation*}
+
+    \begin{equation*}
+        w_{DC} = 119.04\text{ kN/m}
+    \end{equation*}
+
+    \item \textbf{Carga muerta superimpuesta ($w_{DW}$ --- Asfalto):}
+
+    \begin{equation*}
+        w_{DW} = \text{Espesor de carpeta} \times \text{Ancho de calzada} \times \text{Peso específico del asfalto}
+    \end{equation*}
+
+    \begin{equation*}
+        w_{DW} = 0.05\text{ m} \times 7.20\text{ m} \times 22.5\text{ kN/m}^3
+    \end{equation*}
+
+    \begin{equation*}
+        w_{DW} = 8.10\text{ kN/m}
+    \end{equation*}
+
+\end{enumerate}
+
+
+% -----------------------------------------------------------------
+% 4. CONCENTRACIÓN DE CARGAS EN PILA CRÍTICA
+% -----------------------------------------------------------------
+\section{PASO 4: Concentración de Cargas sobre el Marco Rígido (Pila Crítica)}
+
+\textbf{Multiplicamos las cargas lineales por la longitud tributaria ($26.25\text{ m}$) para obtener la reacción total que la superestructura descarga sobre la viga cabezal.}
+
+\subsection{Longitud Tributaria (\texorpdfstring{$L_{\text{trib}}$}{L\_trib})}
+
+Para la pila intermedia crítica (Pila 1), entre los tramos de $22.50\text{ m}$ y $30.00\text{ m}$:
+
+\begin{equation*}
+    L_{\text{trib}} = \frac{22.50\text{ m}}{2} + \frac{30.00\text{ m}}{2}
+\end{equation*}
+
+\begin{equation*}
+    L_{\text{trib}} = 11.25\text{ m} + 15.00\text{ m}
+\end{equation*}
+
+\begin{equation*}
+    L_{\text{trib}} = 26.25\text{ m}
+\end{equation*}
+
+
+\subsection{Reacciones de la Superestructura y Peso de la Viga Cabezal}
+
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Reacción por $DC$ ($R_{DC}$):}
+    \begin{equation*}
+        R_{DC} = w_{DC} \times L_{\text{trib}} = 119.04\text{ kN/m} \times 26.25\text{ m} = 3{,}124.80\text{ kN}
+    \end{equation*}
+
+    \item \textbf{Reacción por $DW$ ($R_{DW}$):}
+    \begin{equation*}
+        R_{DW} = w_{DW} \times L_{\text{trib}} = 8.10\text{ kN/m} \times 26.25\text{ m} = 212.63\text{ kN}
+    \end{equation*}
+
+    \item \textbf{Peso propio de la viga cabezal ($W_{\text{cabezal}}$):}
+    \begin{equation*}
+        V_{\text{cabezal}} = 1.50\text{ m} \times 1.50\text{ m} \times 9.60\text{ m} = 21.60\text{ m}^3
+    \end{equation*}
+    \begin{equation*}
+        W_{\text{cabezal}} = 21.60\text{ m}^3 \times 24.0\text{ kN/m}^3 = 518.40\text{ kN}
+    \end{equation*}
+\end{itemize}
+
+\subsection{Carga Total Descendente sobre el Marco (\texorpdfstring{$P_{\text{marco}}$}{P\_marco})}
+
+\begin{equation*}
+    P_{\text{marco}} = \text{Reacción total por } DC + \text{Reacción total por } DW + \text{Peso de la viga cabezal}
+\end{equation*}
+
+\begin{equation*}
+    P_{\text{marco}} = R_{DC} + R_{DW} + W_{\text{cabezal}}
+\end{equation*}
+
+\begin{equation*}
+    P_{\text{marco}} = 3{,}124.80 + 212.63 + 518.40
+\end{equation*}
+
+\begin{equation*}
+    P_{\text{marco}} = 3{,}855.83\text{ kN}
+\end{equation*}
+
+
+% -----------------------------------------------------------------
+% 5. DEMOSTRACIÓN ANALÍTICA DE Pc
+% -----------------------------------------------------------------
+\section{PASO 5: Demostración Analítica de la Carga Axial Total (\texorpdfstring{$P_c$}{Pc})}
+
+\begin{enumerate}
+    \item \textbf{Carga incidente en el tope de una columna:} \\
+    Dividiendo la carga del marco uniformemente entre las $2$ columnas:
+
+    \begin{equation*}
+        P_{\text{tope}} = \frac{P_{\text{marco}}}{2} = \frac{3{,}855.83\text{ kN}}{2} = 1{,}927.92\text{ kN}
+    \end{equation*}
+
+    \item \textbf{Peso propio de la columna circular ($W_{\text{columna}}$):}
+
+    \begin{equation*}
+        A_{\text{col}} = \frac{\pi \times D^2}{4}
+    \end{equation*}
+
+    \begin{equation*}
+        A_{\text{col}} = \frac{\pi \times (1.20\text{ m})^2}{4} = 1.131\text{ m}^2
+    \end{equation*}
+
+    \begin{equation*}
+        W_{\text{columna}} = \text{Área de la columna} \times \text{Altura} \times \text{Peso específico}
+    \end{equation*}
+
+    \begin{equation*}
+        W_{\text{columna}} = 1.131\text{ m}^2 \times 7.00\text{ m} \times 24.0\text{ kN/m}^3
+    \end{equation*}
+
+    \begin{equation*}
+        W_{\text{columna}} = 190.00\text{ kN}
+    \end{equation*}
+
+    \item \textbf{Carga axial total en la base de la columna ($P_c$):}
+
+    \begin{equation*}
+        P_c = \text{Carga incidente en el tope de una columna} + \text{Peso de la columna}
+    \end{equation*}
+
+    \begin{equation*}
+        P_c = 1{,}927.92\text{ kN} + 190.00\text{ kN}
+    \end{equation*}
+
+    \begin{equation*}
+        P_c = \mathbf{2{,}117.92\text{ kN}}
+    \end{equation*}
+
+\end{enumerate}
+
+\end{document}
