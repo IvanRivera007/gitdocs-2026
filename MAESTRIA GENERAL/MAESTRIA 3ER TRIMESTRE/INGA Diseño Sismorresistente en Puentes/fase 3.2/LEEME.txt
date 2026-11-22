@@ -1,0 +1,10 @@
+FASE 3 - PROYECTO COMPLETO EN OVERLEAF
+
+1. Subir el ZIP a Overleaf: New Project > Upload Project.
+2. El archivo principal es FASE3_MEMORIA_SAP_CAPTURAS_REALES.tex.
+3. Compilar con pdfLaTeX.
+4. Las capturas originales de SAP2000 se encuentran en figuras_sap/.
+5. El PDF incluido es la versión compilada del proyecto.
+6. Cambiar imágenes si hay un nuevo cálculo en SAP, sin modificar el nombre del PNG.
+
+Las imágenes se conservaron tal como fueron proporcionadas.

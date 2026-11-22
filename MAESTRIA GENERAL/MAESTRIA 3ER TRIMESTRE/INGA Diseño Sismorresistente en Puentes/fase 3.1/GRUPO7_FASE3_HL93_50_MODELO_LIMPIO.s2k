@@ -1,0 +1,226 @@
+File GRUPO7_FASE3_HL93_50_PORCIENTO.s2k was generated for educational verification
+
+TABLE:  "PROGRAM CONTROL"
+   ProgramName=SAP2000   Version=26.3.0   ProgLevel=Ultimate   CurrUnits="Kip, in, F"   SteelCode="AISC 360-16"   ConcCode="ACI 318-19"   AlumCode="AA 2015"   ColdCode=AISI-16   ConcSCode="Eurocode 2-2004"   RegenHinge=Yes
+
+
+TABLE:  "ACTIVE DEGREES OF FREEDOM"
+   UX=Yes   UY=Yes   UZ=Yes   RX=Yes   RY=Yes   RZ=Yes
+ 
+
+
+TABLE:  "ANALYSIS OPTIONS"
+   Solver=Advanced   SolverProc=Auto   Force32Bit=No   StiffCase=None   GeomMod=None   HingeOpt="In Elements"   NumAThreads=0   MaxFileSize=0   NumDThreads=0   NumRThreads=0   UseMMFiles="Program Determined"   AllowDiff=No
+ 
+
+
+TABLE:  "COORDINATE SYSTEMS"
+   Name=GLOBAL   Type=Cartesian   X=0   Y=0   Z=0   AboutZ=0   AboutY=0   AboutX=0
+ 
+
+
+TABLE:  "GRID LINES"
+   CoordSys=GLOBAL   AxisDir=X   GridID=A   XRYZCoord=0   LineType=Primary   LineColor=Gray8Dark   Visible=Yes   BubbleLoc=End   AllVisible=Yes   BubbleSize=63
+   CoordSys=GLOBAL   AxisDir=X   GridID=B   XRYZCoord=236.2204724409   LineType=Primary   LineColor=Gray8Dark   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Y   GridID=1   XRYZCoord=0   LineType=Primary   LineColor=Gray8Dark   Visible=Yes   BubbleLoc=Start
+   CoordSys=GLOBAL   AxisDir=Z   GridID=Z1   XRYZCoord=0   LineType=Primary   LineColor=Gray8Dark   Visible=Yes   BubbleLoc=End
+   CoordSys=GLOBAL   AxisDir=Z   GridID=Z2   XRYZCoord=275.5905511811   LineType=Primary   LineColor=Gray8Dark   Visible=Yes   BubbleLoc=End
+ 
+
+
+TABLE:  "MATERIAL PROPERTIES 01 - GENERAL"
+   Material=4000Psi   Type=Concrete   Grade="f'c 4000 psi"   SymType=Isotropic   TempDepend=No   Color=Yellow   GUID=f45ca2db-2a9b-490f-9d49-d12245aa0f6d   Notes="Customary f'c 4000 psi 13/11/2026 15:59:45"
+   Material="Acero de refuerzo"   Type=Rebar   Grade="Grade 60"   SymType=Uniaxial   TempDepend=No   Color=Red   GUID=6a374fac-a7e2-4d38-acda-31e7ddd277c7   Notes="United States ASTM A615 Grade 60 added 13/11/2026 16:12:22"
+   Material="concreto 5200"   Type=Concrete   Grade="f'c 5200 psi"   SymType=Isotropic   TempDepend=No   Color=Green   GUID=22f5a870-7d97-4426-a3cc-2eba88f5568d   Notes="United States Customary f'c 5000 psi added 13/11/2026 16:08:42"
+
+
+TABLE:  "MATERIAL PROPERTIES 02 - BASIC MECHANICAL PROPERTIES"
+   Material=4000Psi   UnitWeight=8.680555556E-05   UnitMass=2.248332521E-07   E1=3604.9965   G12=1502.081875   U12=0.2   A1=5.5E-06
+   Material="Acero de refuerzo"   UnitWeight=0.000283564814814815   UnitMass=7.34455290352564E-07   E1=29000   A1=6.5E-06
+   Material="concreto 5200"   UnitWeight=8.841500492034e-05   UnitMass=2.29001863529e-07   E1=4030.5087   G12=1679.378625   U12=0.2   A1=5.5E-06
+
+
+TABLE:  "MATERIAL PROPERTIES 03B - CONCRETE DATA"
+   Material=4000Psi   Fc=4   eFc=4   LtWtConc=No   SSCurveOpt=Mander   SSHysType=Takeda   SFc=0.00221914   SCap=0.005   FinalSlope=-0.1   FAngle=0   DAngle=0   CoupModType="Modified Darwin-Pecknold"
+   Material="concreto 5200"   Fc=5.2   eFc=5.2   LtWtConc=No   SSCurveOpt=Mander   SSHysType=Takeda   SFc=0.00248108   SCap=0.005   FinalSlope=-0.1   FAngle=0   DAngle=0   CoupModType="Modified Darwin-Pecknold"
+
+
+TABLE:  "MATERIAL PROPERTIES 03E - REBAR DATA"
+   Material="Acero de refuerzo"   Fy=66   Fu=90   EffFy=66   EffFu=99   SSCurveOpt=Simple   SSHysType=Kinematic   SHard=0.01   SCap=0.09   FinalSlope=-0.1   UseCTDef=No   CoupModType="Von Mises"
+ 
+
+
+TABLE:  "MATERIAL PROPERTIES 06 - DAMPING PARAMETERS"
+   Material=4000Psi   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+   Material="Acero de refuerzo"   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+   Material="concreto 5200"   ModalRatio=0   VisMass=0   VisStiff=0   HysMass=0   HysStiff=0
+
+
+TABLE:  "FRAME SECTION PROPERTIES 01 - GENERAL"
+   SectionName="Bent 2"   Material="concreto 5200"   Shape="SD Section"   Area=1741.762911427203   TorsConst=482804.7022240373   I33=241419.2052081774   I22=241419.20520817733   I23=0   AS2=1572.4019031088708   AS3=1572.4019031088703 _
+        S33Top=10220.100127346432   S33Bot=10220.100127346432   S22Left=10220.100127346428   S22Right=10220.100127346428   Z33=17405.886068609092   Z22=17405.8860686091   R33=11.773115064659784   R22=11.773115064659782   CGOffset3=0 _
+        CGOffset2=0   EccV2=0   EccV3=0   Cw=0   ConcCol=No   ConcBeam=No   Color=Cyan   TotalWt=84.88077438482   TotalMass=0.2198479265982   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1 _
+        GUID=8e3fc709-dbd9-4832-b382-1fab104072a4   Notes="Added 13/11/2026 16:14:34"
+   SectionName="viga cabezal"   Material="concreto 5200"   Shape=Rectangular   t3=59.05511811024   t2=59.05511811024   Area=3487.506975014   TorsConst=1712914.273525   I33=1013558.741731   I22=1013558.741731   I23=0   AS2=2906.255812512   AS3=2906.255812512   S33Top=34325.85605329   S33Bot=34325.85605329   S22Left=34325.85605329 _
+        S22Right=34325.85605329   Z33=51488.78407993   Z22=51488.78407993   R33=17.04774416899   R22=17.04774416899   CGOffset3=0   CGOffset2=0   EccV2=0   EccV3=0   Cw=0   ConcCol=Yes   ConcBeam=No   Color=Yellow   TotalWt=72.83809756431 _
+        TotalMass=0.1886564400823   FromFile=No   AMod=1   A2Mod=1   A3Mod=1   JMod=1   I2Mod=1   I3Mod=1   MMod=1   WMod=1   GUID=e3e8f892-22d1-4fd2-a436-e25ac58c6d1d   Notes="Added 13/11/2026 16:35:28"
+
+
+TABLE:  "FRAME SECTION PROPERTIES 02 - CONCRETE COLUMN"
+   SectionName="viga cabezal"   RebarMatL="Acero de refuerzo"   RebarMatC="Acero de refuerzo"   ReinfConfig=Rectangular   LatReinf=Ties   Cover=1.5   NumBars3Dir=3   NumBars2Dir=3   BarSizeL=#9   BarSizeC=#4   SpacingC=6   NumCBars2=3 _
+        NumCBars3=3   ReinfType=Design
+
+
+TABLE:  "SECTION DESIGNER PROPERTIES 01 - GENERAL"
+   SectionName="Bent 2"   DesignType="Concrete Column"   DsgnOrChck=Check   BaseMat="concreto 5200"   IncludeVStr=No   AxisAngle=90   MeshSzAbs=0   MeshSzRel=0.05   nTotalShp=1   nIWideFlng=0   nChannel=0   nTee=0   nAngle=0   nDblAngle=0 _
+        nBoxTube=0   nPipe=0   nPlate=0   nSolidRect=0   nSolidCirc=1   nSolidSeg=0   nSolidSect=0   nPolygon=0   nReinfSing=0   nReinfLine=0   nReinfRect=0   nReinfCirc=0   nRefLine=0   nRefCirc=0   nCaltransSq=0   nCaltransCr=0 _
+        nCaltransHx=0   nCaltransOc=0   nBSectShell=0   nBSectSolid=0   nBSectCut=0   nBSectCentr=0
+ 
+
+
+TABLE:  "SECTION DESIGNER PROPERTIES 13 - SHAPE SOLID CIRCLE"
+   SectionName="Bent 2"   ShapeName=Circle1   ShapeMat="concreto 5200"   ZOrder=1   FillColor=Green   XCenter=0   YCenter=0   Diameter=47.244   Reinforcing=Yes   CoreDim="Program Determined"   BCoreMajor=43.244   DCoreMajorPositive=45.244 _
+        RebarMat="Acero de refuerzo"   BarMatType=Rebar   NumBars=26   Rotation=0   Cover=2   BarSize=#14   BarArea=2.25   ConcCover=OuterLBar   ManderPlace=CenterCBar
+ 
+
+
+TABLE:  "SECTION DESIGNER PROPERTIES 30 - FIBER GENERAL"
+   SectionName="Bent 2"   NumFibersD2=3   NumFibersD3=3   CoordSys=Cartesian   GridAngle=0   LumpRebar=No   FiberPMM=No   FiberMC=No
+ 
+
+
+TABLE:  "SD STRESS-STRAIN 06 - CONCRETE MANDER CONFINED CIRCLE"
+   SectionName="Bent 2"   ShapeName=Circle1   NumLBar=26   LBarSize=#14   LBarArea=2.25   CnfType=Hoop   CnfDiam=44.244   CnfLSpcg=5   CnfBarSize=#8   CnfBarArea=0.7900000214576721   CnfBarMat="Acero de refuerzo"   CnfEcuLim=0.05
+ 
+
+
+TABLE:  "REBAR SIZES"
+   RebarID=#2   Area=0.05   Diameter=0.25
+   RebarID=#3   Area=0.10999999940395355   Diameter=0.375
+   RebarID=#4   Area=0.20000000298023224   Diameter=0.5
+   RebarID=#5   Area=0.3100000023841858   Diameter=0.625
+   RebarID=#6   Area=0.4399999976158142   Diameter=0.75
+   RebarID=#7   Area=0.6000000238418579   Diameter=0.875
+   RebarID=#8   Area=0.7900000214576721   Diameter=1
+   RebarID=#9   Area=1   Diameter=1.128000020980835
+   RebarID=#10   Area=1.2699999809265137   Diameter=1.2699999809265137
+   RebarID=#11   Area=1.559999942779541   Diameter=1.409999966621399
+   RebarID=#14   Area=2.25   Diameter=1.6929999589920044
+   RebarID=#18   Area=4   Diameter=2.256999969482422
+   RebarID=10M   Area=0.15500031411647797   Diameter=0.4448819160461426
+   RebarID=15M   Area=0.31000062823295593   Diameter=0.6299212574958801
+   RebarID=20M   Area=0.4650009572505951   Diameter=0.7677165269851685
+   RebarID=25M   Area=0.775001585483551   Diameter=0.9921260476112366
+   RebarID=30M   Area=1.0850021839141846   Diameter=1.1771653890609741
+   RebarID=35M   Area=1.550003170967102   Diameter=1.4055118560791016
+   RebarID=45M   Area=2.325004816055298   Diameter=1.7204724550247192
+   RebarID=55M   Area=3.8750078678131104   Diameter=2.220472574234009
+   RebarID=6d   Area=0.04386508837342262   Diameter=0.23622047901153564
+   RebarID=8d   Area=0.0779651552438736   Diameter=0.31496062874794006
+   RebarID=10d   Area=0.12167524546384811   Diameter=0.3937007784843445
+   RebarID=12d   Area=0.17515036463737488   Diameter=0.4724409580230713
+   RebarID=14d   Area=0.2387004941701889   Diameter=0.5511811375617981
+   RebarID=16d   Area=0.31155064702033997   Diameter=0.6299212574958801
+   RebarID=20d   Area=0.48670098185539246   Diameter=0.787401556968689
+   RebarID=25d   Area=0.7610515356063843   Diameter=0.9842519760131836
+   RebarID=26d   Area=0.8230516910552979   Diameter=1.0236220359802246
+   RebarID=28d   Area=0.9548019766807556   Diameter=1.1023622751235962
+   RebarID=N12   Area=0.17515036463737488   Diameter=0.4724409580230713
+   RebarID=N16   Area=0.31155064702033997   Diameter=0.6299212574958801
+   RebarID=N20   Area=0.48670098185539246   Diameter=0.787401556968689
+   RebarID=N24   Area=0.7006014585494995   Diameter=0.9448819160461426
+   RebarID=N28   Area=0.9548019766807556   Diameter=1.1023622751235962
+   RebarID=N32   Area=1.2462025880813599   Diameter=1.2598425149917603
+   RebarID=N36   Area=1.581003189086914   Diameter=1.4173228740692139
+ 
+
+
+TABLE:  "LOAD PATTERN DEFINITIONS"
+   LoadPat=DEAD   DesignType=Dead   SelfWtMult=1
+   LoadPat=LL_SISMO50   DesignType=Other   SelfWtMult=0
+
+
+TABLE:  "MASS SOURCE"
+   MassSource=MSSSRC1   Elements=Yes   Masses=Yes   Loads=No   IsDefault=Yes
+ 
+
+
+TABLE:  "LOAD CASE DEFINITIONS"
+   Case=DEAD   Type=NonStatic   InitialCond=Zero   DesTypeOpt="Prog Det"   DesignType=Dead   DesActOpt="Prog Det"   DesignAct=Non-Composite   AutoType=None   RunCase=Yes   CaseStatus="Not Run"
+   Case=LL_SISMO50   Type=LinStatic   InitialCond=Zero   DesTypeOpt="Prog Det"   DesignType=Other   DesActOpt="Prog Det"   DesignAct=Other   AutoType=None   RunCase=No   CaseStatus="Not Run"
+   Case=GRAV_LL50   Type=NonStatic   InitialCond=Zero   DesTypeOpt="Prog Det"   DesignType=Other   DesActOpt="Prog Det"   DesignAct=Other   AutoType=None   RunCase=Yes   CaseStatus="Not Run"
+
+
+TABLE:  "CASE - STATIC 1 - LOAD ASSIGNMENTS"
+   Case=DEAD   LoadType="Load pattern"   LoadName=DEAD   LoadSF=1
+   Case=LL_SISMO50   LoadType="Load pattern"   LoadName=LL_SISMO50   LoadSF=1
+   Case=GRAV_LL50   LoadType="Load pattern"   LoadName=DEAD   LoadSF=1
+   Case=GRAV_LL50   LoadType="Load pattern"   LoadName=LL_SISMO50   LoadSF=1
+
+
+TABLE:  "CASE - STATIC 2 - NONLINEAR LOAD APPLICATION"
+   Case=DEAD   LoadApp="Full Load"   MonitorDOF=U1   MonitorJt=2
+   Case=GRAV_LL50   LoadApp="Full Load"   MonitorDOF=U1   MonitorJt=2
+
+
+TABLE:  "CASE - STATIC 4 - NONLINEAR PARAMETERS"
+   Case=GRAV_LL50   GeoNonLin=None   ResultsSave="Final State"   SolScheme="Iterative Events"   MaxTotal=200   MaxNull=50   EvLumpTol=0.01   MaxEvPerStp=24   MaxIterCS=10   MaxIterNR=40   ItConvTol=0.0001   TFMaxIter=10   TFTol=0.01 _
+        TFAccelFact=1   TFNoStop=No
+   Case=DEAD   GeoNonLin=None   ResultsSave="Final State"   SolScheme="Iterative Events"   MaxTotal=200   MaxNull=50   EvLumpTol=0.01   MaxEvPerStp=24   MaxIterCS=10   MaxIterNR=40   ItConvTol=0.0001   TFMaxIter=10   TFTol=0.01 _
+        TFAccelFact=1   TFNoStop=No
+
+
+TABLE:  "JOINT COORDINATES"
+   Joint=1   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0   Y=0   Z=0   SpecialJt=No   GlobalX=0   GlobalY=0   GlobalZ=0   GUID=4ec268f4-cfeb-4eee-91da-41e267b504e1
+   Joint=2   CoordSys=GLOBAL   CoordType=Cartesian   XorR=0   Y=0   Z=275.5905511811   SpecialJt=No   GlobalX=0   GlobalY=0   GlobalZ=275.5905511811   GUID=97aeaf94-a095-4335-95d4-c481d3b90b57
+   Joint=3   CoordSys=GLOBAL   CoordType=Cartesian   XorR=236.2204724409   Y=0   Z=0   SpecialJt=No   GlobalX=236.2204724409   GlobalY=0   GlobalZ=0   GUID=f104df01-404d-4aa7-a823-3af985324fa7
+   Joint=4   CoordSys=GLOBAL   CoordType=Cartesian   XorR=236.2204724409   Y=0   Z=275.5905511811   SpecialJt=No   GlobalX=236.2204724409   GlobalY=0   GlobalZ=275.5905511811   GUID=cf6af9df-89ef-4763-8c00-7d7f5a73e671
+ 
+
+
+TABLE:  "CONNECTIVITY - FRAME"
+   Frame=1   JointI=1   JointJ=2   IsCurved=No   Length=275.5905511811   CentroidX=0   CentroidY=0   CentroidZ=137.7952755906   GUID=15aec0a4-b739-49fb-b2b7-dc70ffe7cd19
+   Frame=2   JointI=3   JointJ=4   IsCurved=No   Length=275.5905511811   CentroidX=236.2204724409   CentroidY=0   CentroidZ=137.7952755906   GUID=b8fc6501-8ed1-49c4-ae6a-bbd3cadca6c1
+   Frame=3   JointI=2   JointJ=4   IsCurved=No   Length=236.2204724409   CentroidX=118.1102362205   CentroidY=0   CentroidZ=275.5905511811   GUID=a26fe991-90a7-4b64-b70b-de0035b3b40d
+ 
+
+
+TABLE:  "JOINT RESTRAINT ASSIGNMENTS"
+   Joint=1   U1=Yes   U2=Yes   U3=Yes   R1=Yes   R2=Yes   R3=Yes
+   Joint=3   U1=Yes   U2=Yes   U3=Yes   R1=Yes   R2=Yes   R3=Yes
+ 
+
+
+TABLE:  "JOINT LOADS - FORCE"
+   Joint=2   LoadPat=DEAD   CoordSys=GLOBAL   F1=0   F2=0   F3=-354.504032486   M1=0   M2=0   M3=0
+   Joint=4   LoadPat=DEAD   CoordSys=GLOBAL   F1=0   F2=0   F3=-354.504032486   M1=0   M2=0   M3=0
+   Joint=2   LoadPat=LL_SISMO50   CoordSys=GLOBAL   F1=0   F2=0   F3=-66.972613675   M1=0   M2=0   M3=0
+   Joint=4   LoadPat=LL_SISMO50   CoordSys=GLOBAL   F1=0   F2=0   F3=-66.972613675   M1=0   M2=0   M3=0
+
+
+TABLE:  "FRAME SECTION ASSIGNMENTS"
+   Frame=1   SectionType="Section Designer"   AutoSelect=N.A.   AnalSect="Bent 2"   DesignSect="Bent 2"   MatProp=Default
+   Frame=2   SectionType="Section Designer"   AutoSelect=N.A.   AnalSect="Bent 2"   DesignSect="Bent 2"   MatProp=Default
+   Frame=3   SectionType=Rectangular   AutoSelect=N.A.   AnalSect="viga cabezal"   DesignSect="viga cabezal"   MatProp=Default
+ 
+
+
+TABLE:  "FRAME OUTPUT STATION ASSIGNMENTS"
+   Frame=1   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame=2   StationType=MinNumSta   MinNumSta=3   AddAtElmInt=Yes   AddAtPtLoad=Yes
+   Frame=3   StationType=MaxStaSpcg   MaxStaSpcg=24   AddAtElmInt=Yes   AddAtPtLoad=Yes
+ 
+
+
+TABLE:  "FRAME AUTO MESH ASSIGNMENTS"
+   Frame=1   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame=2   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+   Frame=3   AutoMesh=Yes   AtJoints=Yes   AtFrames=No   NumSegments=0   MaxLength=0   MaxDegrees=0
+ 
+
+
+TABLE:  "DATABASE FORMAT TYPES"
+   UnitsCurr=Yes   OverrideE=No
+ 
+
+END TABLE DATA
