@@ -1,0 +1,178 @@
+=====================================================================
+ LÁMINA E-01 - DETALLADO ESTRUCTURAL DE PILA INTERMEDIA
+ PUENTE DE CONCRETO REFORZADO - INSTRUCCIONES DE USO
+=====================================================================
+
+ARCHIVOS
+---------------------------------------------------------------------
+ Plano_Puente_Fase4.scr   Script principal de AutoCAD. Dibuja todo el
+                          plano, crea la presentación A3 "E-01" con sus
+                          ventanas a escala y guarda el DWG.
+ Plano_Puente_Fase4.dxf   Dibujo CAD editable (DXF R12) como alternativa
+                          de importación.
+ Plano_Puente_Fase4.pdf   Lámina A3 horizontal para revisión e impresión.
+ Instrucciones.txt        Este archivo.
+ fuente/plano.py          Generador (Python) de los tres archivos a partir
+                          de una sola definición de geometría.
+ fuente/check_scr.py      Validador de sintaxis del script.
+ fuente/check_geo.py      Verificación numérica de la geometría.
+
+No se entrega archivo .LSP: no hace falta. Todas las coordenadas están
+precalculadas dentro del .SCR, y las pocas instrucciones AutoLISP que
+usa (textos, activación de ventanas, configuración de página y
+guardado) van escritas en líneas dentro del mismo script.
+
+
+REQUISITOS
+---------------------------------------------------------------------
+ - AutoCAD para Windows, versión completa, 2018 o posterior (en
+   español o en inglés). Los comandos usan el prefijo "_." para que
+   funcionen en cualquier idioma.
+ - AutoCAD LT no está soportado: la configuración de página usa
+   funciones ActiveX (vla-) que LT no tiene.
+ - Ejecutar SIEMPRE sobre un dibujo NUEVO y vacío.
+
+
+EJECUCIÓN PASO A PASO
+---------------------------------------------------------------------
+ 1. Copie Plano_Puente_Fase4.scr a una carpeta local.
+
+ 2. Abra AutoCAD y cree un dibujo nuevo con la plantilla métrica
+    acadiso.dwt  (NUEVO / NEW -> acadiso.dwt).
+
+ 3. (Recomendado, una sola vez) En OPCIONES > Visualización, desmarque
+    "Mostrar el Administrador de configuraciones de página para
+    presentaciones nuevas". Si queda marcado, puede abrirse un cuadro
+    de diálogo que detiene el script.
+
+ 4. Escriba en la línea de comandos:   SCRIPT   (o  _SCRIPT)
+    y seleccione Plano_Puente_Fase4.scr.
+    (También puede arrastrar el archivo .scr a la ventana de AutoCAD.)
+
+ 5. Espere a que termine (pocos segundos). El script:
+      - fija unidades (mm), referencias a objetos desactivadas, etc.;
+      - carga CENTER, DASHED y PHANTOM desde acadiso.lin;
+      - crea las capas, el estilo de texto PLANO (Arial) y los estilos
+        de cota E-10, E-25, E-50 y E-100 (texto impreso de 2.0 mm);
+      - dibuja las cuatro vistas en Model Space a tamaño real (mm);
+      - crea la presentación "E-01" (A3), con marco, cajetín, notas y
+        4 ventanas bloqueadas a escala:
+            Elevación ........ 1:50   (ZOOM 0.02XP)
+            Sección 1-1 ...... 1:10   (ZOOM 0.1XP)
+            Detalle long. .... 1:100  (ZOOM 0.01XP)
+            Detalle A ........ 1:25   (ZOOM 0.04XP)
+      - restaura las variables que modificó (OSMODE, DYNMODE, FILEDIA...);
+      - guarda  Plano_Puente_Fase4.dwg  en la carpeta por defecto del
+        dibujo (normalmente "Documentos"). La ruta aparece al final en
+        la línea de comandos.
+
+ 6. Para guardar en otra carpeta use GUARDARCOMO / SAVEAS.
+
+ 7. Para imprimir o generar el PDF desde AutoCAD:
+      pestaña E-01  ->  TRAZAR / PLOT  y verifique:
+        Impresora .......... DWG To PDF.pc3
+        Papel .............. ISO full bleed A3 (420.00 x 297.00 MM)
+        Área de trazado .... Presentación
+        Escala ............. 1:1
+        Tabla de estilos ... monochrome.ctb
+        Orientación ........ Horizontal
+    El script intenta dejar esta configuración ya asignada. Si su
+    instalación usa otros nombres de papel, selecciónelos a mano.
+    Las ventanas están bloqueadas, por lo que las escalas no cambian.
+
+
+SI EL SCRIPT SE DETIENE
+---------------------------------------------------------------------
+ - Mire la última línea de la ventana de comandos (F2): indica el
+   comando en que se detuvo.
+ - Causas probables: el dibujo no era nuevo; se abrió el administrador
+   de configuraciones de página (paso 3); la versión de AutoCAD no
+   reconoce alguna variable de sistema (versiones anteriores a 2018).
+ - Deshaga con U / UNDO, o descarte el dibujo y repita en uno nuevo.
+
+
+CAPAS CREADAS
+---------------------------------------------------------------------
+ ESTRUCTURA        blanco (7)    0.50  Continuous  contornos de concreto
+ REF_LONGITUDINAL  rojo (1)      0.35  Continuous  barras longitudinales
+ REF_TRANSVERSAL   verde (3)     0.30  Continuous  aros
+ EJES              cian (4)      0.18  CENTER      líneas de centro
+ COTAS             amarillo (2)  0.18  Continuous  cotas
+ TEXTOS            blanco (7)    0.25  Continuous  textos y llamadas
+ CONFINAMIENTO     magenta (6)   0.35  DASHED      límites de zona
+                                       (las líneas Lp usan PHANTOM)
+ HATCH_CONCRETO    gris (8)      0.13  Continuous  sombreado AR-CONC
+ MARCO_PLANO       blanco (7)    0.50  Continuous  marco y cajetín
+ VIEWPORTS         (9)           0.13  no imprimible  marcos de ventana
+ LTSCALE = 0.25, PSLTSCALE = 1 (tipos de línea proporcionados en papel).
+
+
+SOBRE EL DXF (R12)
+---------------------------------------------------------------------
+ - Se abre con ABRIR / OPEN (tipo de archivo *.dxf).
+ - Contiene la misma geometría a tamaño real, con las mismas capas.
+ - Por las limitaciones del formato R12:
+     * las cotas y las llamadas están descompuestas (líneas, sólidos y
+       texto) en la capa COTAS / TEXTOS;
+     * el sombreado AR-CONC está representado con líneas cortas en
+       HATCH_CONCRETO (no es una entidad HATCH);
+     * R12 no guarda grosores de línea por capa: reasígnelos si los
+       necesita (ver tabla anterior);
+     * incluye el Paper Space con marco, cajetín y 4 ventanas; si su
+       versión no las reconstruye, use el .SCR, que es la vía principal.
+
+
+VERIFICACIONES REALIZADAS (sin AutoCAD disponible)
+---------------------------------------------------------------------
+ [x] Validación del .SCR comando por comando, con la secuencia de
+     indicaciones de AutoCAD: 2183 líneas, 0 errores; sin líneas en
+     blanco sueltas; paréntesis LISP balanceados; coordenadas
+     numéricas válidas. El archivo es ASCII puro con fin de línea
+     CRLF (los acentos se escriben como \U+00xx).
+ [x] 26 barras No. 14 en R = 502.3 mm, separación 360/26 = 13.846°
+     exacta, sin superposición (separación libre 78.1 mm) y tangentes
+     por dentro al aro (cara interior a 523.8 mm).
+ [x] Aro No. 8: cara exterior a 549.2 mm -> recubrimiento libre
+     50.8 mm; Ø eje a eje = 1073.0 mm.
+ [x] Detalle longitudinal: 55 aros @ 127 mm con separación única en
+     toda la altura (14 / 27 / 14 aros por zona); primer y último aro
+     a 71 mm de cada cara.
+ [x] Cotas iguales a los datos: 1800/6000/1800, 9600, 7000, 1500, 8500,
+     1200, 1800/3400/1800 y Lp = 851 (dos extremos).
+ [x] Ventanas: cada vista cabe completa en su ventana y no aparece
+     geometría de otras vistas; factores ZOOM nXP = 1/escala.
+ [x] El DXF tiene una estructura válida (23 898 pares de códigos) y
+     se importó correctamente en un lector independiente (LibreOffice).
+ [x] El PDF es una lámina de 420 x 297 mm generada desde la misma
+     geometría, con las ventanas compuestas a sus escalas.
+
+ PENDIENTE DE COMPROBAR AL ABRIRLO EN AUTOCAD
+ [ ] Ejecución real del script en su versión e idioma.
+ [ ] Asignación automática del papel A3 y del plotter (depende de los
+     nombres instalados; si falla, el script continúa y se elige a mano).
+ [ ] Densidad del sombreado AR-CONC (escala 0.5). Ajústela con
+     EDITSOMB / HATCHEDIT si la quiere más clara o más densa.
+ [ ] Posición exacta de los textos de cota estrechos (50.8 y 71): están
+     colocados con DIMTEDIT, pero AutoCAD puede variarlos ligeramente.
+ [ ] En el PDF de revisión el sombreado y el tipo de letra (Liberation
+     Sans, de métricas iguales a Arial) son una emulación; la lámina
+     trazada desde AutoCAD es la referencia final.
+
+
+NOTAS TÉCNICAS DEL DIBUJO
+---------------------------------------------------------------------
+ - Separación adoptada: aros No. 8 @ 127 mm (5 in), en las zonas
+   confinadas y en la central. No se dibuja un cambio de separación
+   que no esté definido.
+ - La posición de 71 mm para el primer aro resulta de repartir 55 aros
+   @ 127 mm de forma simétrica en 7000 mm. Es una distribución gráfica
+   indicativa; ajústela si el proyecto fija otra.
+ - Lp analítica = 851 mm (línea PHANTOM y cota a la izquierda) y la zona
+   de confinamiento especial = 1800 mm (líneas DASHED y cotas a la
+   derecha) se dibujan con símbolos distintos, porque no son la misma
+   dimensión.
+ - Las zapatas, los anclajes, los traslapes, los ganchos y los
+   materiales no se dibujan ni se acotan porque no fueron
+   proporcionados.
+ - Es el detallado académico del modelo utilizado y no constituye una
+   declaración de cumplimiento de diseño ni normativo.
